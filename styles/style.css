@@ -1,0 +1,210 @@
+* {
+box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+.navigationMenu {     /* the black background of the navigation menu*/
+  background-color: black;
+  height: 121px;
+  margin-right: 0;
+  padding: 0;
+}
+
+.PersonalLogo{        /* size and position of the personal logo*/
+  height: 65px;
+  width: 57px;
+  margin-top: 28px;
+  margin-left: 84px;
+  margin-bottom: 28px;
+  position: absolute;
+}
+
+nav ul{               /*to put the menu in order*/
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul#menu li{
+  display: list-item;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+  margin-top: 51px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+
+}
+
+nav li:last-child {
+  margin-right: 84px;
+}
+
+ul#menu li a{
+  text-decoration: none;
+  color: #979797;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
+}
+
+nav li a:hover{
+  background-color: white;
+  /*color: #000;*/
+  /*padding: auto;*/
+  /*width: 33.33%*/
+  /*padding-top: 19px;
+  padding-bottom: 26px;
+  /*padding-left: 22.5px;
+  padding-right: 22.5px;*/
+}
+
+nav a{
+    width: 33.33%;
+    text-align: center;
+}
+
+nav a.active{
+  color: black;
+}
+
+#backgroundimage {    /*background image attributes*/
+  background: url("../images/HeroImageMine.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: cover;
+  position: absolute;
+}
+
+.heroIntro p{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  line-height: 59px;
+  margin-left: 84px;
+  margin-top: 206px;
+  position: absolute;
+  text-align: left;
+  width: 746px;
+}
+
+.featuredProjects h1{
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 837px;
+  text-align: center;
+
+}
+/*.container-about-me {
+background-color: white;
+color: #454242;
+font-family: "open sans", sans-serif;
+font-size: 2rem;
+height: 100vh;
+line-height: 120%;
+margin: 0 auto;
+position: relative;
+text-align: left;
+width: 100%;
+}
+
+.container-case-study {
+background-color: white;
+color: #454242;
+font-family: "open sans", sans-serif;
+font-size: 2.4rem;
+/*height: 100vh;
+line-height: 120%;
+margin: 0 auto;
+position: relative;
+text-align: left;
+width: 100%;
+}
+
+
+.heroIntro {
+  background: url("../images/HeroImageMine.png") center / cover;
+  height: 100vh;
+  justify-content: center;
+
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+header li{
+float: right;
+font-family: "Titillium Web", sans-serif;
+font-size: 3rem;
+padding-left: -45px;
+right: 84px;
+}
+
+
+header li a{
+display: block;
+color: #979797;
+font-size: 3rem;
+height: 121px;
+margin-right: 84px
+padding-top: 51px;
+padding-left: 45px;
+padding-bottom: 45px
+text-align: center;
+text-decoration: none;
+}
+
+header li a:hover:not(.active){
+background-color: white;
+color: black;
+}
+
+.active {
+  color: white;
+}
+
+.PersonalLogo{
+  height: 65px;
+  width: 57px;
+  margin-top: 28px;
+  margin-left: 84px;
+  position: absolute;
+}
+
+
+
+
+}
+
+
+footer.mdl-mini-footer > ul {
+margin: auto;
+font-size: 2rem;
+}
+
+footer p{
+color: white;
+}*/
+/*.centered {
+position: absolute;
+left: 5.83%;
+right: 42.36%;
+top: 14.28%;
+bottom: 78.56%;
+
+}*/
