@@ -51,6 +51,7 @@ ul#menu li a{
 
 nav li a:hover{
   background-color: white;
+  font-style: black;
   /*color: #000;*/
   /*padding: auto;*/
   /*width: 33.33%*/
@@ -65,7 +66,7 @@ nav a{
     text-align: center;
 }
 
-nav a.active{
+navSection a.active{
   color: black;
 }
 
@@ -78,7 +79,7 @@ nav a.active{
   position: absolute;
 }
 
-.heroIntro p{
+.heroIntro p{ /*intro paragraph attributes*/
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
@@ -90,15 +91,130 @@ nav a.active{
   width: 746px;
 }
 
-.featuredProjects h1{
+.featuredProjects h1{  /* Featured Projects-heading*/
   color: black;
   font-family: "Titillium Web", sans-serif;
   font-size: 80px;
   font-weight: bold;
   margin-top: 837px;
   text-align: center;
+}
+
+/*grid*/
+.content-grid { /* check on this later*/
+  position: relative;
+  max-width: 100%;
+  margin-left: 84px;
+  margin-right: 84px;
+}
+
+/*.mdl-cell {
+  margin-left: 84px;
+}*/
+
+.projects img {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 99px;
 
 }
+
+
+/*overlay code*/
+.containeroverlay{
+  position: relative;
+  width: 100%;
+}
+
+.ArchiaImage .soloprojectimg{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mdl-card{ /*space of grid containers from footer*/
+    bottom: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.containeroverlay:hover .overlay {
+  opacity: 1;
+}
+
+.projectinfo {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input {
+	background-color: #000;
+  border: 2px solid #fff;
+  border-radius:5px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+input:hover{
+background-color: #fff;
+  border: 2px solid #000;
+  border-radius:5px;
+  color: #000;
+  font-size: 16px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*footer*/
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  /*position: fixed;*/
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 3rem;
+}
+
+footer p{
+color: white;
+}
+
 /*.container-about-me {
 background-color: white;
 color: #454242;
@@ -123,14 +239,6 @@ margin: 0 auto;
 position: relative;
 text-align: left;
 width: 100%;
-}
-
-
-.heroIntro {
-  background: url("../images/HeroImageMine.png") center / cover;
-  height: 100vh;
-  justify-content: center;
-
 }
 
 header{
@@ -178,28 +286,6 @@ color: black;
   color: white;
 }
 
-.PersonalLogo{
-  height: 65px;
-  width: 57px;
-  margin-top: 28px;
-  margin-left: 84px;
-  position: absolute;
-}
-
-
-
-
-}
-
-
-footer.mdl-mini-footer > ul {
-margin: auto;
-font-size: 2rem;
-}
-
-footer p{
-color: white;
-}*/
 /*.centered {
 position: absolute;
 left: 5.83%;
