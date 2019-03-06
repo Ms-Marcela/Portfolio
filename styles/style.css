@@ -182,7 +182,7 @@ section.PhotosLeft p, section.Irapuato p{
 }
 
 /*aboutme page images*/
-.MyPhoto img, .strawberryPhoto img, .Irapuato img {
+.MyPhoto img {
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
@@ -190,6 +190,13 @@ section.PhotosLeft p, section.Irapuato p{
   width: 100%;
 }
 
+.strawberryPhoto img, .Irapuato img {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 68px;
+  width: 100%;
+}
 
 /*overlay code*/
 .containeroverlay{
@@ -324,7 +331,7 @@ section.PhotosLeft p, section.Irapuato p{
   padding-top: 100px;
 }
 
-/*ARCHIA'S CASE STUDY*/
+/*----------------ARCHIA'S CASE STUDY-------------------------*/
 .ArchiaIntro img{
   display: block;
   margin-left: auto;
@@ -346,13 +353,14 @@ div .SummaryOfProject{
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   line-height: 42px;
+  padding-bottom: 70px;
   padding-top: 268px;
   padding-left: 293.5px;
   padding-right: 293.5px;
   text-align: center;
 }
 
-.buttonCS input { /*case study buttons*/
+.default-button input { /*default styling for buttons*/
 	background-color: #000;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -363,14 +371,33 @@ div .SummaryOfProject{
   position: relative;
   left: 50%;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  width: 498px;
+  height: 92px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.defaultbutton input { /*default styling for buttons*/
+	background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  /*margin-top: 50px;*/
+  margin-bottom: 50px;
   width: 466px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-
 }
 
 .buttonCS input:hover{
@@ -383,7 +410,7 @@ div .SummaryOfProject{
   font-weight: bold;
   position: relative;
   left: 50%;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-bottom: 100px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -391,8 +418,93 @@ div .SummaryOfProject{
   text-align: center;
 }
 
+/*------------roles, Deliverables, tools section----------*/
+.RolesExtras ul{
+  list-style-type:none;
+}
 
-/*footer*/
+div.mainDiv{
+  background-color: pink;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.boxes{
+top: 100px;
+}
+
+.mdl-card{
+  margin-bottom: 100px;
+  display: block;
+  grid-template-columns: 333px 522px 333px;
+}
+.mdl-card__title {
+  color: #454242;
+  font-size: 50px;
+  font-family: "Titillium Web", sans-serif;
+
+}
+
+/*-----------the problem section-----------*/
+section.TheProblem {
+  background-color: #3C4663;
+  width: 100%;
+}
+
+/*h2 headings on case study page*/
+.TheProblem h2, .TheSolution h2{
+  color: white;
+  font-size: 80px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.TheProblem p, .TheSolution p{
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 42px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+  padding-left: 313px;
+  padding-right: 313px;
+}
+
+
+.TheSolution p{
+  padding-bottom: 0;
+  padding-left: 229px;
+  padding-right: 229px;
+
+}
+
+
+/*-----------the solution section-----------*/
+
+section.TheSolution{
+  background-color: #979797;
+  margin-top: 100px;
+  margin-left: 84px;
+  margin-right: 84px;
+}
+
+div.LandingPage img{
+  width: 437px;
+  height: 1619px;
+  padding-top: 100px;
+  margin-left: 105px;
+}
+
+div.DesktopDashboard img{
+  width: 541px;
+  height: 394px;
+  padding-top: 100px;
+  margin-left: 626px;
+}
+/*----------------FOOTER-----------------*/
 footer.mdl-mini-footer {
   background-color: #000;
   bottom: 0;
