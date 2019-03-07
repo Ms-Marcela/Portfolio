@@ -267,7 +267,7 @@ section.PhotosLeft p, section.Irapuato p{
   width: 486px;
 }
 
-.button input { /*case study buttons*/
+.button input { /*case study active button on homepage*/
 	background-color: #000;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -287,7 +287,7 @@ section.PhotosLeft p, section.Irapuato p{
   text-align: center;
 }
 
-.button input:hover{
+.button input:hover{ /*case study active button on homepage*/
   background-color: #fff;
   border: 2px solid #000;
   border-radius:5px;
@@ -305,7 +305,7 @@ section.PhotosLeft p, section.Irapuato p{
   text-align: center;
 }
 
- .inactivebutton input { /*inactive button*/
+ .inactivebutton input { /*inactive button on homepage*/
 	background-color: #ECEBEB;
   border-radius:5px;
   color: #979797;
@@ -360,7 +360,7 @@ div .SummaryOfProject{
   text-align: center;
 }
 
-.default-button input { /*default styling for buttons*/
+.defaultbutton input { /*default styling for active buttons*/
 	background-color: #000;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -370,8 +370,6 @@ div .SummaryOfProject{
   font-weight: bold;
   position: relative;
   left: 50%;
-  margin-top: 50px;
-  margin-bottom: 50px;
   width: 498px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
@@ -380,27 +378,7 @@ div .SummaryOfProject{
   text-align: center;
 }
 
-.defaultbutton input { /*default styling for buttons*/
-	background-color: #000;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  color: #fff;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  position: relative;
-  left: 50%;
-  /*margin-top: 50px;*/
-  margin-bottom: 50px;
-  width: 466px;
-  height: 92px;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.buttonCS input:hover{
+.defaultbutton input:hover{ /*default styling for buttons on Case Study page*/
   background-color: #fff;
   border: 2px solid #000;
   border-radius:5px;
@@ -410,12 +388,14 @@ div .SummaryOfProject{
   font-weight: bold;
   position: relative;
   left: 50%;
-  /*margin-top: 50px;*/
-  margin-bottom: 100px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.buttonProto{ /*position of the button on that section*/
+  padding-bottom: 100px;
 }
 
 /*------------roles, Deliverables, tools section----------*/
@@ -452,7 +432,7 @@ section.TheProblem {
 }
 
 /*h2 headings on case study page*/
-.TheProblem h2, .TheSolution h2{
+.TheProblem h2, .TheSolution h2, .TheProcess h2{
   color: white;
   font-size: 80px;
   font-family: "Titillium Web", sans-serif;
@@ -482,7 +462,7 @@ section.TheProblem {
 }
 
 
-/*-----------the solution section-----------*/
+/*-----------the solution section images-----------*/
 
 section.TheSolution{
   background-color: #979797;
@@ -491,19 +471,133 @@ section.TheSolution{
   margin-right: 84px;
 }
 
-div.LandingPage img{
-  width: 437px;
-  height: 1619px;
-  padding-top: 100px;
-  margin-left: 105px;
+div.containerImages{
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
 
-div.DesktopDashboard img{
-  width: 541px;
-  height: 394px;
-  padding-top: 100px;
-  margin-left: 626px;
+div.LandingPage{
+  width: 50%;
+  float: left;
 }
+
+.LandingPage img{
+  width: 100%;
+  height: auto;
+  padding-right: 42px;
+}
+
+div.DesktopDashboard{
+  width: 50%;
+  float: right;
+  padding-left: 42px;
+}
+
+.DesktopDashboard img{
+  width: 100%;
+  height: auto;
+}
+
+div.MobileBoarding{
+  width: 50%;
+  float: right;
+  padding-top: 36px;
+}
+
+div.mobileOne, div.mobileThree{
+  width: 50%;
+  float: left;
+}
+
+div.mobileTwo, div.mobileFour{
+  width: 50%;
+  float: right;
+}
+
+.mobileOne img, .mobileThree img{
+  width: 100%;
+  height: auto;
+  padding-left: 62px;
+  padding-right: 7px;
+}
+
+.mobileTwo img, .mobileFour img{
+  width: 100%;
+  height: auto;
+  padding-left: 7px;
+  padding-right: 62px;
+}
+
+.mobileThree img, .mobileFour img{
+  padding-top: 14px;
+  padding-bottom: 36px;
+}
+
+div.MobileDashboard{
+  width: 50%;
+  float: right;
+}
+
+.MobileDashboard img{
+  width: 100%;
+  height: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  /*padding-bottom: 50px;*/
+}
+
+div.SolutionButtons{
+  width: 100%;
+  padding-top: 100px;
+}
+
+.buttonDP{ /*position of the button on that section*/
+  padding-top: 1825px;
+  padding-bottom: 50px;
+  width: auto;
+  height: auto;
+}
+
+.buttonMP{
+  padding-bottom: 100px;
+}
+
+/*The Process section*/
+.TheProcess h2{
+  color: black;
+  padding-top: 100px;
+}
+
+div.UserResearch{
+  background-color: #3C4663;
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-left: 84px;
+  margin-right: 84px;
+}
+
+.UserResearch h3{
+  color: white;
+  font-size: 60px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.researchIntro p{ /*may need to add another div to this section*/
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 42px;
+  text-align: left;
+  /*width: 1062px;*/
+  height: 112px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
 /*----------------FOOTER-----------------*/
 footer.mdl-mini-footer {
   background-color: #000;
