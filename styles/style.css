@@ -394,7 +394,7 @@ div .SummaryOfProject{
   text-align: center;
 }
 
-.buttonProto{ /*position of the button on that section*/
+.buttonProto. { /*position of the button on that section*/
   padding-bottom: 100px;
 }
 
@@ -403,26 +403,95 @@ div .SummaryOfProject{
   list-style-type:none;
 }
 
-div.mainDiv{
-  background-color: pink;
-  width: 100%;
+.wrap{
+  display: flex;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.boxes{
-top: 100px;
+.wrap > div {
+  flex: 1; /*grow*/
 }
 
-.mdl-card{
-  margin-bottom: 100px;
-  display: block;
-  grid-template-columns: 333px 522px 333px;
-}
-.mdl-card__title {
+.wrap h4{
+  text-align: center;
   color: #454242;
   font-size: 50px;
   font-family: "Titillium Web", sans-serif;
+  padding-top: 50px;
+}
 
+.rolescontainer{
+  background-color: #F8D2C0;
+  width: 333px;
+  height: 535px;
+  margin-left: 84px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.delivcontainer{
+  background-color: #F8D2C0;
+  width: 522px;
+  height: 535px;
+  margin-left: 42px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.toolscontainer{
+  background-color: #F8D2C0;
+  width: 333px;
+  height: 535px;
+  margin-left: 42px;
+  margin-right: 84px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rolescontainer ul{ /*Text inside the containers */
+  text-align: center;
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  padding-top: 50px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.delivcontainer ul{
+  text-align: center;
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  padding-top: 50px;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.toolscontainer ul{
+  text-align: center;
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  padding-top: 50px;
+  padding-left: 87px;
+  padding-right: 87px;
+}
+
+.wireframeimage{
+  margin-top: 38px;
+  margin-left: 122px;
+  margin-right: 122px;
+}
+
+.toolsimage{
+  margin-top: 123px;
+  margin-left: 122px;
+  margin-right: 122px;
 }
 
 /*-----------the problem section-----------*/
@@ -570,7 +639,7 @@ div.SolutionButtons{
   padding-top: 100px;
 }
 
-div.UserResearch{
+div.UserResearch{       /*The Survey Section*/
   background-color: #3C4663;
   margin-top: 50px;
   padding-top: 50px;
@@ -586,18 +655,76 @@ div.UserResearch{
   text-align: center;
 }
 
-.researchIntro p{ /*may need to add another div to this section*/
+.researchIntro p{
   color: white;
   font-size: 24px;
   font-family: "Open Sans", sans-serif;
   line-height: 42px;
   text-align: left;
-  /*width: 1062px;*/
   height: 112px;
   padding-left: 105px;
   padding-right: 105px;
+  padding-top: 50px;
 }
 
+.surveywrap{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 105px;
+  margin-right: 105px;
+}
+
+.surveywrap > div {
+  flex: 1; /*grow*/
+}
+
+.SurveyResults {
+  background-color: #F8D2C0;
+  width: 521px;
+  height: 441px;
+  margin-right: 20px;
+}
+
+ .FeaturesFromSurvey{
+  background-color: #F8D2C0;
+  width: 521px;
+  height: 441px;
+}
+
+.SurveyResults p, .FeaturesFromSurvey p {
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.SurveyResults ul, .FeaturesFromSurvey ul{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  padding-bottom: 50px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.SurveyResults ul, .FeaturesFromSurvey ul {
+  list-style-type: disc;
+  color: #454242;
+  list-style-position: inside;
+}
+
+.surveybutton{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 /*----------------FOOTER-----------------*/
 footer.mdl-mini-footer {
   background-color: #000;
