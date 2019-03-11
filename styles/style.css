@@ -1,14 +1,15 @@
-* {
-box-sizing: border-box;
-}
-
 html{
   font-size: 10px;
 }
 
-h1{
-  font-size: 80px;
+* {
+box-sizing: border-box;
 }
+
+
+/*h1{
+  font-size: 80px;
+}*/
 
 .workspageprojects h1{
   font-family: "Titillium Web", sans-serif;
@@ -66,7 +67,7 @@ nav li:last-child {
 .navSection a{
   color: #979797;
   font-family: "Titillium Web", sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
   text-decoration: none;
   width: 33.33%;
@@ -647,18 +648,18 @@ div.UserResearch{       /*The Survey Section*/
   margin-right: 84px;
 }
 
-.UserResearch h3{
+.UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
   color: white;
   font-size: 60px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   text-align: center;
 }
 
-.researchIntro p{
+.researchIntro p, .UserPersonas p{
   color: white;
   font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 42px;
   text-align: left;
   height: 112px;
@@ -725,6 +726,472 @@ div.UserResearch{       /*The Survey Section*/
   padding-bottom: 100px;
   padding-top: 100px;
 }
+
+/*Competitive Analysis section-Archia--*/
+
+.competitivewrap, .personaswrap{
+  display: flex;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.competitivewrap > div, .personaswrap > div {
+  flex: 1; /*grow*/
+}
+
+div.CompAnalysis{
+  float: left;
+  width: 70%;
+  height: auto;
+}
+
+div.competitiveimages{
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+.compheading h3{
+  color: black;
+  font-family: "Titillium Web", Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+
+.CompAnalysis p{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: left;
+  padding-left: 189px;
+  margin-right: 107px;
+
+}
+
+.lastcompparagraph p{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: left;
+  padding-left: 189px;
+  margin-right: 107px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.CompAnalysis ul{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-left: 189px;
+  margin-right: 107px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+div .Dropbox{
+  padding-left: 72px;
+  margin-bottom: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.Dropbox img{
+  width: 150px;
+  height: 150px;
+}
+
+div .GoogleDrive{
+  padding-left: 66px;
+  margin-bottom: 100px;
+}
+
+.GoogleDrive img{
+  width: 162px;
+  height: 141px;
+}
+
+div .Pinterest{
+  padding-left: 72px;
+}
+
+.Pinterest img{
+  width: 150px;
+  height: 150px;
+}
+
+.competitivebutton{
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*-------USER PERSONAS SECTION-------*/
+
+div .UserPersonas{
+  background-color: #979797;
+  color: white;
+  font-family: "Open Sans", Tahoma, sans-serif; /*set font for all section*/
+  margin-left: 84px;
+  margin-right: 84px;
+  height: auto;
+}
+
+.UserPersonas h3{
+  padding-top: 50px;
+}
+
+.personaname h6{
+  color: white;
+  font-size: 36px;
+  margin-top: 50px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.personaswrap h7{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+div .SilviaPersona{
+  float: left;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 1px 0 0;
+  margin-top: 100px;
+  width: 50%;
+  height: auto;
+}
+
+div .LillyPersona{
+  float: right;
+  margin-top: 100px;
+  width: 50%;
+  height: auto;
+}
+
+.SilviaPersona img, .LillyPersona img{
+  padding-left: 185px;
+}
+
+div .personaname{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.personaname h7{
+  padding-top: 16px;
+  font-style: italic;
+}
+
+div .SilviaInfo ul, div .LIllyInfo ul {
+  font-size: 24px;
+  line-height: 42px;
+  text-align: left;
+  padding-left: 217px;
+  margin-top: 40px;
+}
+
+div .GoalsSilvia{
+  padding-top: 50px;
+  padding-left: 102px;
+  padding-right: 99px;
+  line-height: 42px;
+}
+
+div .GoalsLilly{
+  padding-top: 50px;
+  padding-left: 99px;
+  padding-right: 102px;
+  line-height: 42px;
+}
+
+.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
+  font-size: 24px;
+  line-height: 42px;
+}
+
+div .FrustrationsSilvia{
+  margin-top: 50px;
+  padding-left: 102px;
+  padding-right: 99px;
+  line-height: 42px;
+}
+
+div .FrustrationsLilly{
+  margin-top: 92px;
+  padding-right: 102px;
+  padding-left: 99px;
+  line-height: 42px;
+}
+
+.personasbutton{
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
+
+/*-----USER STORIES SECTIONS----*/
+
+div .userstories{
+  background-color: #3C4663;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.userstories h3{
+  padding-top: 50px;
+}
+
+.usersintro p{
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  text-align: left;
+  height: 116px;
+  padding-left: 105px;
+  padding-right: 105px;
+  padding-top: 50px;
+
+}
+
+.HighTasks p, .lowandmedtasks p{
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-weight: bold;
+  line-height: 42px;
+  text-align: left;
+  padding-left: 59px;
+  padding-right: 59px;
+  padding-top: 68px;
+}
+
+div .HighTasks{
+  margin-left: 105px;
+  background-color: white;
+  margin-right: 105px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 68px;
+}
+
+div .lowandmedtasks {
+  margin-left: 105px;
+  background-color: white;
+  margin-right: 105px;
+  padding-bottom: 68px;
+  margin-bottom: 150px;
+}
+
+.HighTasks ul, .lowandmedtasks ul{
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  list-style-type: disc;
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 59px;
+}
+
+/*-------------USER FLOWS SECTION--------*/
+div .userflows{
+  background-color: #F8D2C0;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.userflows h3{
+  color: black;
+  font-family: "Titillium Web", Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.userflows p{
+  color: #454242;
+  padding-left: 105px;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+}
+
+.storieswrap{
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.storieswrap > div {
+  flex: 1; /*grow*/
+}
+
+.userflowslist{
+  float: left;
+  width: 50%;
+}
+
+.userflowsimage{
+  float: right;
+  width: 50%;
+}
+
+.userflows ul{
+  color: #454242;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 105px;
+}
+
+div .userflowslist, div .userflowsimage{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/*--------WIREFRAMES & MOCKUPS SECTIONS------*/
+div .wireframesandmockups{
+  background-color: #3C4663;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.wireframesandmockups h3{
+color: white;
+font-size: 60px;
+font-family: "Titillium Web", Verdana, sans-serif;
+font-weight: bold;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.wireframesandmockups p{
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  padding-left: 115px;
+  padding-right: 115px;
+}
+
+div .wireframes{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.wireframes > div, .mockups > div {
+  flex: 1; /*grow*/
+}
+
+
+div .mockups{
+  display: flex;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.sketchone img{
+  padding-left: 113px;
+  width: auto;
+  height: auto;
+}
+
+.sketchtwo img{
+  padding-left: 29px;
+  width: 75%;
+  height: auto;
+}
+
+.landingwireframe img{
+  padding-left: 23px;
+  width: auto;
+  height: auto;
+}
+
+.desktopwireframe img{
+  padding-bottom: 26px;
+  padding-left: 21px;
+  padding-right: 105px;
+  width: 414px;
+  height: auto;
+}
+
+.landingmockup img{ /*check on this height*/
+  padding-left: 105px;
+  width: 300px;
+  height: auto;
+}
+
+.mobilemockup img{
+  padding-left: 24px;
+  padding-bottom: 27px;
+  width: auto;
+  height:auto;
+}
+
+.desktopdashboardone img{
+  width: 100%;
+  height: auto;
+}
+
+.desktoptwomockup img{
+  padding-left: 33px;
+  width: 260px;
+  height: auto;
+}
+
+.mobiletwomockup img{
+  padding-left: 52px;
+  padding-right: 105px;
+  padding-bottom: 25px;
+}
+
+.mobileonboardingtwo img{
+  padding-left: 107px;
+  width: 375px;
+  height: auto;
+}
+
+.wireframebutton{ /* ADD THE LINKS TO THE BUTTONS*/
+  padding-bottom: 50px;
+}
+
+/*----BRANDING SECTION*-----/
+
+
+
 /*----------------FOOTER-----------------*/
 footer.mdl-mini-footer {
   background-color: #000;
