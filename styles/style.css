@@ -1188,8 +1188,308 @@ div .mockups{
   padding-bottom: 50px;
 }
 
-/*----BRANDING SECTION*-----/
+/*----BRANDING SECTION-----*/
+div .branding{
+  background-color: #979797;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  height: auto;
+  padding-bottom: 100px;
+}
 
+.brandingintro h3{
+  color: white;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.brandingintro p{
+  color: white;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+div .logosketch{
+  margin-top: 100px;
+}
+
+.logosketch img{
+  padding-left: 111px;
+  padding-right: 111px;
+}
+
+div .logowrap{
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.logowrap > div {
+  flex: 1; /*grow*/
+}
+
+div .firstlogo {
+  width: 33.33%;
+}
+
+.firstlogo img{
+  width: 197px;
+  height: 223px;
+  margin-top: 50px;
+  margin-left: 222px;
+}
+
+div .arrow{
+  width: 33.33%;
+}
+
+.arrow img{
+  padding-left: 150px;
+  padding-top: 125px;
+  text-align: center;
+}
+
+div .finallogo {
+width: 33.33%;
+}
+
+.finallogo img{
+  padding-right: 114px;
+  padding-top: 69px;
+}
+
+.colorpalette h5{
+  color: white;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  padding-left: 105px;
+
+}
+
+.colorpalette p{
+  color: white;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  text-align: left;
+  padding-left: 105px;
+  padding-right: 105px;
+  padding-top: 50px;
+}
+
+div .colorswrap {
+  display: flex;
+  padding-left: 105px;
+  padding-right: 105px;
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+
+.colorswrap > div {
+  flex: 1; /*grow*/
+}
+
+
+/*-------HIGH FIDELITY PROTOTYPES SECTION------*/
+div .highPrototypes{
+  background-color: #ECEBEC;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.highPrototypes h3{
+  color: black;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.highPrototypes p{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+div .highProtoWrap {
+  display: flex;
+  padding-left: 105px;
+  padding-right: 105px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.highProtoWrap > div {
+  flex: 1; /*grow*/
+}
+
+div .finaldesktoplandingpg {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-bottom: 36px;
+}
+
+.finaldesktoplandingpg img{
+  width: 437px;
+  height: auto;
+}
+
+div .finaldesktopdashboard{
+  float: left;
+  width: 50%;
+}
+
+.finaldesktopdashboard img{
+  float: none;
+  width: 541px;
+  height: auto;
+}
+
+.finalmobileonboarding img{
+  padding-left: 90px;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  width: 417px;
+  height: auto;
+}
+
+.finalmobiledash img{
+  width: 400px;
+  height: auto;
+  padding-left: 130px;
+  padding-top: 36px;
+  padding-bottom: 100px;
+}
+
+.finaldesktopbutton{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*--------User Testing Results Section-------*/
+div .testingresults{
+  background-color: #3C4663;
+  color: white;
+  margin-left: 84px;
+  margin-right: 84px;
+  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+.testingintro h3{
+  font-size: 60px;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testingintro p, .changesApplied p{
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.testingintro ul{
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 42px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.changesApplied h5{
+  font-size: 45px;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div .firstwrap, div .secondwrap{
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.firstwrap > div, .secondwrap > div  {
+  flex: 1; /*grow*/
+}
+
+div .wireframeBefore, div .desktopdashmockupOne{
+  float: left;
+  width: 50%;
+  background-color: yellow;
+}
+
+.wireframeBefore img, .desktopdashmockupOne{
+  width: 100%;
+  height: auto;
+  padding-right: 47px;
+}
+
+div .firstDashboard, div .desktopdashmockupTwo{
+  float: right;
+  width: 50%;
+  background-color: pink;
+}
+
+.firstDashboard img, .desktopdashmockupTwo img{
+  width: 100%;
+  height: auto;
+}
+
+/*----CONCLUSION SECTION----------*/
+div .conclusion{
+  background-color: #979797;
+  margin-top: 100px;
+}
+
+.conclusionintro h2{
+  color: white;
+  font-size: 80px;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.conclusionintro p{
+  color: white;
+  font-size: 24px;
+  font-family: "Opens Sans", Tahoma, sans-serif;
+  line-height: 42px;
+  padding-left: 189px;
+  padding-right: 189px;
+  text-align: left;
+}
+
+.conclusionbutton{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 
 /*----------------FOOTER-----------------*/
@@ -1197,7 +1497,7 @@ footer.mdl-mini-footer {
   background-color: #000;
   bottom: 0;
   color: white;
-  margin-top: 234px;
+  margin-top: 0;
   padding: 0.5rem;
   width: 100%;
   height: 452px;
