@@ -1,15 +1,11 @@
-html{
-  font-size: 10px;
-}
-
 * {
 box-sizing: border-box;
 }
 
+html{
+  font-size: 10px;
+}
 
-/*h1{
-  font-size: 80px;
-}*/
 
 .workspageprojects h1{
   font-family: "Titillium Web", sans-serif;
@@ -1427,37 +1423,48 @@ div .testingresults{
   padding-bottom: 50px;
 }
 
-div .firstwrap, div .secondwrap{
+div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap, div .sixthwrap{
   display: flex;
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-.firstwrap > div, .secondwrap > div  {
+.firstwrap > div, .secondwrap > div, .thirdwrap > div, .fourthwrap > div, .fifthwrap > div, .sixthwrap > div  {
   flex: 1; /*grow*/
 }
 
-div .wireframeBefore, div .desktopdashmockupOne{
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
   float: left;
   width: 50%;
-  background-color: yellow;
 }
 
-.wireframeBefore img, .desktopdashmockupOne{
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img, .firsthighlandingpage img, .secondhighmobilelanding img{
   width: 100%;
   height: auto;
-  padding-right: 47px;
+  padding-right: 23px;
 }
 
-div .firstDashboard, div .desktopdashmockupTwo{
+.firstmobilelogin img{
+  width: 90%;
+  height: auto;
+  padding-left: 150px;
+}
+
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
   float: right;
   width: 50%;
-  background-color: pink;
 }
 
-.firstDashboard img, .desktopdashmockupTwo img{
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img, .secondhighlandingpage img, .finalmobilelanding img{
   width: 100%;
   height: auto;
+  padding-left: 23px;
+}
+
+.finalmobilelogin img{
+  width: 70%;
+  height: auto;
+  padding-left: 45px;
 }
 
 /*----CONCLUSION SECTION----------*/
