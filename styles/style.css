@@ -8,7 +8,7 @@ html{
 
 
 .workspageprojects h1{
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   margin-top: 10%;
   text-align: center;
@@ -21,7 +21,7 @@ html{
 
 .container-about-me {
 background-color: #ECEBEC;
-font-family: "open sans", sans-serif;
+font-family: "open sans", Tahoma, sans-serif;
 font-size: 20px;
 line-height: 120%;
 }
@@ -62,8 +62,8 @@ nav li:last-child {
 
 .navSection a{
   color: #979797;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 3rem;
+  font-family: "Titillium Web", Verdana, sans-serif;
+  font-size: 30px;
   text-align: center;
   text-decoration: none;
   width: 33.33%;
@@ -90,7 +90,7 @@ nav li:last-child {
 
 .heroIntro p{ /*intro paragraph attributes*/
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 36px;
   line-height: 120%;
   margin-left: 84px;
@@ -131,7 +131,7 @@ section.PhotosLeft p, section.Irapuato p{
 
 .bioText h1{
   color: #333333;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 36px;
   margin-top: 84px;
   text-align: center;
@@ -139,7 +139,7 @@ section.PhotosLeft p, section.Irapuato p{
 
 .bioText p{
   color: #454242;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 20px;
   line-height: 35px;
   margin-top: 50px;
@@ -151,7 +151,7 @@ section.PhotosLeft p, section.Irapuato p{
 /*index code*/
  .featuredProjects h1{  /* Featured Projects-heading*/
   color: black;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 80px;
   font-weight: bold;
   margin-top: 836px;
@@ -247,19 +247,19 @@ section.PhotosLeft p, section.Irapuato p{
 
 .overlay-content h2{
   font-size: 60px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
 }
 
 .overlay-content .aboutproject{
   font-size: 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 120%;
   width: 486px;
 }
 
 .overlay-content .roles{
   font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 120%;
   width: 486px;
 }
@@ -269,7 +269,7 @@ section.PhotosLeft p, section.Irapuato p{
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: absolute;
@@ -289,7 +289,7 @@ section.PhotosLeft p, section.Irapuato p{
   border: 2px solid #000;
   border-radius:5px;
   color: #000;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: absolute;
@@ -306,7 +306,7 @@ section.PhotosLeft p, section.Irapuato p{
 	background-color: #ECEBEB;
   border-radius:5px;
   color: #979797;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: absolute;
@@ -323,7 +323,8 @@ section.PhotosLeft p, section.Irapuato p{
 
 .ArchiaIntro h1{
   color: #3C4663;
-  font-family: "Rasa", serif;
+  font-family: "Rasa", Times, serif;
+  font-size: 80px;
   text-align: center;
   padding-top: 100px;
 }
@@ -333,9 +334,9 @@ section.PhotosLeft p, section.Irapuato p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
   padding-top: 23px;
   text-align: center;
+  width: 80%;
 }
 
 div .SummaryOfProject{
@@ -347,7 +348,7 @@ div .SummaryOfProject{
 
 .SummaryOfProject p{
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 24px;
   line-height: 42px;
   padding-bottom: 70px;
@@ -362,7 +363,7 @@ div .SummaryOfProject{
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: relative;
@@ -380,7 +381,7 @@ div .SummaryOfProject{
   border: 2px solid #000;
   border-radius:5px;
   color: #000;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 40px;
   font-weight: bold;
   position: relative;
@@ -411,43 +412,42 @@ div .SummaryOfProject{
 }
 
 .wrap h4{
-  text-align: center;
   color: #454242;
   font-size: 50px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   padding-top: 50px;
+  text-align: center;
 }
 
 .rolescontainer{
   background-color: #F8D2C0;
-  width: 333px;
-  height: 535px;
-  margin-left: 84px;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 535px;
+  margin-left: 84px;
+  width: 333px;
 }
 
 .delivcontainer{
   background-color: #F8D2C0;
-  width: 522px;
-  height: 535px;
-  margin-left: 42px;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 535px;
+  margin-left: 42px;
+  width: 522px;
 }
 
 .toolscontainer{
   background-color: #F8D2C0;
-  width: 333px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 535px;
   margin-left: 42px;
   margin-right: 84px;
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 333px;
 }
 
 .rolescontainer ul{ /*Text inside the containers */
-  text-align: center;
   color: #454242;
   font-size: 24px;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -455,10 +455,10 @@ div .SummaryOfProject{
   padding-top: 50px;
   padding-left: 58px;
   padding-right: 58px;
+  text-align: center;
 }
 
 .delivcontainer ul{
-  text-align: center;
   color: #454242;
   font-size: 24px;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -466,10 +466,10 @@ div .SummaryOfProject{
   padding-top: 50px;
   padding-left: 42px;
   padding-right: 42px;
+  text-align: center;
 }
 
 .toolscontainer ul{
-  text-align: center;
   color: #454242;
   font-size: 24px;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -477,18 +477,19 @@ div .SummaryOfProject{
   padding-top: 50px;
   padding-left: 87px;
   padding-right: 87px;
+  text-align: center;
 }
 
 .wireframeimage{
-  margin-top: 38px;
   margin-left: 122px;
   margin-right: 122px;
+  margin-top: 38px;
 }
 
 .toolsimage{
-  margin-top: 123px;
   margin-left: 122px;
   margin-right: 122px;
+  margin-top: 123px;
 }
 
 /*-----------the problem section-----------*/
@@ -501,7 +502,7 @@ section.TheProblem {
 .TheProblem h2, .TheSolution h2, .TheProcess h2{
   color: white;
   font-size: 80px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   padding-top: 50px;
   text-align: center;
@@ -510,13 +511,13 @@ section.TheProblem {
 .TheProblem p, .TheSolution p{
   color: white;
   font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 42px;
   padding-top: 50px;
   padding-bottom: 100px;
-  text-align: center;
   padding-left: 313px;
   padding-right: 313px;
+  text-align: center;
 }
 
 
@@ -538,10 +539,10 @@ section.TheSolution{
 }
 
 div.containerImages{
-  width: 100%;
   margin-top: 100px;
   padding-left: 105px;
   padding-right: 105px;
+  width: 100%;
 }
 
 div.LandingPage{
@@ -550,9 +551,9 @@ div.LandingPage{
 }
 
 .LandingPage img{
-  width: 100%;
   height: auto;
   padding-right: 42px;
+  width: 100%;
 }
 
 div.DesktopDashboard{
@@ -567,33 +568,33 @@ div.DesktopDashboard{
 }
 
 div.MobileBoarding{
-  width: 50%;
   float: right;
   padding-top: 36px;
+  width: 50%;
 }
 
 div.mobileOne, div.mobileThree{
-  width: 50%;
   float: left;
+  width: 50%;
 }
 
 div.mobileTwo, div.mobileFour{
-  width: 50%;
   float: right;
+  width: 50%;
 }
 
 .mobileOne img, .mobileThree img{
-  width: 100%;
   height: auto;
   padding-left: 62px;
   padding-right: 7px;
+  width: 100%;
 }
 
 .mobileTwo img, .mobileFour img{
-  width: 100%;
   height: auto;
   padding-left: 7px;
   padding-right: 62px;
+  width: 100%;
 }
 
 .mobileThree img, .mobileFour img{
@@ -602,21 +603,20 @@ div.mobileTwo, div.mobileFour{
 }
 
 div.MobileDashboard{
-  width: 50%;
   float: right;
+  width: 50%;
 }
 
 .MobileDashboard img{
-  width: 100%;
   height: auto;
   padding-left: 75px;
   padding-right: 75px;
-  /*padding-bottom: 50px;*/
+  width: 100%;
 }
 
 div.SolutionButtons{
-  width: 100%;
   padding-top: 100px;
+  width: 100%;
 }
 
 .buttonDP{ /*position of the button on that section*/
@@ -638,10 +638,10 @@ div.SolutionButtons{
 
 div.UserResearch{       /*The Survey Section*/
   background-color: #3C4663;
-  margin-top: 50px;
-  padding-top: 50px;
   margin-left: 84px;
   margin-right: 84px;
+  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
@@ -656,12 +656,12 @@ div.UserResearch{       /*The Survey Section*/
   color: white;
   font-size: 24px;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
-  text-align: left;
   height: 112px;
+  line-height: 42px;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
+  text-align: left;
 }
 
 .surveywrap{
@@ -678,43 +678,43 @@ div.UserResearch{       /*The Survey Section*/
 
 .SurveyResults {
   background-color: #F8D2C0;
-  width: 521px;
   height: 441px;
   margin-right: 20px;
+  width: 521px;
 }
 
  .FeaturesFromSurvey{
   background-color: #F8D2C0;
-  width: 521px;
   height: 441px;
+  width: 521px;
 }
 
 .SurveyResults p, .FeaturesFromSurvey p {
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 20px;
-  text-align: left;
   line-height: 35px;
   padding-top: 50px;
   padding-bottom: 30px;
   padding-left: 26px;
   padding-right: 26px;
+  text-align: left;
 }
 
 .SurveyResults ul, .FeaturesFromSurvey ul{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 20px;
-  text-align: left;
   line-height: 35px;
   padding-bottom: 50px;
   padding-left: 26px;
   padding-right: 26px;
+  text-align: left;
 }
 
 .SurveyResults ul, .FeaturesFromSurvey ul {
-  list-style-type: disc;
   color: #454242;
+  list-style-type: disc;
   list-style-position: inside;
 }
 
@@ -737,14 +737,14 @@ div.UserResearch{       /*The Survey Section*/
 
 div.CompAnalysis{
   float: left;
-  width: 70%;
   height: auto;
+  width: 70%;
 }
 
 div.competitiveimages{
   float: right;
-  width: 30%;
   height: auto;
+  width: 30%;
 }
 
 .compheading h3{
@@ -752,10 +752,10 @@ div.competitiveimages{
   font-family: "Titillium Web", Tahoma, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
+  text-align: center;
 }
 
 
@@ -764,10 +764,9 @@ div.competitiveimages{
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 24px;
   line-height: 42px;
-  text-align: left;
   padding-left: 189px;
   margin-right: 107px;
-
+  text-align: left;
 }
 
 .lastcompparagraph p{
@@ -775,11 +774,11 @@ div.competitiveimages{
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 24px;
   line-height: 42px;
-  text-align: left;
   padding-left: 189px;
   margin-right: 107px;
   margin-top: 50px;
   margin-bottom: 100px;
+  text-align: left;
 }
 
 .CompAnalysis ul{
@@ -796,25 +795,25 @@ div.competitiveimages{
 }
 
 div .Dropbox{
-  padding-left: 72px;
-  margin-bottom: 100px;
-  width: 100%;
   height: auto;
+  margin-bottom: 100px;
+  padding-left: 72px;
+  width: 100%;
 }
 
 .Dropbox img{
-  width: 150px;
   height: 150px;
+  width: 150px;
 }
 
 div .GoogleDrive{
-  padding-left: 66px;
   margin-bottom: 100px;
+  padding-left: 66px;
 }
 
 .GoogleDrive img{
-  width: 162px;
   height: 141px;
+  width: 162px;
 }
 
 div .Pinterest{
@@ -827,8 +826,8 @@ div .Pinterest{
 }
 
 .competitivebutton{
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 /*-------USER PERSONAS SECTION-------*/
@@ -837,9 +836,9 @@ div .UserPersonas{
   background-color: #979797;
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif; /*set font for all section*/
+  height: auto;
   margin-left: 84px;
   margin-right: 84px;
-  height: auto;
 }
 
 .UserPersonas h3{
@@ -865,16 +864,16 @@ div .SilviaPersona{
   border-style: solid;
   border-color: white;
   border-width: 0 1px 0 0;
+  height: auto;
   margin-top: 100px;
   width: 50%;
-  height: auto;
 }
 
 div .LillyPersona{
   float: right;
+  height: auto;
   margin-top: 100px;
   width: 50%;
-  height: auto;
 }
 
 .SilviaPersona img, .LillyPersona img{
@@ -887,30 +886,30 @@ div .personaname{
 }
 
 .personaname h7{
-  padding-top: 16px;
   font-style: italic;
+  padding-top: 16px;
 }
 
 div .SilviaInfo ul, div .LIllyInfo ul {
   font-size: 24px;
   line-height: 42px;
-  text-align: left;
-  padding-left: 217px;
   margin-top: 40px;
+  padding-left: 217px;
+  text-align: left;
 }
 
 div .GoalsSilvia{
+  line-height: 42px;
   padding-top: 50px;
   padding-left: 102px;
   padding-right: 99px;
-  line-height: 42px;
 }
 
 div .GoalsLilly{
+  line-height: 42px;
   padding-top: 50px;
   padding-left: 99px;
   padding-right: 102px;
-  line-height: 42px;
 }
 
 .GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
@@ -931,10 +930,10 @@ div .FrustrationsSilvia{
 }
 
 div .FrustrationsLilly{
+  line-height: 42px;
   margin-top: 92px;
   padding-right: 102px;
   padding-left: 99px;
-  line-height: 42px;
 }
 
 .personasbutton{
@@ -960,13 +959,12 @@ div .userstories{
   color: white;
   font-size: 24px;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
-  text-align: left;
   height: 116px;
+  line-height: 42px;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
-
+  text-align: left;
 }
 
 .HighTasks p, .lowandmedtasks p{
@@ -975,15 +973,15 @@ div .userstories{
   font-family: "Open Sans", Tahoma, sans-serif;
   font-weight: bold;
   line-height: 42px;
-  text-align: left;
   padding-left: 59px;
   padding-right: 59px;
   padding-top: 68px;
+  text-align: left;
 }
 
 div .HighTasks{
+  background-color: #ECEBEB;
   margin-left: 105px;
-  background-color: white;
   margin-right: 105px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -991,11 +989,11 @@ div .HighTasks{
 }
 
 div .lowandmedtasks {
+  background-color: #ECEBEB;
   margin-left: 105px;
-  background-color: white;
   margin-right: 105px;
-  padding-bottom: 68px;
   margin-bottom: 150px;
+  padding-bottom: 68px;
 }
 
 .HighTasks ul, .lowandmedtasks ul{
@@ -1005,8 +1003,8 @@ div .lowandmedtasks {
   line-height: 42px;
   list-style-type: disc;
   list-style-position: inside;
-  text-align: left;
   padding-left: 59px;
+  text-align: left;
 }
 
 /*-------------USER FLOWS SECTION--------*/
@@ -1024,9 +1022,9 @@ div .userflows{
   font-family: "Titillium Web", Tahoma, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
   margin-bottom: 50px;
   padding-top: 50px;
+  text-align: center;
   width: 100%;
 }
 
@@ -1087,7 +1085,7 @@ color: white;
 font-size: 60px;
 font-family: "Titillium Web", Verdana, sans-serif;
 font-weight: bold;
-text-align: center;
+
 padding-top: 50px;
 padding-bottom: 50px;
 }
@@ -1199,9 +1197,9 @@ div .branding{
   font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
+  text-align: center;
 }
 
 .brandingintro p{
@@ -1236,10 +1234,10 @@ div .firstlogo {
 }
 
 .firstlogo img{
-  width: 197px;
   height: 223px;
   margin-top: 50px;
   margin-left: 222px;
+  width: 197px;
 }
 
 div .arrow{
@@ -1275,18 +1273,18 @@ width: 33.33%;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 24px;
   line-height: 42px;
-  text-align: left;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
+  text-align: left;
 }
 
 div .colorswrap {
   display: flex;
-  padding-left: 105px;
-  padding-right: 105px;
   margin-bottom: 150px;
   margin-top: 100px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
 
 .colorswrap > div {
@@ -1297,10 +1295,10 @@ div .colorswrap {
 /*-------HIGH FIDELITY PROTOTYPES SECTION------*/
 div .highPrototypes{
   background-color: #ECEBEC;
+  height: auto;
   margin-left: 84px;
   margin-right: 84px;
   margin-top: 100px;
-  height: auto;
   padding-bottom: 100px;
 }
 
@@ -1309,9 +1307,9 @@ div .highPrototypes{
   font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 60px;
   font-weight: bold;
-  text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
+  text-align: center;
 }
 
 .highPrototypes p{
@@ -1325,10 +1323,10 @@ div .highPrototypes{
 
 div .highProtoWrap {
   display: flex;
-  padding-left: 105px;
-  padding-right: 105px;
   margin-bottom: 100px;
   margin-top: 100px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
 
 .highProtoWrap > div {
@@ -1337,14 +1335,14 @@ div .highProtoWrap {
 
 div .finaldesktoplandingpg {
   float: left;
-  width: 40%;
   height: auto;
   margin-bottom: 36px;
+  width: 40%;
 }
 
 .finaldesktoplandingpg img{
-  width: 437px;
   height: auto;
+  width: 437px;
 }
 
 div .finaldesktopdashboard{
@@ -1354,24 +1352,24 @@ div .finaldesktopdashboard{
 
 .finaldesktopdashboard img{
   float: none;
-  width: 541px;
   height: auto;
+  width: 541px;
 }
 
 .finalmobileonboarding img{
+  height: auto;
   padding-left: 90px;
   padding-bottom: 36px;
   padding-top: 36px;
   width: 417px;
-  height: auto;
 }
 
 .finalmobiledash img{
-  width: 400px;
   height: auto;
   padding-left: 130px;
   padding-top: 36px;
   padding-bottom: 100px;
+  width: 400px;
 }
 
 .finaldesktopbutton{
@@ -1395,9 +1393,9 @@ div .testingresults{
   font-size: 60px;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
-  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .testingintro p, .changesApplied p{
@@ -1418,9 +1416,9 @@ div .testingresults{
   font-size: 45px;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
-  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap, div .sixthwrap{
@@ -1439,15 +1437,15 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
 }
 
 .wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img, .firsthighlandingpage img, .secondhighmobilelanding img{
-  width: 100%;
   height: auto;
   padding-right: 23px;
+  width: 100%;
 }
 
 .firstmobilelogin img{
-  width: 90%;
   height: auto;
   padding-left: 150px;
+  width: 90%;
 }
 
 div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
@@ -1456,15 +1454,15 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
 }
 
 .firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img, .secondhighlandingpage img, .finalmobilelanding img{
-  width: 100%;
   height: auto;
   padding-left: 23px;
+  width: 100%;
 }
 
 .finalmobilelogin img{
-  width: 70%;
   height: auto;
   padding-left: 45px;
+  width: 70%;
 }
 
 /*----CONCLUSION SECTION----------*/
@@ -1478,9 +1476,9 @@ div .conclusion{
   font-size: 80px;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
-  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .conclusionintro p{
@@ -1518,24 +1516,24 @@ footer .contactHeading {
 footer h3{
   color: #fff;
   font-size: 60px;
-  font-family: "Titillium Web", sans-serif;
-  text-align: center;
+  font-family: "Titillium Web", Verdana, sans-serif;
   padding-top: 70px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 footer .mdl-mini-footer__link-list{
   font-size: 6rem;
   justify-content: center;
-  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 footer .copyrights {
   font-size: 14px;
   color: white;
-  font-family: "Titillium Web", sans-serif;
-  text-align: center;
+  font-family: "Titillium Web", Verdana, sans-serif;
   padding-top: 80px;
+  text-align: center;
   width: 100%
 }
