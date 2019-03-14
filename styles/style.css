@@ -192,6 +192,10 @@ section.group{
   width: 100%;
 }
 
+section.AboutPhotos2{
+margin-bottom: 100px;
+}
+
 .strawberryPhoto img, .Irapuato img {
   padding-left: 20px;
   padding-top: 20px;
@@ -215,7 +219,6 @@ section.group{
 }
 
 .mdl-card{ /*space of grid containers from footer & space around*/
-  bottom: 234px;
   left: 84px;
   right: 84px;
   width: 100%;
@@ -327,6 +330,8 @@ section.group{
   text-align: center;
 }
 
+
+/*----------------ARCHIA'S CASE STUDY-------------------------*/
 .ArchiaIntro h1{
   color: #3C4663;
   font-family: "Rasa", Times, serif;
@@ -335,7 +340,6 @@ section.group{
   padding-top: 100px;
 }
 
-/*----------------ARCHIA'S CASE STUDY-------------------------*/
 .ArchiaIntro img{
   display: block;
   margin-left: auto;
