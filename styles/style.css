@@ -165,6 +165,11 @@ section.PhotosLeft p, section.Irapuato p{
   display: table;
 }
 
+section.group{
+  margin-top: 120px;
+  margin-bottom: 234px;
+}
+
 .content-grid {
   position: relative;
   max-width: 100%;
@@ -200,6 +205,7 @@ section.PhotosLeft p, section.Irapuato p{
   position: relative;
   top: 0;
   width: 100%;
+
 }
 
 .ArchiaImage .soloprojectimg{
