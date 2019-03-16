@@ -6,11 +6,16 @@ html{
   font-size: 10px;
 }
 
+div .workspageprojects{
+  margin-top: 100px;
+  margin-bottom: 500px;
+}
 
 .workspageprojects h1{
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
-  margin-top: 10%;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 200px;
   text-align: center;
 }
 
@@ -111,7 +116,7 @@ section.PhotosLeft{
   display: grid;
   float: left;
   grid-gap: 100px;
-  padding-top: 320px;
+  padding-top: 100px;
   position: relative;
   width: 50%;
 }
@@ -1546,4 +1551,18 @@ footer .copyrights {
   padding-top: 80px;
   text-align: center;
   width: 100%
+}
+
+/*--------RESPONSIVE CODE---------*/
+@media screen and (min-width: 375px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
 }
