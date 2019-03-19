@@ -2,11 +2,11 @@
 box-sizing: border-box;
 }
 
-html{
+body{
   font-size: 10px;
 }
 
-div .workspageprojects{
+div .workspageprojects{ /*WORKS page space around heading*/
   margin-top: 100px;
   margin-bottom: 500px;
 }
@@ -97,12 +97,12 @@ nav li:last-child {
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 36px;
-  line-height: 120%;
+  line-height: 59px;
   margin-left: 84px;
   margin-top: 206px;
-  position: absolute;
   text-align: left;
-  width: 746px;
+  width: 626px;
+  position: absolute;
 }
 
 /*Aboutme.html code*/
@@ -154,12 +154,18 @@ section.PhotosLeft p, section.Irapuato p{
 }
 
 /*index code*/
+div .featuredProjects{
+  width: 100%
+}
+
  .featuredProjects h1{  /* Featured Projects-heading*/
   color: black;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-size: 80px;
   font-weight: bold;
-  margin-top: 836px;
+  margin-bottom: 120px;
+  margin-top: 74px;
+  position: relative;
   text-align: center;
 }
 
@@ -171,13 +177,23 @@ section.PhotosLeft p, section.Irapuato p{
 }
 
 section.group{
-  margin-top: 120px;
+  margin-top: 635px;
   margin-bottom: 234px;
+  text-align: center;
 }
 
 .content-grid {
   position: relative;
   max-width: 100%;
+}
+
+div .archia{
+  margin-right: 84px;
+}
+
+div .solo {
+  margin-right: 84px;
+
 }
 
 .projects img {
@@ -264,7 +280,7 @@ margin-bottom: 100px;
   font-family: "Titillium Web", Verdana, sans-serif;
 }
 
-.overlay-content .aboutproject{
+.overlay-content p{
   font-size: 30px;
   font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 120%;
@@ -1554,15 +1570,156 @@ footer .copyrights {
 }
 
 /*--------RESPONSIVE CODE---------*/
-@media screen and (min-width: 375px) {
-  div.example {
-    font-size: 80px;
-  }
+
+/*code for mobile*/
+@media screen and (min-width: 375px) and (orientation: portrait){
+  div .workspageprojects{
+  margin-top: 100px;
+  margin-bottom: 156px;
+}
+.workspageprojects h1{
+  font-size: 30px;
+}
+
+.container-about-me{
+  font-size: 18px;
+}
+
+.PersonalLogo{
+  height: 32px;
+  width: 28px;
+  margin-top: 15px;
+  margin-left: 13px;
+  margin-bottom: 14px;
+}
+
+ul#menu li{
+  margin-top: 26px;
+  margin-left: 22px;
+  margin-bottom: 23px;
+}
+
+nav li:last-child {
+  margin-right: 15px;
+}
+
+.navSection{
+   height: 61px;
+}
+
+.navSection a{
+  font-size: 20px;
+}
+
+.heroIntro p{
+  font-size: 18px;
+  line-height: 29px;
+  margin-left: 15px;
+  margin-top: 26px;
+  width: 177px;
+}
+
+/*Aboutme.html code*/
+section.biographyRight{
+  float: none;
+  width: 100%;
+  background-color: pink;
+}
+
+section.PhotosLeft{
+  float: none;
+  width: 100%;
+}
+
+.bioText h1{
+  font-size: 26px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bioText p{
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 30px;
+  padding-left: 33.5px;
+  padding-right: 33.5px;
+}
+
+/*index code*/
+section.featuredProjects{
+  margin-top: 30px;
+}
+
+.featuredProjects h1{  /* Featured Projects-heading*/
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section.group{
+  margin-top: 172px;
+  margin-bottom: 50px;
+}
+
+.projects img, .MyPhoto img, .strawberry img, .Irapuato img {
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37;
+  padding-bottom: 56.26px;
+  /*width: 100%;*/
+}
+
+section.AboutPhotos2{
+  margin-bottom: 73px;
+}
+
+.mdl-card{ /*space of grid containers from footer & space around*/
+  left: 33px;
+  right: 33px;
+
+}
+
+.overlay{
+  margin: 11.37px 11.37px 56.26px 11.37px;
+  text-align: center;
 }
 
 
-@media screen and (max-width: 1024px) {
-  header.mdl-layout__header {
-    display: flex;
-  }
+.overlay-content h2{
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+
+/*.overlay-content p{
+  font-size: 18px;
+  line-height: 29px;
+  /*width: 197px;
+  text-align: center;
+}*/
+
+.overlay-content .aboutproject{
+  font-size: 18px;
+  line-height: 29px;
+  padding-left: 44.13px; /*check on this was revising*/
+  width: 197px;
+  text-align: center;
+}
+
+.overlay-content .roles{
+  font-size: 12px;
+  line-height: 120%;
+  /*width: 235px;*/
+}
+
+div .overlay-content{
+  display: inline-block;
+}
+
+.button input {
+  font-size: 15px;
+  margin-top: 50%;
+  width: 189px;
+  height: 44px;
+}
+
 }
