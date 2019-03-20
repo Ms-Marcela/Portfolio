@@ -1560,6 +1560,10 @@ footer h3{
   width: 100%;
 }
 
+.footerwrap{
+  width: 100%;
+}
+
 footer .mdl-mini-footer__link-list{
   font-size: 6rem;
   justify-content: center;
@@ -1572,7 +1576,7 @@ div .copyrights{
   width: 100%
 }
 
-.copyrights p{
+footer .copyrights {
   font-size: 14px;
   color: white;
   font-family: "Titillium Web", Verdana, sans-serif;
@@ -1684,9 +1688,15 @@ section.AboutPhotos2{
   margin-bottom: 73px;
 }
 
+.ArchiaImage img{
+  width: 100%;
+  object-fit: cover
+}
+
 .mdl-card{ /*space of grid containers from footer & space around*/
   left: 33px;
   right: 33px;
+  width: 100%;
 
 }
 
@@ -1695,10 +1705,14 @@ section.AboutPhotos2{
   text-align: center;
 }
 
+div .overlay-content{
+  margin-top:20px;
+}
 
 .overlay-content h2{
   font-size: 26px;
-  margin-bottom: 17px;
+  line-height: 47px;
+
 }
 
 /*.overlay-content p{
@@ -1708,19 +1722,33 @@ section.AboutPhotos2{
   text-align: center;
 }*/
 
-.overlay-content .aboutproject{
+.overlay-content p{ /*paragrap describing Archia*/
   font-size: 18px;
   line-height: 29px;
-  padding-left: 44.13px; /*check on this was revising*/
-  width: 197px;
+  margin-top: -30px;
+  width: 225px;
+  text-align: center;
+
+}
+
+.overlay-content .roles{ /*paragraph describing roles on Archia*/
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 60px;
+  padding-top: 10%;
+  width: 235px;
+
+}
+
+.aboutproject p{
+  font-size: 18px;
+  line-height: 29px;
+  width: 240px;
   text-align: center;
 }
 
-.overlay-content .roles{
-  font-size: 12px;
-  line-height: 120%;
-  /*width: 235px;*/
-}
+
+
 
 div .overlay-content{
   display: inline-block;
@@ -1728,28 +1756,53 @@ div .overlay-content{
 
 .button input {
   font-size: 15px;
-  margin-top: 50%;
+  margin-top: 80px;
+  width: 189px;
+  height: 44px;
+}
+
+.button input:hover{
+  font-size: 15px;
+  margin-top: 80px;
+  width: 189px;
+  height: 44px;
+}
+
+.inactivebutton input {
+  font-size: 15px;
   width: 189px;
   height: 44px;
 }
 
 
+footer.mdl-mini-footer {
+  height: 233px;
+  margin-bottom: 0;
+}
+
 footer h3{
   font-size: 40px;
   margin-top: 28px;
-  bottom: 0;
+  background-color: yellow;
 }
 
 footer .mdl-mini-footer__link-list{
   font-size: 4rem;
+
+}
+
+.footerwrap{
+  margin-top: -54px;
+  margin-bottom: 16px;
+  width: 100%;
 }
 
 div .copyrights{
-  margin-bottom: 10px;
-  background-color: yellow;
+  margin-top: 0;
 }
 
-footer .copyrights {
+.copyrights p {
   font-size: 10px;
-
+  padding-bottom: 0;
+  overflow: hidden;
 }
