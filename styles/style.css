@@ -1544,13 +1544,20 @@ footer .contactHeading {
   width: 100%;
 }
 
+/*div .contactHeading{
+  margin-bottom: 70px;
+  margin-top: 71px;
+
+}*/
+
 footer h3{
   color: #fff;
   font-size: 60px;
   font-family: "Titillium Web", Verdana, sans-serif;
-  padding-top: 70px;
-  padding-bottom: 20px;
+  margin-bottom: 70px;
+  margin-top: 71px;
   text-align: center;
+  width: 100%;
 }
 
 footer .mdl-mini-footer__link-list{
@@ -1560,13 +1567,17 @@ footer .mdl-mini-footer__link-list{
   width: 100%;
 }
 
-footer .copyrights {
+div .copyrights{
+  margin-top: 100px;
+  width: 100%
+}
+
+.copyrights p{
   font-size: 14px;
   color: white;
   font-family: "Titillium Web", Verdana, sans-serif;
-  padding-top: 80px;
+  padding-bottom: 38px;
   text-align: center;
-  width: 100%
 }
 
 /*--------RESPONSIVE CODE---------*/
@@ -1721,5 +1732,24 @@ div .overlay-content{
   width: 189px;
   height: 44px;
 }
+
+
+footer h3{
+  font-size: 40px;
+  margin-top: 28px;
+  bottom: 0;
+}
+
+footer .mdl-mini-footer__link-list{
+  font-size: 4rem;
+}
+
+div .copyrights{
+  margin-bottom: 10px;
+  background-color: yellow;
+}
+
+footer .copyrights {
+  font-size: 10px;
 
 }
