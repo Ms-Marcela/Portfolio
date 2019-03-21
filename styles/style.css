@@ -2,8 +2,12 @@
 box-sizing: border-box;
 }
 
-body{
-  font-size: 10px;
+:root {
+  font-size: 62.5%;
+  body {
+       /*Body font size 10px*/
+    font-size: 1rem;
+  }
 }
 
 div .workspageprojects{ /*WORKS page space around heading*/
@@ -13,7 +17,7 @@ div .workspageprojects{ /*WORKS page space around heading*/
 
 .workspageprojects h1{
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: bold;
   padding-top: 200px;
   text-align: center;
@@ -27,8 +31,8 @@ div .workspageprojects{ /*WORKS page space around heading*/
 .container-about-me {
 background-color: #ECEBEC;
 font-family: "open sans", Tahoma, sans-serif;
-font-size: 20px;
-line-height: 120%;
+font-size: 2rem;
+line-height: 3.5rem;
 }
 
 
@@ -68,7 +72,7 @@ nav li:last-child {
 .navSection a{
   color: #979797;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   text-align: center;
   text-decoration: none;
   width: 33.33%;
@@ -96,8 +100,8 @@ nav li:last-child {
 .heroIntro p{ /*intro paragraph attributes*/
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 36px;
-  line-height: 59px;
+  font-size: 3.6rem;
+  line-height: 5.9rem;
   margin-left: 84px;
   margin-top: 206px;
   text-align: left;
@@ -131,13 +135,12 @@ section.Irapuato{
 
 section.PhotosLeft p, section.Irapuato p{
   padding-left: 20px;
-
 }
 
 .bioText h1{
   color: #333333;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 36px;
+  font-size: 3.6rem;
   margin-top: 84px;
   text-align: center;
 }
@@ -145,14 +148,20 @@ section.PhotosLeft p, section.Irapuato p{
 .bioText p{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
   margin-top: 50px;
   padding-right: 84px;
   padding-left: 42px;
   text-align: left;
 }
 
+.AboutPhotos2 p{
+  color: #454242;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
 /*index code*/
 div .featuredProjects{
   width: 100%
@@ -161,7 +170,7 @@ div .featuredProjects{
  .featuredProjects h1{  /* Featured Projects-heading*/
   color: black;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 80px;
+  font-size: 8rem;
   font-weight: bold;
   margin-bottom: 120px;
   margin-top: 74px;
@@ -276,21 +285,21 @@ margin-bottom: 100px;
 }
 
 .overlay-content h2{
-  font-size: 60px;
+  font-size: 6rem;
   font-family: "Titillium Web", Verdana, sans-serif;
 }
 
 .overlay-content p{
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 120%;
+  line-height: 4.9rem;
   width: 486px;
 }
 
 .overlay-content .roles{
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 120%;
+  line-height: 4.9rem;
   width: 486px;
 }
 
@@ -300,7 +309,7 @@ margin-bottom: 100px;
   border-radius: 5px;
   color: #fff;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -320,7 +329,7 @@ margin-bottom: 100px;
   border-radius:5px;
   color: #000;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -337,7 +346,7 @@ margin-bottom: 100px;
   border-radius:5px;
   color: #979797;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -356,7 +365,7 @@ margin-bottom: 100px;
 .ArchiaIntro h1{
   color: #3C4663;
   font-family: "Rasa", Times, serif;
-  font-size: 80px;
+  font-size: 8rem;
   text-align: center;
   padding-top: 100px;
 }
@@ -380,8 +389,8 @@ div .SummaryOfProject{
 .SummaryOfProject p{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-bottom: 70px;
   padding-top: 268px;
   padding-left: 293.5px;
@@ -395,7 +404,7 @@ div .SummaryOfProject{
   border-radius: 5px;
   color: #fff;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   position: relative;
   left: 50%;
@@ -413,7 +422,7 @@ div .SummaryOfProject{
   border-radius:5px;
   color: #000;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   position: relative;
   left: 50%;
@@ -444,7 +453,7 @@ div .SummaryOfProject{
 
 .wrap h4{
   color: #454242;
-  font-size: 50px;
+  font-size: 5rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   padding-top: 50px;
   text-align: center;
@@ -480,9 +489,9 @@ div .SummaryOfProject{
 
 .rolescontainer ul{ /*Text inside the containers */
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-left: 58px;
   padding-right: 58px;
@@ -491,9 +500,9 @@ div .SummaryOfProject{
 
 .delivcontainer ul{
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-left: 42px;
   padding-right: 42px;
@@ -502,9 +511,9 @@ div .SummaryOfProject{
 
 .toolscontainer ul{
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-left: 87px;
   padding-right: 87px;
@@ -532,7 +541,7 @@ section.TheProblem {
 /*h2 headings on case study page*/
 .TheProblem h2, .TheSolution h2, .TheProcess h2{
   color: white;
-  font-size: 80px;
+  font-size: 8rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   padding-top: 50px;
@@ -541,9 +550,9 @@ section.TheProblem {
 
 .TheProblem p, .TheSolution p{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-bottom: 100px;
   padding-left: 313px;
@@ -677,7 +686,7 @@ div.UserResearch{       /*The Survey Section*/
 
 .UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
   color: white;
-  font-size: 60px;
+  font-size: 6rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -685,10 +694,10 @@ div.UserResearch{       /*The Survey Section*/
 
 .researchIntro p, .UserPersonas p{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
   height: 112px;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
@@ -723,8 +732,8 @@ div.UserResearch{       /*The Survey Section*/
 .SurveyResults p, .FeaturesFromSurvey p {
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5rem;
   padding-top: 50px;
   padding-bottom: 30px;
   padding-left: 26px;
@@ -735,8 +744,8 @@ div.UserResearch{       /*The Survey Section*/
 .SurveyResults ul, .FeaturesFromSurvey ul{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 2rem;
+  line-height: 3.5px;
   padding-bottom: 50px;
   padding-left: 26px;
   padding-right: 26px;
@@ -781,7 +790,7 @@ div.competitiveimages{
 .compheading h3{
   color: black;
   font-family: "Titillium Web", Tahoma, sans-serif;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -793,8 +802,8 @@ div.competitiveimages{
 .CompAnalysis p{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-left: 189px;
   margin-right: 107px;
   text-align: left;
@@ -803,8 +812,8 @@ div.competitiveimages{
 .lastcompparagraph p{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-left: 189px;
   margin-right: 107px;
   margin-top: 50px;
@@ -815,8 +824,8 @@ div.competitiveimages{
 .CompAnalysis ul{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   list-style-type: disc;
   list-style-position: inside;
   margin-left: 189px;
@@ -878,7 +887,7 @@ div .UserPersonas{
 
 .personaname h6{
   color: white;
-  font-size: 36px;
+  font-size: 3.6rem;
   margin-top: 50px;
   padding-bottom: 16px;
   text-align: center;
@@ -886,7 +895,7 @@ div .UserPersonas{
 
 .personaswrap h7{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   text-align: center;
 }
 
@@ -922,46 +931,46 @@ div .personaname{
 }
 
 div .SilviaInfo ul, div .LIllyInfo ul {
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   margin-top: 40px;
   padding-left: 217px;
   text-align: left;
 }
 
 div .GoalsSilvia{
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-left: 102px;
   padding-right: 99px;
 }
 
 div .GoalsLilly{
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-top: 50px;
   padding-left: 99px;
   padding-right: 102px;
 }
 
 .GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
 }
 
 .GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
 }
 
 div .FrustrationsSilvia{
   margin-top: 50px;
   padding-left: 102px;
   padding-right: 99px;
-  line-height: 42px;
+  line-height: 4.2rem;
 }
 
 div .FrustrationsLilly{
-  line-height: 42px;
+  line-height: 4.2rem;
   margin-top: 92px;
   padding-right: 102px;
   padding-left: 99px;
@@ -988,10 +997,10 @@ div .userstories{
 
 .usersintro p{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
   height: 116px;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
@@ -1000,10 +1009,10 @@ div .userstories{
 
 .HighTasks p, .lowandmedtasks p{
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-weight: bold;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-left: 59px;
   padding-right: 59px;
   padding-top: 68px;
@@ -1029,9 +1038,9 @@ div .lowandmedtasks {
 
 .HighTasks ul, .lowandmedtasks ul{
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   list-style-type: disc;
   list-style-position: inside;
   padding-left: 59px;
@@ -1051,7 +1060,7 @@ div .userflows{
 .userflows h3{
   color: black;
   font-family: "Titillium Web", Tahoma, sans-serif;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: bold;
   margin-bottom: 50px;
   padding-top: 50px;
@@ -1062,9 +1071,9 @@ div .userflows{
 .userflows p{
   color: #454242;
   padding-left: 105px;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
 }
 
 .storieswrap{
@@ -1089,9 +1098,9 @@ div .userflows{
 
 .userflows ul{
   color: #454242;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   list-style-type: disc;
   list-style-position: inside;
   padding-left: 105px;
@@ -1113,19 +1122,19 @@ div .wireframesandmockups{
 
 .wireframesandmockups h3{
 color: white;
-font-size: 60px;
+font-size: 6rem;
 font-family: "Titillium Web", Verdana, sans-serif;
 font-weight: bold;
-
+text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;
 }
 
 .wireframesandmockups p{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-left: 115px;
   padding-right: 115px;
 }
@@ -1226,7 +1235,7 @@ div .branding{
 .brandingintro h3{
   color: white;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: bold;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -1236,8 +1245,8 @@ div .branding{
 .brandingintro p{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
 }
@@ -1293,7 +1302,7 @@ width: 33.33%;
 .colorpalette h5{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: bold;
   padding-left: 105px;
 
@@ -1302,8 +1311,8 @@ width: 33.33%;
 .colorpalette p{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
   padding-top: 50px;
@@ -1336,7 +1345,7 @@ div .highPrototypes{
 .highPrototypes h3{
   color: black;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: bold;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -1346,8 +1355,8 @@ div .highPrototypes{
 .highPrototypes p{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
 }
@@ -1421,7 +1430,7 @@ div .testingresults{
 }
 
 .testingintro h3{
-  font-size: 60px;
+  font-size: 6rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   padding-top: 50px;
@@ -1431,20 +1440,20 @@ div .testingresults{
 
 .testingintro p, .changesApplied p{
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
 }
 
 .testingintro ul{
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 24px;
-  line-height: 42px;
+  font-size: 2.4rem;
+  line-height: 4.2rem;
   list-style: disc;
   list-style-position: inside;
 }
 
 .changesApplied h5{
-  font-size: 45px;
+  font-size: 4.5rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   padding-top: 50px;
@@ -1504,7 +1513,7 @@ div .conclusion{
 
 .conclusionintro h2{
   color: white;
-  font-size: 80px;
+  font-size: 8rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   font-weight: bold;
   padding-top: 50px;
@@ -1514,9 +1523,9 @@ div .conclusion{
 
 .conclusionintro p{
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-family: "Opens Sans", Tahoma, sans-serif;
-  line-height: 42px;
+  line-height: 4.2rem;
   padding-left: 189px;
   padding-right: 189px;
   text-align: left;
@@ -1547,12 +1556,11 @@ footer .contactHeading {
 /*div .contactHeading{
   margin-bottom: 70px;
   margin-top: 71px;
-
 }*/
 
 footer h3{
   color: #fff;
-  font-size: 60px;
+  font-size: 6rem;
   font-family: "Titillium Web", Verdana, sans-serif;
   margin-bottom: 70px;
   margin-top: 71px;
@@ -1577,7 +1585,7 @@ div .copyrights{
 }
 
 footer .copyrights {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: white;
   font-family: "Titillium Web", Verdana, sans-serif;
   padding-bottom: 38px;
@@ -1593,11 +1601,11 @@ footer .copyrights {
   margin-bottom: 156px;
 }
 .workspageprojects h1{
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 .container-about-me{
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .PersonalLogo{
@@ -1614,7 +1622,7 @@ ul#menu li{
   margin-bottom: 23px;
 }
 
-nav li:last-child {
+nav li:last-child  {
   margin-right: 15px;
 }
 
@@ -1623,41 +1631,15 @@ nav li:last-child {
 }
 
 .navSection a{
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .heroIntro p{
-  font-size: 18px;
-  line-height: 29px;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
   margin-left: 15px;
   margin-top: 26px;
   width: 177px;
-}
-
-/*Aboutme.html code*/
-section.biographyRight{
-  float: none;
-  width: 100%;
-  background-color: pink;
-}
-
-section.PhotosLeft{
-  float: none;
-  width: 100%;
-}
-
-.bioText h1{
-  font-size: 26px;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.bioText p{
-  font-size: 18px;
-  line-height: 32px;
-  margin-top: 30px;
-  padding-left: 33.5px;
-  padding-right: 33.5px;
 }
 
 /*index code*/
@@ -1676,26 +1658,26 @@ section.group{
   margin-bottom: 50px;
 }
 
-.projects img, .MyPhoto img, .strawberry img, .Irapuato img {
+.projects img {
   padding-left: 11.37px;
   padding-top: 11.37px;
-  padding-right: 11.37;
+  padding-right: 11.37px;
   padding-bottom: 56.26px;
-  /*width: 100%;*/
+  width: 100%;
 }
 
-section.AboutPhotos2{
+section.AboutPhotos2{ /*section with Irapuato image*/
+  padding-top: 72px;
   margin-bottom: 73px;
 }
 
 .ArchiaImage img{
   width: 100%;
-  object-fit: cover
 }
 
-.mdl-card{ /*space of grid containers from footer & space around*/
-  left: 33px;
-  right: 33px;
+.group .mdl-card{ /*space of grid containers from footer & space around*/
+  left: 33.5px;
+  right: 33.5px;
   width: 100%;
 
 }
@@ -1710,21 +1692,14 @@ div .overlay-content{
 }
 
 .overlay-content h2{
-  font-size: 26px;
-  line-height: 47px;
+  font-size: 2.6rem;
+  line-height: 4.7rem;
 
 }
 
-/*.overlay-content p{
-  font-size: 18px;
-  line-height: 29px;
-  /*width: 197px;
-  text-align: center;
-}*/
-
 .overlay-content p{ /*paragrap describing Archia*/
-  font-size: 18px;
-  line-height: 29px;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
   margin-top: -30px;
   width: 225px;
   text-align: center;
@@ -1732,58 +1707,141 @@ div .overlay-content{
 }
 
 .overlay-content .roles{ /*paragraph describing roles on Archia*/
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 1.2rem;
+  line-height: 2rem;
   padding-bottom: 60px;
   padding-top: 10%;
   width: 235px;
-
 }
 
 .aboutproject p{
-  font-size: 18px;
-  line-height: 29px;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
   width: 240px;
   text-align: center;
 }
-
-
-
 
 div .overlay-content{
   display: inline-block;
 }
 
 .button input {
-  font-size: 15px;
-  margin-top: 80px;
+  font-size: 1.5rem;
+  margin-top: 70px;
   width: 189px;
   height: 44px;
 }
 
 .button input:hover{
-  font-size: 15px;
-  margin-top: 80px;
+  font-size: 1.5rem;
+  margin-top: 70px;
   width: 189px;
   height: 44px;
 }
 
 .inactivebutton input {
-  font-size: 15px;
+  font-size: 1.5rem;
+  margin-top: 70px;
   width: 189px;
   height: 44px;
 }
 
+/*Aboutme.html code*/
+section.biographyRight{
+  float: none;
+  width: 100%;
+  background-color: pink;
+}
 
+section.PhotosLeft{
+  float: none;
+  grid-gap: 0;
+  padding-top: 20px;
+  width: 100%;
+  background-color: yellow;
+}
+
+
+.AboutPhotos .mdl-card{ /*space of grid containers & space around*/
+  left: 33.5px;
+  right: 33.5px;
+  width: 80%;
+}
+
+.AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
+  left: 13px;
+  right: 13px;
+  width: 100%;
+}
+
+.MyPhoto img{
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 56.03px;
+  /*width: 100%;*/
+  width: 283px;
+  height: 249px;
+  object-fit: cover;
+}
+
+.strawberry img {
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 26.03px;
+  width: 283px;
+  height: 249px;
+  /*object-fit: cover;*/
+}
+
+  section.PhotosLeft p, section.Irapuato p{
+  padding-left: 11.37px;
+}
+
+.PhotosLeft p, .AboutPhotos2 p{
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.Irapuato img {
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 26.03px;
+  width: 100%;
+}
+
+section.Irapuato{
+  float: none;
+  width: 100%;
+}
+
+
+.bioText h1{
+  font-size: 2.6rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bioText p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 30px;
+  padding-left: 33.5px;
+  padding-right: 33.5px;
+}
+
+
+/*-------FOOTER-----------*/
 footer.mdl-mini-footer {
   height: 233px;
   margin-bottom: 0;
 }
 
 footer h3{
-  font-size: 40px;
+  font-size: 4rem;
   margin-top: 28px;
-  background-color: yellow;
 }
 
 footer .mdl-mini-footer__link-list{
@@ -1802,7 +1860,10 @@ div .copyrights{
 }
 
 .copyrights p {
-  font-size: 10px;
+  font-size: 1rem;
   padding-bottom: 0;
   overflow: hidden;
+}
+
+
 }
