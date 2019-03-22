@@ -45,6 +45,7 @@ line-height: 3.5rem;
   position: absolute;
 }
 
+
 nav ul{               /*to put the menu in order*/
   display: flex;
   justify-content: flex-end;
@@ -179,11 +180,12 @@ div .featuredProjects{
 }
 
 /*grid*/
-.group:after {
+.group:after, .aboutmeContainer:after {
   content: "";
   clear: both;
   display: table;
 }
+
 
 section.group{
   margin-top: 635px;
@@ -432,7 +434,7 @@ div .SummaryOfProject{
   text-align: center;
 }
 
-.buttonProto. { /*position of the button on that section*/
+.buttonProto { /*position of the button on that section*/
   padding-bottom: 100px;
 }
 
@@ -652,6 +654,7 @@ div.MobileDashboard{
   padding-left: 75px;
   padding-right: 75px;
   width: 100%;
+
 }
 
 div.SolutionButtons{
@@ -718,6 +721,8 @@ div.UserResearch{       /*The Survey Section*/
 
 .SurveyResults {
   background-color: #F8D2C0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 441px;
   margin-right: 20px;
   width: 521px;
@@ -725,6 +730,8 @@ div.UserResearch{       /*The Survey Section*/
 
  .FeaturesFromSurvey{
   background-color: #F8D2C0;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 441px;
   width: 521px;
 }
@@ -1750,15 +1757,12 @@ div .overlay-content{
 section.biographyRight{
   float: none;
   width: 100%;
-  background-color: pink;
 }
 
 section.PhotosLeft{
   float: none;
-  grid-gap: 0;
   padding-top: 20px;
   width: 100%;
-  background-color: yellow;
 }
 
 
@@ -1780,8 +1784,8 @@ section.PhotosLeft{
   padding-right: 11.37px;
   padding-bottom: 56.03px;
   /*width: 100%;*/
-  width: 283px;
-  height: 249px;
+  /*width: 283px;
+  height: 249px;*/
   object-fit: cover;
 }
 
@@ -1790,12 +1794,12 @@ section.PhotosLeft{
   padding-top: 11.37px;
   padding-right: 11.37px;
   padding-bottom: 26.03px;
-  width: 283px;
-  height: 249px;
-  /*object-fit: cover;*/
+  /*width: 283px;
+  height: 249px;*/
+  object-fit: cover;
 }
 
-  section.PhotosLeft p, section.Irapuato p{
+  section.PhotosLeft p, section.Irapuato p{ /*credit on pictures*/
   padding-left: 11.37px;
 }
 
@@ -1809,12 +1813,12 @@ section.PhotosLeft{
   padding-top: 11.37px;
   padding-right: 11.37px;
   padding-bottom: 26.03px;
-  width: 100%;
+  /*width: 100%;*/
+  object-fit: cover;
 }
 
 section.Irapuato{
   float: none;
-  width: 100%;
 }
 
 
@@ -1831,6 +1835,316 @@ section.Irapuato{
   padding-left: 33.5px;
   padding-right: 33.5px;
 }
+
+/*ARCHIA CASE STUDY RESPONSIVE CODE*/
+.ArchiaIntro h1{
+  font-size: 4rem;
+  padding-top: 20px;
+}
+
+div .SummaryOfProject{
+  margin-top: -60px;
+}
+
+.SummaryOfProject p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-bottom: 0;
+  padding-top: 88px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.defaultbutton input {
+  font-size: 1.5rem;
+  margin-top: 50px;
+  width: 189px;
+  height: 44px;
+}
+
+.defaultbutton input:hover{
+  font-size: 1.5rem;
+  margin-top: 50px;
+  width: 189px;
+  height: 44px;
+}
+
+.buttonProto{
+  padding-bottom: 50px;
+}
+
+/*responsive roles, deliverables, toools secion*/
+.wrap{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wrap h4{
+  font-size: 2.2rem;
+  line-height: 4.4px;
+  padding-top: 30px;
+}
+
+.rolescontainer{
+  height: 340px;
+  margin-left: 33px;
+  width: 309px;
+}
+
+.delivcontainer{
+  height: 458px;
+  margin-left: 33px;
+  width: 308px;
+}
+
+.toolscontainer{
+  height: 267px;
+  margin-left: 33px;
+  margin-right: 33px;
+  width: 309px;
+}
+
+.rolescontainer ul{ /*Text inside the containers */
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+.delivcontainer ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.toolscontainer ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.wireframeimage{
+  height: 52.85px;
+  margin-left: 127px;
+  margin-right: 127px;
+  margin-top: 20px;
+  width: 55px;
+}
+
+.toolsimage{
+  height: 51px;
+  margin-left: 128.6px;
+  margin-right: 128.6px;
+  margin-top: 20px;
+  width: 51.79px;
+}
+
+/*responsive The Problem section*/
+
+
+.TheProblem h2, .TheSolution h2, .TheProcess h2{ /*h2 headings on case study page*/
+  font-size: 4rem;
+}
+
+.TheProblem p, .TheSolution p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+}
+
+/*The solution section*/
+.TheSolution p{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 0;
+}
+
+section.TheSolution{
+  margin-top: -25px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.containerImages{
+  display: inline-block;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.LandingPage{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.LandingPage img{
+  padding-right: 63px;
+  padding-left: 63px;
+  width: 100%;
+}
+
+div.DesktopDashboard{
+  width: 100%;
+  float: none;
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+div.MobileBoarding{
+  float: none;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.mobileOne img {
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.mobileTwo img{
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.mobileThree img{
+  padding-left: 0;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.mobileFour img{
+  padding-left: 5px;
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+div.MobileDashboard{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.MobileDashboard img{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+div.SolutionButtons{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.buttonDP{ /*position of the button on that section*/
+  padding-bottom: 0;
+  padding-top: 30px;
+  background-color: pink
+}
+
+.buttonMP{
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: blue;
+}
+
+/*The Process section*/
+.TheProcess h2{
+  padding-top: 50px;
+}
+
+div.UserResearch{       /*The Survey Section*/
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
+  font-size: 3rem;
+}
+
+div .researchIntro{
+  margin-bottom: 60px;
+}
+
+.researchIntro p, .UserPersonas p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+/*div .surveywrap{
+  display: inline-block;
+}*/
+
+div .surveywrap{
+  display: inline-block;
+  background-color: red;
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.surveywrap{
+  
+  padding-top: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.SurveyResults {
+  height: 461px;
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-bottom: 50px;
+  width: 349px;
+}
+
+.FeaturesFromSurvey{ /*container with these features*/
+  height: 279px;
+  margin-right: 13px;
+  margin-left: 13px;
+  width: 349px;
+}
+
+.SurveyResults p, .FeaturesFromSurvey p {
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.SurveyResults ul, .FeaturesFromSurvey ul{
+  font-size: 1.5rem;
+  line-height: 2.7px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.surveybutton{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
 
 
 /*-------FOOTER-----------*/
