@@ -1030,6 +1030,7 @@ div .userstories{
 
 div .HighTasks{
   background-color: #ECEBEB;
+  border-radius: 5px;
   margin-left: 105px;
   margin-right: 105px;
   margin-top: 100px;
@@ -1039,6 +1040,7 @@ div .HighTasks{
 
 div .lowandmedtasks {
   background-color: #ECEBEB;
+  border-radius: 5px;
   margin-left: 105px;
   margin-right: 105px;
   margin-bottom: 150px;
@@ -1192,7 +1194,7 @@ div .mockups{
   height: auto;
 }
 
-.landingmockup img{ /*check on this height*/
+.landingmockup img{
   padding-left: 105px;
   width: 300px;
   height: auto;
@@ -1228,7 +1230,7 @@ div .mockups{
   height: auto;
 }
 
-.wireframebutton{ /* ADD THE LINKS TO THE BUTTONS*/
+.wireframebutton{
   padding-bottom: 50px;
 }
 
@@ -1563,11 +1565,6 @@ footer .contactHeading {
   width: 100%;
 }
 
-/*div .contactHeading{
-  margin-bottom: 70px;
-  margin-top: 71px;
-}*/
-
 footer h3{
   color: #fff;
   font-size: 6rem;
@@ -1602,16 +1599,25 @@ footer .copyrights {
   text-align: center;
 }
 
+
+
+
+
+
 /*--------RESPONSIVE CODE---------*/
 
 /*code for mobile*/
 @media screen and (min-width: 375px) and (orientation: portrait){
   div .workspageprojects{
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 156px;
 }
+
 .workspageprojects h1{
   font-size: 3rem;
+  padding-top: 0;
+  padding-left: 96.5px;
+  padding-right: 96.5px;
 }
 
 .container-about-me{
@@ -1644,11 +1650,13 @@ nav li:last-child  {
   font-size: 2rem;
 }
 
+
 .heroIntro p{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.9rem;
   margin-left: 15px;
   margin-top: 26px;
+  padding-bottom: 35px;
   width: 177px;
 }
 
@@ -1725,10 +1733,18 @@ div .overlay-content{
 }
 
 .aboutproject p{
-  font-size: 1.8rem;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+
+}
+
+.overlay-content p.aboutproject {
+  font-size: 1.6rem;
   line-height: 2.9rem;
-  width: 240px;
-  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: none;
 }
 
 div .overlay-content{
@@ -1786,9 +1802,6 @@ section.PhotosLeft{
   padding-top: 11.37px;
   padding-right: 11.37px;
   padding-bottom: 56.03px;
-  /*width: 100%;*/
-  /*width: 283px;
-  height: 249px;*/
   object-fit: cover;
 }
 
@@ -2065,7 +2078,6 @@ div.SolutionButtons{
 .buttonMP{
   padding-top: 0;
   padding-bottom: 50px;
-  background-color: blue;
 }
 
 /*The Process section*/
@@ -2096,7 +2108,6 @@ div .researchIntro{
   padding-left: 33px;
   padding-right: 33px;
   padding-top: 0;
-  background-color: purple;
 }
 
 div .surveywrap{
@@ -2111,7 +2122,6 @@ div .surveywrap{
   margin-bottom: 50px;
   margin-left: 13px;
   margin-right: 13px;
-  background-color: pink;
 }
 
 .SurveyResults {
@@ -2277,7 +2287,6 @@ div .SilviaPersona{
   border-width: 0;
   margin-top: 0;
   width: 100%;
-  background-color: blue;
 }
 
 div .LillyPersona{
@@ -2409,13 +2418,11 @@ div .userflows{
   font-size: 1.8rem;
   line-height: 3.2rem;
   margin-bottom: 30px;
-  background-color: green;
 }
 
 .storieswrap{
   display: inline-block;
   margin-bottom: 50px;
-  background-color: pink;
 }
 
 .userflowslist{
@@ -2441,17 +2448,444 @@ div .userflows{
 div .userflowslist{
   margin-top: 0;
   margin-bottom: 0;
-  background-color: red;
 }
 
 div .userflowsimage{
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 50px;
-  background-color: red;
 }
 
 /*--------Responsive WIREFRAMES & MOCKUPS SECTIONS------*/
+div .wireframesandmockups{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.wireframesandmockups h3{
+font-size: 3rem;
+margin-bottom: 30px;
+padding-top: 50px;
+padding-bottom: 0;
+}
+
+.wireframesandmockups p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .wireframes{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div .mockups{
+  display: inline-block;
+  margin-bottom: 50px;
+  padding-bottom: 0;
+}
+
+div .sketchone{
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+div .sketchtwo{
+  display: flex;
+  float: right;
+  width: 50%;
+}
+
+.sketchone img{
+  padding-left: 33px;
+  padding-right: 12px;
+  width: 100%;
+}
+
+.sketchtwo img{
+  padding-left: 12px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.landingwireframe img{
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 50px;
+}
+
+.desktopwireframe img{
+  padding-bottom: 0;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.landingmockup img{
+  padding-bottom: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.mobilemockup img{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.desktopdashboardone img{
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.desktoptwomockup img{
+  padding-bottom: 50px;
+  padding-left: 66px;
+  padding-right: 66px;
+  width: 100%;
+}
+
+.mobiletwomockup img{
+  float: left;
+  padding-left: 33px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  width: 60%;
+}
+
+.mobileonboardingtwo img{
+  float: right;
+  padding-left: 5px;
+  padding-right: 33px;
+  width: 40%;
+}
+
+.wireframebutton{
+  padding-bottom: 30px;
+}
+
+/*----Responsive BRANDING SECTION-----*/
+
+div .branding{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.brandingintro h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  padding-top: 50px;
+}
+
+.brandingintro p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .logosketch{
+  margin-top: 50px;
+}
+
+.logosketch img{
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+div .logowrap{
+  margin-bottom: 50px;
+}
+
+.firstlogo img{
+  height: auto;
+  margin-top: 39px;
+  margin-left: 0;
+  padding-left: 33px;
+  width: 100%;
+}
+
+.arrow img{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 72px;
+  width: 100%;
+}
+
+.finallogo img{
+  height: auto;
+  margin-top: 50px;
+  padding-right: 33px;
+  padding-top: 0;
+  width: 100%;
+}
+
+.colorpalette h5{
+  font-size: 2.5rem;
+  padding-left: 33px;
+  margin-bottom: 30px;
+}
+
+.colorpalette p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+div .colorswrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div .salmoncolor, div .bluecolor{
+  display: flex;
+  float: left;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+div .whitecolor, div .blackcolor{
+  display: flex;
+  float: right;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+.salmoncolor img, .bluecolor img{
+  width: 100%;
+  height: 100%;
+  padding-left: 56px;
+  padding-right: 22.5px;
+}
+
+.whitecolor img, .blackcolor img{
+  width: 100%;
+  height: 100%;
+  padding-left: 22.5px;
+  padding-right: 56px;
+}
+
+/*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
+
+div .highPrototypes{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.highPrototypes h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  padding-top: 50px;
+}
+
+.highPrototypes p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .highProtoWrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div .finaldesktoplandingpg {
+  float: none;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 66px;
+  padding-right: 66px;
+  width: 100%;
+}
+
+.finaldesktoplandingpg img{
+  height: auto;
+  width: 100%;
+}
+
+div .finaldesktopdashboard{
+  float: none;
+  margin-bottom: 50px;
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+.finaldesktopdashboard img{
+  height: auto;
+  width: 100%;
+}
+
+.finalmobileonboarding img{
+  padding-left: 0;
+  padding-bottom: 50px;
+  padding-top: 0;
+  width: 100%;
+}
+
+.finalmobiledash img{
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.finaldesktopbutton{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/*--------Responsive User Testing Results Section-------*/
+div .testingresults{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testingintro h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.testingintro p, .changesApplied p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.testingintro ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.changesApplied h5{
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap, div .sixthwrap{
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+  float: none;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/*images on the left*/
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img{
+  padding-right: 13px;
+  padding-left: 13px;
+  width: 100%;
+}
+
+.firsthighlandingpage img {
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.firstmobilelogin img, .secondhighmobilelanding img{
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+  float: none;
+  width: 100%;
+}
+
+
+/*images on the right*/
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img{
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+.secondhighlandingpage img{
+  padding-left: 73px;
+  padding-right: 73px;
+  width: 100%;
+}
+
+
+.finalmobilelogin img{
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.finalmobilelanding img{
+  padding-left: 46px;
+  padding-right: 46px;
+  width: 100%;
+}
+
+/*----Responsive CONCLUSION SECTION----------*/
+div .conclusion{
+  margin-top: -24px;
+}
+
+.conclusionintro h2{
+  font-size: 4rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.conclusionintro p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.conclusionbutton{
+  padding-bottom: 50px;
+}
 
 
 /*-------Responsive FOOTER-----------*/
