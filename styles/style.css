@@ -752,18 +752,15 @@ div.UserResearch{       /*The Survey Section*/
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 2rem;
-  line-height: 3.5px;
+  line-height: 3.5rem;
+  list-style-position: inside;
+  list-style-type: disc;
   padding-bottom: 50px;
   padding-left: 26px;
   padding-right: 26px;
   text-align: left;
 }
 
-.SurveyResults ul, .FeaturesFromSurvey ul {
-  color: #454242;
-  list-style-type: disc;
-  list-style-position: inside;
-}
 
 .surveybutton{
   padding-bottom: 100px;
@@ -826,6 +823,11 @@ div.competitiveimages{
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: left;
+}
+
+.lastcompparagraph{
+    width: 70%;
+    float: left;
 }
 
 .CompAnalysis ul{
@@ -1098,9 +1100,10 @@ div .userflows{
   width: 50%;
 }
 
-.userflowsimage{
+.userflowsimage img{
   float: right;
-  width: 50%;
+  width: 100%;
+  padding-right: 72px;
 }
 
 .userflows ul{
@@ -1775,7 +1778,7 @@ section.PhotosLeft{
 .AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
   left: 13px;
   right: 13px;
-  width: 100%;
+  width: 88%;
 }
 
 .MyPhoto img{
@@ -1813,12 +1816,19 @@ section.PhotosLeft{
   padding-top: 11.37px;
   padding-right: 11.37px;
   padding-bottom: 26.03px;
-  /*width: 100%;*/
+  width: 100%;
   object-fit: cover;
 }
 
 section.Irapuato{
+  bottom: 73px;
+  display: grid;
   float: none;
+  margin-bottom: 73px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 72px;
+  width: 100%;
 }
 
 
@@ -1857,19 +1867,20 @@ div .SummaryOfProject{
 
 .defaultbutton input {
   font-size: 1.5rem;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 189px;
   height: 44px;
 }
 
 .defaultbutton input:hover{
   font-size: 1.5rem;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   width: 189px;
   height: 44px;
 }
 
 .buttonProto{
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
@@ -1972,6 +1983,7 @@ section.TheSolution{
   margin-top: -25px;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 div.containerImages{
@@ -2046,14 +2058,13 @@ div.SolutionButtons{
 }
 
 .buttonDP{ /*position of the button on that section*/
-  padding-bottom: 0;
-  padding-top: 30px;
-  background-color: pink
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
 
 .buttonMP{
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 50px;
   background-color: blue;
 }
 
@@ -2067,7 +2078,7 @@ div.UserResearch{       /*The Survey Section*/
   margin-right: 0;
   margin-top: 50px;
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 .UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
@@ -2075,41 +2086,36 @@ div.UserResearch{       /*The Survey Section*/
 }
 
 div .researchIntro{
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .researchIntro p, .UserPersonas p{
   font-size: 1.8rem;
+  height: auto;
   line-height: 3.2rem;
   padding-left: 33px;
   padding-right: 33px;
   padding-top: 0;
+  background-color: purple;
 }
 
-/*div .surveywrap{
-  display: inline-block;
-}*/
-
 div .surveywrap{
-  display: inline-block;
-  background-color: red;
-  margin-top: 50px;
-  margin-bottom: 0;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
 }
 
 .surveywrap{
-  
-  padding-top: 50px;
-  margin-top: 0;
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 13px;
   margin-right: 13px;
+  background-color: pink;
 }
 
 .SurveyResults {
-  height: 461px;
+  height: auto;
   margin-right: 13px;
   margin-left: 13px;
   margin-bottom: 50px;
@@ -2117,7 +2123,7 @@ div .surveywrap{
 }
 
 .FeaturesFromSurvey{ /*container with these features*/
-  height: 279px;
+  height: auto;
   margin-right: 13px;
   margin-left: 13px;
   width: 349px;
@@ -2126,14 +2132,14 @@ div .surveywrap{
 .SurveyResults p, .FeaturesFromSurvey p {
   font-size: 1.5rem;
   line-height: 2.7rem;
-  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .SurveyResults ul, .FeaturesFromSurvey ul{
   font-size: 1.5rem;
-  line-height: 2.7px;
+  line-height: 2.7rem;
+  margin-top: 0;
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
@@ -2144,10 +2150,311 @@ div .surveywrap{
   padding-top: 50px;
 }
 
+/*Responsive Competitive Analysis section-Archia--*/
+.competitivewrap, .personaswrap{
+  display: inline-block;
+  margin-top: 50px;
+}
+
+div.CompAnalysis{
+  float: none;
+  height: auto;
+  width: 100%;
+}
+
+div.competitiveimages{
+  float: none;
+  height: auto;
+  width: 30%;
+}
+
+.compheading h3{
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.CompAnalysis p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  margin-right: 33px;
+}
+
+.lastcompparagraph p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  margin-right: 33px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.lastcompparagraph{
+    width: 100%;
+    float: none;
+}
+
+.CompAnalysis ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+div .competitiveimages{
+  display: flex;
+  width: 100%;
+}
+
+div .Dropbox{
+  width: 33.33%;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 46px;
+  padding-right: 19px;
+}
+
+.Dropbox img{
+  height: 69px;
+  width: 69px;
+}
+
+div .GoogleDrive{
+  width: 33.33%;
+  margin-bottom: 50px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.GoogleDrive img{
+  height: 64px;
+  width: 74px;
+}
+
+div .Pinterest{
+  padding-right: 46px;
+  padding-left: 19px;
+  margin-bottom: 50px;
+  width: 33.33%;
+}
+
+.Pinterest img{
+  width: 64px;
+  height: 64px;
+}
+
+.competitivebutton{
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+/*-------Responsive USER PERSONAS SECTION-------*/
+
+div .UserPersonas{
+  font-family: "Open Sans", Tahoma, sans-serif; /*set font for all section*/
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.personaname h6{
+  font-size: 2.6rem;
+  margin-top: 15px;
+  padding-bottom: 0;
+}
+
+.personaswrap h7{
+  font-size: 1.8rem;
+}
+
+div .SilviaPersona{
+  float: none;
+  border-style: none;
+  border-color: none;
+  border-width: 0;
+  margin-top: 0;
+  width: 100%;
+  background-color: blue;
+}
+
+div .LillyPersona{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.SilviaPersona img, .LillyPersona img{
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 0;
+  width: 100%;
+  height: auto;
+}
+
+div .personaname{
+  margin-top: 15px;
+}
+
+.personaname h7{ /*job description*/
+  padding-top: 0;
+  text-align: center;
+}
+
+div .SilviaInfo ul, div .LIllyInfo ul {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 30px;
+  padding-left: 105.5px;
+  padding-right: 105.5px;
+}
 
 
+div .GoalsSilvia, div .GoalsLilly{
+  line-height: 3.2rem;
+  padding-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
 
-/*-------FOOTER-----------*/
+.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
+  font-size: 1.8rem;
+}
+
+.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+div .FrustrationsSilvia, div .FrustrationsLilly{
+  margin-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  line-height: 3.2rem;
+}
+
+div .FrustrationsLilly{
+  padding-bottom: 50px;
+}
+
+.personasbutton{
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*-----Responsive USER STORIES SECTIONS----*/
+
+div .userstories{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 30px;
+}
+
+.usersintro p{
+  font-size: 1.8rem;
+  height: auto;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+div .HighTasks, div .lowandmedtasks{
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+div .lowandmedtasks{
+  margin-bottom: 75px;
+}
+
+.HighTasks p, .lowandmedtasks p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.HighTasks ul, .lowandmedtasks ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------------Responsive USER FLOWS SECTION--------*/
+div .userflows{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.userflows h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.userflows p{
+  padding-left: 33px;
+  padding-right: 33px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-bottom: 30px;
+  background-color: green;
+}
+
+.storieswrap{
+  display: inline-block;
+  margin-bottom: 50px;
+  background-color: pink;
+}
+
+.userflowslist{
+  float: none;
+  width: 100%;
+}
+
+.userflowsimage img{
+  float: none;
+  width: 100%;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.userflows ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 50px;
+}
+
+div .userflowslist{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: red;
+}
+
+div .userflowsimage{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  background-color: red;
+}
+
+/*--------Responsive WIREFRAMES & MOCKUPS SECTIONS------*/
+
+
+/*-------Responsive FOOTER-----------*/
 footer.mdl-mini-footer {
   height: 233px;
   margin-bottom: 0;
