@@ -67,7 +67,7 @@ nav li:last-child {
 .navSection {     /* the black background of the navigation menu*/
   background-color: black;
   height: 121px;
-  width: 100%
+  width: 100%;
 }
 
 .navSection a{
@@ -88,27 +88,50 @@ nav li:last-child {
   color: white;
 }
 
-#backgroundimage {    /*background image attributes*/
+header{
+  background: url("../images/HeroImageMine.png") center / cover;
+  height: 80vh;
+  justify-content: center;
+}
+
+
+
+header p{ /*intro paragraph attributes*/
+  color: white;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  font-size: 3.6rem;
+  line-height: 5.9rem;
+  padding-left: 84px;
+  padding-right: 730px;
+  padding-top: 206px;
+}
+
+/*#backgroundimage {    /*background image attributes
   background: url("../images/HeroImageMine.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: cover;
   height: 100%;
   position: absolute;
-  width: 100%;
+  width: 100%;*/
 }
 
-.heroIntro p{ /*intro paragraph attributes*/
+/*header p{ /*intro paragraph attributes
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 3.6rem;
-  line-height: 5.9rem;
+  /*line-height: 5.9rem;
   margin-left: 84px;
   margin-top: 206px;
   text-align: left;
-  width: 626px;
-  position: absolute;
+  /*width: 626px;*/
+  /*position: absolute;*/
 }
+
+/*.group {
+  max-width: 900px;
+}
+
 
 /*Aboutme.html code*/
 section.biographyRight{
@@ -163,9 +186,10 @@ section.PhotosLeft p, section.Irapuato p{
   font-size: 1.6rem;
   line-height: 2.6rem;
 }
+
 /*index code*/
 div .featuredProjects{
-  width: 100%
+  width: 100%;
 }
 
  .featuredProjects h1{  /* Featured Projects-heading*/
@@ -186,12 +210,10 @@ div .featuredProjects{
   display: table;
 }
 
-
 section.group{
-  margin-top: 635px;
-  margin-bottom: 234px;
-  text-align: center;
+  padding-bottom: 234px;
 }
+
 
 .content-grid {
   position: relative;
@@ -1607,7 +1629,19 @@ footer .copyrights {
 /*--------RESPONSIVE CODE---------*/
 
 /*code for mobile*/
+
+
 @media screen and (min-width: 375px) and (orientation: portrait){
+  header.mdl-layout__header {
+    display: flex;
+  }
+
+  header{
+    width: auto;
+    height: 35vh;
+
+  }
+
   div .workspageprojects{
   margin-top: 150px;
   margin-bottom: 156px;
@@ -1651,18 +1685,29 @@ nav li:last-child  {
 }
 
 
-.heroIntro p{
+header p{ /*intro paragraph attributes*/
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  padding-left: 15px;
+  padding-right: 183px;
+  padding-top: 26px;
+}
+
+
+
+/*.heroIntro p{
   font-size: 1.6rem;
   line-height: 2.9rem;
   margin-left: 15px;
   margin-top: 26px;
   padding-bottom: 35px;
   width: 177px;
-}
+}*/
 
 /*index code*/
 section.featuredProjects{
   margin-top: 30px;
+
 }
 
 .featuredProjects h1{  /* Featured Projects-heading*/
@@ -1672,8 +1717,7 @@ section.featuredProjects{
 }
 
 section.group{
-  margin-top: 172px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .projects img {
@@ -1867,6 +1911,7 @@ section.Irapuato{
 
 div .SummaryOfProject{
   margin-top: -60px;
+  width: 100%;
 }
 
 .SummaryOfProject p{
@@ -1913,12 +1958,16 @@ div .SummaryOfProject{
 .rolescontainer{
   height: 340px;
   margin-left: 33px;
+  margin-right: 33px;
   width: 309px;
+  text-align: center;
 }
 
 .delivcontainer{
   height: 458px;
   margin-left: 33px;
+  margin-right: 33px;
+  text-align: center;
   width: 308px;
 }
 
@@ -1926,6 +1975,7 @@ div .SummaryOfProject{
   height: 267px;
   margin-left: 33px;
   margin-right: 33px;
+  text-align: center;
   width: 309px;
 }
 
@@ -2919,6 +2969,4 @@ div .copyrights{
   padding-bottom: 0;
   overflow: hidden;
 }
-
-
 }
