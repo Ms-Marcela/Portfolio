@@ -106,33 +106,6 @@ header p{ /*intro paragraph attributes*/
   padding-top: 206px;
 }
 
-/*#backgroundimage {    /*background image attributes
-  background: url("../images/HeroImageMine.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: cover;
-  height: 100%;
-  position: absolute;
-  width: 100%;*/
-}
-
-/*header p{ /*intro paragraph attributes
-  color: white;
-  font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 3.6rem;
-  /*line-height: 5.9rem;
-  margin-left: 84px;
-  margin-top: 206px;
-  text-align: left;
-  /*width: 626px;*/
-  /*position: absolute;*/
-}
-
-/*.group {
-  max-width: 900px;
-}
-
-
 /*Aboutme.html code*/
 section.biographyRight{
   float: right;
