@@ -1604,7 +1604,7 @@ footer .copyrights {
 /*code for mobile*/
 
 
-@media screen and (min-width: 375px) and (orientation: portrait){
+@media screen and (min-width: 375px) and (max-width: 600px){
   header.mdl-layout__header {
     display: flex;
   }
@@ -1662,10 +1662,10 @@ header p{ /*intro paragraph attributes*/
   font-size: 1.8rem;
   line-height: 2.9rem;
   padding-left: 15px;
-  padding-right: 183px;
+  padding-right: 133px;
+  padding-bottom: 35px;
   padding-top: 26px;
 }
-
 
 /*index code*/
 section.featuredProjects{
@@ -1910,6 +1910,8 @@ div .SummaryOfProject{
   display: inline-block;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 100%;
+
 }
 
 .wrap h4{
@@ -1920,24 +1922,27 @@ div .SummaryOfProject{
 
 .rolescontainer{
   height: 340px;
-  margin-left: 33px;
-  margin-right: 33px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
   width: 309px;
-  text-align: center;
+  margin: 0 auto;
+  /*text-align: center;*/
 }
 
 .delivcontainer{
   height: 458px;
-  margin-left: 33px;
-  margin-right: 33px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
+  margin: 0 auto;
   text-align: center;
   width: 308px;
 }
 
 .toolscontainer{
   height: 267px;
-  margin-left: 33px;
-  margin-right: 33px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
+  margin: 0 auto;
   text-align: center;
   width: 309px;
 }
@@ -2133,22 +2138,25 @@ div .surveywrap{
   padding-top: 0;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 13px;
-  margin-right: 13px;
+  /*margin-left: 13px;
+  margin-right: 13px;*/
+  width: 100%;
 }
 
 .SurveyResults {
   height: auto;
-  margin-right: 13px;
-  margin-left: 13px;
+  /*margin-right: 13px;
+  margin-left: 13px;*/
+  margin: 0 auto;
   margin-bottom: 50px;
   width: 349px;
 }
 
 .FeaturesFromSurvey{ /*container with these features*/
   height: auto;
-  margin-right: 13px;
-  margin-left: 13px;
+  /*margin-right: 13px;
+  margin-left: 13px;*/
+  margin: 0 auto;
   width: 349px;
 }
 
@@ -2385,11 +2393,13 @@ div .userstories{
 }
 
 div .HighTasks, div .lowandmedtasks{
-  margin-left: 13px;
-  margin-right: 13px;
+  /*margin-left: 13px;
+  margin-right: 13px;*/
+  margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
   padding-bottom: 50px;
+  width: 94%;
 }
 
 div .lowandmedtasks{
@@ -2868,12 +2878,14 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
 .finalmobilelogin img{
   padding-left: 33px;
   padding-right: 33px;
+  text-align: center;
   width: 100%;
 }
 
 .finalmobilelanding img{
   padding-left: 46px;
   padding-right: 46px;
+  text-align: center;
   width: 100%;
 }
 
@@ -2899,6 +2911,74 @@ div .conclusion{
 .conclusionbutton{
   padding-bottom: 50px;
 }
+
+
+
+/*---------RESPONSIVE TABLET SECTION--------------*/
+
+@media screen and (max-width: 601px){
+  header.mdl-layout__header {
+    display: flex;
+  }
+
+header{
+  width: auto;
+  height: 65vh;
+}
+
+header p{
+  padding-top: 25px;
+  padding-right: 230px;
+  width: auto;
+  height: 55vh;
+}
+
+  .featuredProjects h1{  /* Featured Projects-heading*/
+    font-size: 6rem;
+  }
+
+  /*.projects img {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 99px;
+  }
+
+  .overlay {
+    margin: 20px 20px 99px 20px;
+
+  }
+
+  .overlay-content h2{
+    font-size: 6rem;
+    width: 100%;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    background-color: green;
+  }
+
+div .overlay-content{
+  width: 90%;
+}
+
+  .overlay-content p{ /*paragraph describing Archia
+    font-size: 3rem;
+    width: 100%;
+    background-color: purple;
+  }
+
+  .overlay-content .roles{
+    font-size: 2.4rem;
+    width: 100%;
+  }
+
+  .overlay-content p.aboutproject {
+    font-size: 1.6rem;
+    line-height: 2.9rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: none;
+  }
 
 
 /*-------Responsive FOOTER-----------*/
