@@ -1,0 +1,95 @@
+/*---------RESPONSIVE TABLET SECTION--------------*/
+
+@media only screen and (min-width: 768px) and  (max-width: 1023px){
+  header.mdl-layout__header {
+    display: inline-block;
+  }
+
+header{
+  width: auto;
+  height: 65vh;
+}
+
+header p{
+  font-size: 3.6rem;
+  line-height: 5.9rem;
+  padding-left: 84px;
+}
+
+.PersonalLogo{        /* size and position of the personal logo*/
+  height: 65px;
+  width: 57px;
+  margin-top: 28px;
+  margin-left: 84px;
+  margin-bottom: 28px;
+}
+
+ul#menu li{
+  margin-top: 51px;
+  margin-left: 45px;
+  margin-bottom: 45px;
+}
+
+nav li:last-child {
+  margin-right: 84px;
+}
+
+.navSection{
+   height: 121px;
+}
+
+.navSection a{
+  font-size: 3rem;
+}
+
+.featuredProjects h1{  /* Featured Projects-heading*/
+  font-size: 8rem;
+  margin-bottom: 120px;
+  margin-top: 74px;
+  }
+
+  section.group{
+    padding-bottom: 234px;
+  }
+
+
+  .mdl-card{ /*space of grid containers from footer & space around*/
+    left: 84px;
+    right: 84px;
+    width: 100%;
+  }
+
+
+  div .overlay-content{
+    display: inline-block;
+    width: 100%;
+    background-color: green;
+  }
+
+  .overlay-content h2{
+    font-size: 6rem;
+    background-color: red;
+
+  }
+
+
+
+  .overlay-content p{ /*paragraph describing Archia*/
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .overlay-content .roles{
+  font-size: 2.4rem;
+  font-family: "Open Sans", Tahoma, sans-serif;
+  line-height: 4.9rem;
+  width: 486px;
+  background-color: red;
+}
+
+  .overlay-content p.aboutproject {
+    font-size: 2.4rem;
+    line-height: 4.9rem;
+    width: 100%;
+  }
+}

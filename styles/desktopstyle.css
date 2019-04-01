@@ -9,6 +9,8 @@
 * {
 box-sizing: border-box;
 }
+
+@media only screen and (min-width: 1024px){
 /*index code*/
 .container{
   background-color: #ECEBEC;
@@ -80,8 +82,8 @@ header p{ /*intro paragraph attributes*/
   font-size: 3.6rem;
   line-height: 5.9rem;
   padding-left: 84px;
-  padding-top: 10%;
-  width: 55%;
+  padding-right: 730px;
+  padding-top: 206px;
 }
 
 

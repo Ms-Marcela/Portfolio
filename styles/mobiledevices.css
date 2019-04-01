@@ -1,0 +1,1334 @@
+/*--------RESPONSIVE CODE---------*/
+
+/*code for mobile*/
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+  header.mdl-layout__header {
+    display: flex;
+  }
+
+  header{
+    width: auto;
+    height: 35vh;
+
+  }
+
+  div .workspageprojects{
+  margin-top: 150px;
+  margin-bottom: 156px;
+}
+
+.workspageprojects h1{
+  font-size: 3rem;
+  padding-top: 0;
+  padding-left: 96.5px;
+  padding-right: 96.5px;
+}
+
+.container-about-me{
+  font-size: 1.8rem;
+}
+
+.PersonalLogo{
+  height: 32px;
+  width: 28px;
+  margin-top: 15px;
+  margin-left: 13px;
+  margin-bottom: 14px;
+}
+
+ul#menu li{
+  margin-top: 26px;
+  margin-left: 22px;
+  margin-bottom: 23px;
+}
+
+nav li:last-child  {
+  margin-right: 15px;
+}
+
+.navSection{
+   height: 61px;
+}
+
+.navSection a{
+  font-size: 2rem;
+}
+
+
+header p{ /*intro paragraph attributes*/
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  padding-left: 15px;
+}
+
+/*index code*/
+section.featuredProjects{
+  margin-top: 30px;
+
+}
+
+.featuredProjects h1{  /* Featured Projects-heading*/
+  font-size: 6rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section.group{
+  padding-bottom: 50px;
+}
+
+section.AboutPhotos2{ /*section with Irapuato image*/
+  padding-top: 72px;
+  margin-bottom: 73px;
+}
+
+.ArchiaImage img{
+  width: 100%;
+}
+
+.group .mdl-card{ /*space of grid containers from footer & space around*/
+  left: 33.5px;
+  right: 33.5px;
+  width: 100%;
+
+}
+
+.overlay{
+  /*margin: 11.37px 11.37px 56.26px 11.37px;*/
+  text-align: center;
+}
+
+div .overlay-content{
+  margin-top:20px;
+}
+
+.overlay-content h2{
+  font-size: 2.6rem;
+  line-height: 4.7rem;
+
+}
+
+.overlay-content p{ /*paragrap describing Archia*/
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+  margin-top: -30px;
+  width: 225px;
+  text-align: center;
+
+}
+
+.overlay-content .roles{ /*paragraph describing roles on Archia*/
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 60px;
+  padding-top: 10%;
+  width: 235px;
+}
+
+.aboutproject p{
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+
+}
+
+.overlay-content p.aboutproject {
+  font-size: 1.6rem;
+  line-height: 2.9rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: none;
+}
+
+div .overlay-content{
+  display: inline-block;
+}
+
+.button input {
+  font-size: 1.5rem;
+  margin-top: 70px;
+  width: 189px;
+  height: 44px;
+}
+
+.button input:hover{
+  font-size: 1.5rem;
+  margin-top: 70px;
+  width: 189px;
+  height: 44px;
+}
+
+.inactivebutton input {
+  font-size: 1.5rem;
+  margin-top: 70px;
+  width: 189px;
+  height: 44px;
+}
+
+/*Aboutme.html code*/
+section.biographyRight{
+  float: none;
+  width: 100%;
+}
+
+section.PhotosLeft{
+  float: none;
+  padding-top: 20px;
+  width: 100%;
+}
+
+
+.AboutPhotos .mdl-card{ /*space of grid containers & space around*/
+  left: 33.5px;
+  right: 33.5px;
+  width: 80%;
+}
+
+.AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
+  left: 13px;
+  right: 13px;
+  width: 88%;
+}
+
+.MyPhoto img{
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 56.03px;
+  object-fit: cover;
+}
+
+.strawberry img {
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 26.03px;
+  /*width: 283px;
+  height: 249px;*/
+  object-fit: cover;
+}
+
+  section.PhotosLeft p, section.Irapuato p{ /*credit on pictures*/
+  padding-left: 11.37px;
+}
+
+.PhotosLeft p, .AboutPhotos2 p{
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+.Irapuato img {
+  padding-left: 11.37px;
+  padding-top: 11.37px;
+  padding-right: 11.37px;
+  padding-bottom: 26.03px;
+  width: 100%;
+  object-fit: cover;
+}
+
+section.Irapuato{
+  bottom: 73px;
+  display: grid;
+  float: none;
+  margin-bottom: 73px;
+  padding-right: 13px;
+  padding-left: 13px;
+  padding-top: 72px;
+  width: 100%;
+}
+
+
+.bioText h1{
+  font-size: 2.6rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bioText p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 30px;
+  padding-left: 33.5px;
+  padding-right: 33.5px;
+}
+
+/*ARCHIA CASE STUDY RESPONSIVE CODE*/
+.ArchiaIntro h1{
+  font-size: 4rem;
+  padding-top: 20px;
+}
+
+div .SummaryOfProject{
+  margin-top: -60px;
+  width: 100%;
+}
+
+.SummaryOfProject p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-bottom: 0;
+  padding-top: 88px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.defaultbutton input {
+  font-size: 1.5rem;
+  /*margin-top: 50px;*/
+  width: 189px;
+  height: 44px;
+}
+
+.defaultbutton input:hover{
+  font-size: 1.5rem;
+  /*margin-top: 50px;*/
+  width: 189px;
+  height: 44px;
+}
+
+.buttonProto{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*responsive roles, deliverables, toools secion*/
+.wrap{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+.wrap h4{
+  font-size: 2.2rem;
+  line-height: 4.4px;
+  padding-top: 30px;
+}
+
+.rolescontainer{
+  height: 340px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
+  width: 309px;
+  margin: 0 auto;
+  /*text-align: center;*/
+}
+
+.delivcontainer{
+  height: 458px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
+  margin: 0 auto;
+  text-align: center;
+  width: 308px;
+}
+
+.toolscontainer{
+  height: 267px;
+  /*margin-left: 33px;
+  margin-right: 33px;*/
+  margin: 0 auto;
+  text-align: center;
+  width: 309px;
+}
+
+.rolescontainer ul{ /*Text inside the containers */
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+.delivcontainer ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.toolscontainer ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 30px;
+  padding-left: 86px;
+  padding-right: 86px;
+}
+
+.wireframeimage{
+  height: 52.85px;
+  margin-left: 127px;
+  margin-right: 127px;
+  margin-top: 20px;
+  width: 55px;
+}
+
+.toolsimage{
+  height: 51px;
+  margin-left: 128.6px;
+  margin-right: 128.6px;
+  margin-top: 20px;
+  width: 51.79px;
+}
+
+/*responsive The Problem section*/
+
+
+.TheProblem h2, .TheSolution h2, .TheProcess h2{ /*h2 headings on case study page*/
+  font-size: 4rem;
+}
+
+.TheProblem p, .TheSolution p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+}
+
+/*The solution section*/
+.TheSolution p{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 0;
+}
+
+section.TheSolution{
+  margin-top: -25px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+div.containerImages{
+  display: inline-block;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.LandingPage{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.LandingPage img{
+  padding-right: 63px;
+  padding-left: 63px;
+  width: 100%;
+}
+
+div.DesktopDashboard{
+  width: 100%;
+  float: none;
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+div.MobileBoarding{
+  float: none;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.mobileOne img {
+  padding-left: 0;
+  padding-right: 5px;
+}
+
+.mobileTwo img{
+  padding-left: 5px;
+  padding-right: 0;
+}
+
+.mobileThree img{
+  padding-left: 0;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.mobileFour img{
+  padding-left: 5px;
+  padding-right: 0;
+  padding-top: 10px;
+}
+
+div.MobileDashboard{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.MobileDashboard img{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+div.SolutionButtons{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.buttonDP{ /*position of the button on that section*/
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.buttonMP{
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+/*The Process section*/
+.TheProcess h2{
+  padding-top: 50px;
+}
+
+div.UserResearch{       /*The Survey Section*/
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
+  font-size: 3rem;
+}
+
+div .researchIntro{
+  margin-bottom: 0;
+}
+
+.researchIntro p, .UserPersonas p{
+  font-size: 1.8rem;
+  height: auto;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+div .surveywrap{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.surveywrap{
+  display: inline-block;
+  padding-top: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /*margin-left: 13px;
+  margin-right: 13px;*/
+  width: 100%;
+}
+
+.SurveyResults {
+  height: auto;
+  /*margin-right: 13px;
+  margin-left: 13px;*/
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 349px;
+}
+
+.FeaturesFromSurvey{ /*container with these features*/
+  height: auto;
+  /*margin-right: 13px;
+  margin-left: 13px;*/
+  margin: 0 auto;
+  width: 349px;
+}
+
+.SurveyResults p, .FeaturesFromSurvey p {
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.SurveyResults ul, .FeaturesFromSurvey ul{
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  margin-top: 0;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.surveybutton{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+/*Responsive Competitive Analysis section-Archia--*/
+.competitivewrap, .personaswrap{
+  display: inline-block;
+  margin-top: 50px;
+}
+
+div.CompAnalysis{
+  float: none;
+  height: auto;
+  width: 100%;
+}
+
+div.competitiveimages{
+  float: none;
+  height: auto;
+  width: 30%;
+}
+
+.compheading h3{
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.CompAnalysis p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  margin-right: 33px;
+}
+
+.lastcompparagraph p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  margin-right: 33px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.lastcompparagraph{
+    width: 100%;
+    float: none;
+}
+
+.CompAnalysis ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+div .competitiveimages{
+  display: flex;
+  width: 100%;
+}
+
+div .Dropbox{
+  width: 33.33%;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 46px;
+  padding-right: 19px;
+}
+
+.Dropbox img{
+  height: 69px;
+  width: 69px;
+}
+
+div .GoogleDrive{
+  width: 33.33%;
+  margin-bottom: 50px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.GoogleDrive img{
+  height: 64px;
+  width: 74px;
+}
+
+div .Pinterest{
+  padding-right: 46px;
+  padding-left: 19px;
+  margin-bottom: 50px;
+  width: 33.33%;
+}
+
+.Pinterest img{
+  width: 64px;
+  height: 64px;
+}
+
+.competitivebutton{
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+/*-------Responsive USER PERSONAS SECTION-------*/
+
+div .UserPersonas{
+  font-family: "Open Sans", Tahoma, sans-serif; /*set font for all section*/
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.personaname h6{
+  font-size: 2.6rem;
+  margin-top: 15px;
+  padding-bottom: 0;
+}
+
+.personaswrap h7{
+  font-size: 1.8rem;
+}
+
+div .SilviaPersona{
+  float: none;
+  border-style: none;
+  border-color: none;
+  border-width: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+div .LillyPersona{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.SilviaPersona img, .LillyPersona img{
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 0;
+  width: 100%;
+  height: auto;
+}
+
+div .personaname{
+  margin-top: 15px;
+}
+
+.personaname h7{ /*job description*/
+  padding-top: 0;
+  text-align: center;
+}
+
+div .SilviaInfo ul, div .LIllyInfo ul {
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-top: 30px;
+  padding-left: 105.5px;
+  padding-right: 105.5px;
+}
+
+
+div .GoalsSilvia, div .GoalsLilly{
+  line-height: 3.2rem;
+  padding-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
+  font-size: 1.8rem;
+}
+
+.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+}
+
+div .FrustrationsSilvia, div .FrustrationsLilly{
+  margin-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  line-height: 3.2rem;
+}
+
+div .FrustrationsLilly{
+  padding-bottom: 50px;
+}
+
+.personasbutton{
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+/*-----Responsive USER STORIES SECTIONS----*/
+
+div .userstories{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 30px;
+}
+
+.usersintro p{
+  font-size: 1.8rem;
+  height: auto;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+div .HighTasks, div .lowandmedtasks{
+  /*margin-left: 13px;
+  margin-right: 13px;*/
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  width: 94%;
+}
+
+div .lowandmedtasks{
+  margin-bottom: 75px;
+}
+
+.HighTasks p, .lowandmedtasks p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+
+.HighTasks ul, .lowandmedtasks ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------------Responsive USER FLOWS SECTION--------*/
+div .userflows{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.userflows h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.userflows p{
+  padding-left: 33px;
+  padding-right: 33px;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  margin-bottom: 30px;
+}
+
+.storieswrap{
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.userflowslist{
+  float: none;
+  width: 100%;
+}
+
+.userflowsimage img{
+  float: none;
+  width: 100%;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.userflows ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 50px;
+}
+
+div .userflowslist{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div .userflowsimage{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+/*--------Responsive WIREFRAMES & MOCKUPS SECTIONS------*/
+div .wireframesandmockups{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.wireframesandmockups h3{
+font-size: 3rem;
+margin-bottom: 30px;
+padding-top: 50px;
+padding-bottom: 0;
+}
+
+.wireframesandmockups p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .wireframes{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+div .mockups{
+  display: inline-block;
+  margin-bottom: 50px;
+  padding-bottom: 0;
+}
+
+div .sketchone{
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+div .sketchtwo{
+  display: flex;
+  float: right;
+  width: 50%;
+}
+
+.sketchone img{
+  padding-left: 33px;
+  padding-right: 12px;
+  width: 100%;
+}
+
+.sketchtwo img{
+  padding-left: 12px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.landingwireframe img{
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 50px;
+}
+
+.desktopwireframe img{
+  padding-bottom: 0;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.landingmockup img{
+  padding-bottom: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.mobilemockup img{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.desktopdashboardone img{
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.desktoptwomockup img{
+  padding-bottom: 50px;
+  padding-left: 66px;
+  padding-right: 66px;
+  width: 100%;
+}
+
+.mobiletwomockup img{
+  float: left;
+  padding-left: 33px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  width: 60%;
+}
+
+.mobileonboardingtwo img{
+  float: right;
+  padding-left: 5px;
+  padding-right: 33px;
+  width: 40%;
+}
+
+.wireframebutton{
+  padding-bottom: 30px;
+}
+
+/*----Responsive BRANDING SECTION-----*/
+
+div .branding{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.brandingintro h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  padding-top: 50px;
+}
+
+.brandingintro p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .logosketch{
+  margin-top: 50px;
+}
+
+.logosketch img{
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+div .logowrap{
+  margin-bottom: 50px;
+}
+
+.firstlogo img{
+  height: auto;
+  margin-top: 39px;
+  margin-left: 0;
+  padding-left: 33px;
+  width: 100%;
+}
+
+.arrow img{
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 72px;
+  width: 100%;
+}
+
+.finallogo img{
+  height: auto;
+  margin-top: 50px;
+  padding-right: 33px;
+  padding-top: 0;
+  width: 100%;
+}
+
+.colorpalette h5{
+  font-size: 2.5rem;
+  padding-left: 33px;
+  margin-bottom: 30px;
+}
+
+.colorpalette p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 0;
+}
+
+div .colorswrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div .salmoncolor, div .bluecolor{
+  display: flex;
+  float: left;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+div .whitecolor, div .blackcolor{
+  display: flex;
+  float: right;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+.salmoncolor img, .bluecolor img{
+  width: 100%;
+  height: 100%;
+  padding-left: 56px;
+  padding-right: 22.5px;
+}
+
+.whitecolor img, .blackcolor img{
+  width: 100%;
+  height: 100%;
+  padding-left: 22.5px;
+  padding-right: 56px;
+}
+
+/*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
+
+div .highPrototypes{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.highPrototypes h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-bottom: 0;
+  padding-top: 50px;
+}
+
+.highPrototypes p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .highProtoWrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div .finaldesktoplandingpg {
+  float: none;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 66px;
+  padding-right: 66px;
+  width: 100%;
+}
+
+.finaldesktoplandingpg img{
+  height: auto;
+  width: 100%;
+}
+
+div .finaldesktopdashboard{
+  float: none;
+  margin-bottom: 50px;
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+.finaldesktopdashboard img{
+  height: auto;
+  width: 100%;
+}
+
+.finalmobileonboarding img{
+  padding-left: 0;
+  padding-bottom: 50px;
+  padding-top: 0;
+  width: 100%;
+}
+
+.finalmobiledash img{
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.finaldesktopbutton{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/*--------Responsive User Testing Results Section-------*/
+div .testingresults{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testingintro h3{
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.testingintro p, .changesApplied p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.testingintro ul{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.changesApplied h5{
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap, div .sixthwrap{
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+  float: none;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/*images on the left*/
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img{
+  padding-right: 13px;
+  padding-left: 13px;
+  width: 100%;
+}
+
+.firsthighlandingpage img {
+  padding-right: 60px;
+  padding-left: 60px;
+  width: 100%;
+}
+
+.firstmobilelogin img, .secondhighmobilelanding img{
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+  float: none;
+  width: 100%;
+}
+
+
+/*images on the right*/
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img{
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
+
+.secondhighlandingpage img{
+  padding-left: 73px;
+  padding-right: 73px;
+  width: 100%;
+}
+
+
+.finalmobilelogin img{
+  padding-left: 33px;
+  padding-right: 33px;
+  text-align: center;
+  width: 100%;
+}
+
+.finalmobilelanding img{
+  padding-left: 46px;
+  padding-right: 46px;
+  text-align: center;
+  width: 100%;
+}
+
+/*----Responsive CONCLUSION SECTION----------*/
+div .conclusion{
+  margin-top: -24px;
+}
+
+.conclusionintro h2{
+  font-size: 4rem;
+  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.conclusionintro p{
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.conclusionbutton{
+  padding-bottom: 50px;
+}
+
+/*-------Responsive FOOTER-----------*/
+footer.mdl-mini-footer {
+  height: 233px;
+  margin-bottom: 0;
+}
+
+footer h3{
+  font-size: 4rem;
+  margin-top: 28px;
+}
+
+footer .mdl-mini-footer__link-list{
+  font-size: 4rem;
+
+}
+
+.footerwrap{
+  margin-top: -54px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+div .copyrights{
+  margin-top: 0;
+}
+
+.copyrights p {
+  font-size: 1rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+}
