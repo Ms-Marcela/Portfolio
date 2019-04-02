@@ -97,10 +97,16 @@ section.AboutPhotos2{ /*section with Irapuato image*/
 
 .overlay{
   /*margin: 11.37px 11.37px 56.26px 11.37px;*/
+  margin-bottom: 56.26px;
   text-align: center;
 }
 
+.projects img{
+  padding-bottom: 56.26px;
+}
+
 div .overlay-content{
+  display: inline-block;
   margin-top:20px;
 }
 
@@ -142,9 +148,6 @@ div .overlay-content{
   text-align: none;
 }
 
-div .overlay-content{
-  display: inline-block;
-}
 
 .button input {
   font-size: 1.5rem;

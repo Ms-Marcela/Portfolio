@@ -203,7 +203,7 @@ div .solo {
 }
 
 .button input { /*case study active button on homepage*/
-	background-color: #000;
+  background-color: #000;
   border: 2px solid #fff;
   border-radius: 5px;
   color: #fff;

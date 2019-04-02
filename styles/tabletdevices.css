@@ -50,46 +50,117 @@ nav li:last-child {
 
   section.group{
     padding-bottom: 234px;
+    padding-left: 84px;
+    padding-right: 84px;
   }
 
 
-  .mdl-card{ /*space of grid containers from footer & space around*/
-    left: 84px;
+  .group .mdl-card{ /*space of grid containers from footer & space around*/
+    left: 44px;
     right: 84px;
     width: 100%;
   }
 
+  .overlay-content {
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
   div .overlay-content{
-    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 30px;
     width: 100%;
-    background-color: green;
   }
 
   .overlay-content h2{
-    font-size: 6rem;
-    background-color: red;
-
+    font-size: 4rem;
   }
-
-
 
   .overlay-content p{ /*paragraph describing Archia*/
     font-size: 3rem;
-    width: 100%;
+    margin-top: 10px;
+    width: 90%;
   }
 
   .overlay-content .roles{
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  line-height: 4.9rem;
-  width: 486px;
-  background-color: red;
+  line-height: 2.4rem;
+  padding-bottom: 10px;
+  width: 100%;
 }
 
   .overlay-content p.aboutproject {
-    font-size: 2.4rem;
-    line-height: 4.9rem;
+    font-size: 2rem;
+    line-height: 3.3rem;
     width: 100%;
   }
+
+  .button input {
+    font-size: 3rem;
+    width: 300px;
+    height: 64px;
+  }
+
+
+  .button input:hover {
+    font-size: 3rem;
+    width: 300px;
+    height: 64px;
+  }
+
+  .inactivebutton input {
+    font-size: 3rem;
+    width: 300px;
+    height: 64px;
+  }
+
+  /*Aboutme.html code*/
+  section.biographyRight{
+    float: none;
+    width: 100%;
+  }
+
+  section.PhotosLeft{
+    float: none;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .AboutPhotos .mdl-card{ /*space of grid containers & space around*/
+  left: 84px;
+  right: 84px;
+  width: 80%;
+}
+
+.AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
+  left: 84px;
+  right: 84px;
+  width: 88%;
+}
+
+section.Irapuato{
+padding-top: 50px;
+}
+
+.bioText p{
+  padding-left: 84px;
+  padding-right: 84px;
+}
+
+/*ARCHIA CASE STUDY RESPONSIVE CODE*/
+.SummaryOfProject p{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+
+
+
 }
