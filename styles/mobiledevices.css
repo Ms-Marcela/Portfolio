@@ -728,8 +728,9 @@ div .SilviaInfo ul, div .LIllyInfo ul {
   font-size: 1.8rem;
   line-height: 3.2rem;
   margin-top: 30px;
-  padding-left: 105.5px;
-  padding-right: 105.5px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
 }
 
 
