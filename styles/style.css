@@ -919,7 +919,9 @@ div .LillyPersona{
 }
 
 .SilviaPersona img, .LillyPersona img{
-  padding-left: 185px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div .personaname{
@@ -936,8 +938,7 @@ div .SilviaInfo ul, div .LIllyInfo ul {
   font-size: 2.4rem;
   line-height: 4.2rem;
   margin-top: 40px;
-  padding-left: 217px;
-  text-align: left;
+  text-align: center;
 }
 
 div .GoalsSilvia{

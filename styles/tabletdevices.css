@@ -376,8 +376,8 @@ div .personaswrap{
 
 .SilviaPersona img, .LillyPersona img{
   text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div .SilviaInfo ul, div .LIllyInfo ul {
@@ -469,5 +469,293 @@ div .sketchtwo{
   width: 100%;
 }
 
+.desktopwireframe img{
+  padding-bottom: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.landingmockup img, .mobilewireframe img, .mobilemockup img, .mobiletwomockup img{
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+.desktopdashboardone img{
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.desktoptwomockup img, .mobileonboardingtwo img{
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+/*----Responsive BRANDING SECTION-----*/
+
+div .branding{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.brandingintro p{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logosketch img{
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+div .logowrap{
+  width: 100%;
+
+}
+
+div .firstlogo{
+  padding-left: 120px;
+  width: 33.33%;
+}
+
+div .arrow{
+  width: 33.33%;
+}
+
+div .finallogo{
+  width: 33.33%;
+}
+
+.firstlogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow img{
+  padding-left: 63px;
+  padding-right: 33px;
+  padding-top: 100px;
+}
+
+.finallogo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div .colorswrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+div .salmoncolor, div .bluecolor{
+  display: flex;
+  float: left;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+div .whitecolor, div .blackcolor{
+  display: flex;
+  float: right;
+  margin-bottom: 30px;
+  width: 50%;
+
+}
+
+.salmoncolor img, .bluecolor img{
+  padding-left: 80px;
+  padding-right: 22.5px;
+}
+
+.whitecolor img, .blackcolor img{
+  padding-left: 22.5px;
+  padding-right: 80px;
+}
+
+/*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
+
+div .highPrototypes{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+}
+
+.highPrototypes p{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+div .highProtoWrap {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div .finaldesktoplandingpg {
+  float: none;
+  height: auto;
+  margin-bottom: 50px;
+  padding-left: 66px;
+  padding-right: 66px;
+  width: 100%;
+}
+
+.finaldesktoplandingpg img{
+  text-align: center;
+  width: 100%;
+}
+
+div .finaldesktopdashboard{
+  float: none;
+  margin-bottom: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.finaldesktopdashboard img{
+  text-align: center;
+  width: 100%;
+}
+
+.finalmobileonboarding img{
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+.finalmobiledash img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: auto;
+}
+
+.finaldesktopbutton{
+  padding-top: 0;
+}
+
+/*--------Responsive User Testing Results Section-------*/
+div .testingresults{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -24px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.testingintro p, .changesApplied p, .testingintro ul{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap, div .sixthwrap{
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+  float: none;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/*images on the left*/
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img{
+  padding-right: 33px;
+  padding-left: 33px;
+  width: 100%;
+}
+
+.firsthighlandingpage img {
+  padding-right: 80px;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.firstmobilelogin img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 50%;
+}
+
+.secondhighmobilelanding img{
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+  float: none;
+  width: 100%;
+}
+
+/*images on the right*/
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img{
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
+.secondhighlandingpage img{
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+
+
+.finalmobilelogin img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 50%;
+}
+
+.finalmobilelanding img{
+  display: block;
+  margin-right: auto;
+  margin-right: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+  width: auto;
+}
+
+
+/*----Responsive CONCLUSION SECTION----------*/
+div .conclusion{
+  margin-top: -24px;
+}
+
+.conclusionintro p{
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 }
