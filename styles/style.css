@@ -704,8 +704,8 @@ div.UserResearch{       /*The Survey Section*/
   display: flex;
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 105px;
-  margin-right: 105px;
+  padding-left: 105px;
+  padding-right: 105px;
 }
 
 .surveywrap > div {
@@ -716,16 +716,19 @@ div.UserResearch{       /*The Survey Section*/
   background-color: #F8D2C0;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 441px;
+  height: auto;
   margin-right: 20px;
+  margin-top: 90px;
   width: 521px;
+
 }
 
  .FeaturesFromSurvey{
   background-color: #F8D2C0;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 441px;
+  height: auto;
+  margin-top: 90px;
   width: 521px;
 }
 
@@ -1176,7 +1179,7 @@ div .mockups{
 
 .landingwireframe img{
   padding-left: 23px;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -1197,7 +1200,7 @@ div .mockups{
 .mobilemockup img{
   padding-left: 24px;
   padding-bottom: 27px;
-  width: auto;
+  width: 100%;
   height:auto;
 }
 
@@ -1216,6 +1219,8 @@ div .mockups{
   padding-left: 52px;
   padding-right: 105px;
   padding-bottom: 25px;
+  width: 100%;
+  height: auto;
 }
 
 .mobileonboardingtwo img{
@@ -1227,6 +1232,8 @@ div .mockups{
 .wireframebutton{
   padding-bottom: 50px;
 }
+
+
 
 /*----BRANDING SECTION-----*/
 div .branding{
@@ -1264,6 +1271,7 @@ div .logosketch{
 .logosketch img{
   padding-left: 111px;
   padding-right: 111px;
+  width: 100%;
 }
 
 div .logowrap{

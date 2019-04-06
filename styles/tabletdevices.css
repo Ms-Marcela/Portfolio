@@ -1,6 +1,6 @@
 /*---------RESPONSIVE TABLET SECTION--------------*/
 
-@media only screen and (min-width: 768px) and  (max-width: 1023px){
+@media only screen and (min-width: 768px) and  (max-width: 1024px){
   header.mdl-layout__header {
     display: inline-block;
   }
@@ -281,8 +281,8 @@ div.UserResearch{       /*The Survey Section*/
   margin-bottom: 50px;
 }
 
-.surveybutton{ /*check on this*/
-  margin: 0 auto;
+.surveybutton{
+  display: inline-block;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -661,6 +661,7 @@ div .testingresults{
   padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
 }
 
 .testingintro p, .changesApplied p, .testingintro ul{
@@ -694,13 +695,14 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
   width: 100%;
 }
 
+
 .firstmobilelogin img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
-  width: 50%;
+  text-align: center;
+  width: 70%;
 }
 
 .secondhighmobilelanding img{
@@ -731,11 +733,10 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
 
 .finalmobilelogin img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding-left: 80px;
   padding-right: 80px;
-  width: 50%;
+  width: 70%;
 }
 
 .finalmobilelanding img{
@@ -744,7 +745,7 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
   margin-right: auto;
   padding-left: 80px;
   padding-right: 80px;
-  width: auto;
+  width: 100%;
 }
 
 
