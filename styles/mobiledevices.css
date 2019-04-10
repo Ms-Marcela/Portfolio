@@ -901,12 +901,8 @@ div .mockups{
 div .sketchone{
   display: flex;
   float: left;
-  width: 50%;
-}
-
-div .sketchtwo{
-  display: flex;
-  float: right;
+  margin-left: 0;
+  margin-right: 0;
   width: 50%;
 }
 
@@ -916,10 +912,21 @@ div .sketchtwo{
   width: 100%;
 }
 
+div .sketchtwo{
+  display: flex;
+  float: right;
+  margin-right: 0;
+  width: 50%;
+}
+
 .sketchtwo img{
   padding-left: 12px;
   padding-right: 33px;
   width: 100%;
+}
+
+div .landingwireframe{
+  margin-right: 0;
 }
 
 .landingwireframe img{
@@ -928,6 +935,9 @@ div .sketchtwo{
   padding-top: 50px;
 }
 
+div .desktopwireframe{
+  margin-right: 0;
+}
 .desktopwireframe img{
   padding-bottom: 0;
   padding-left: 13px;
@@ -936,33 +946,49 @@ div .sketchtwo{
   width: 100%;
 }
 
-.landingmockup img{
+div .landingmockup{
+  margin-left: 0;
+  margin-right: 0;
+}
+.landingmockup img{ /*picture 1 part 2*/
   padding-bottom: 50px;
   padding-left: 33px;
   padding-right: 33px;
   width: 100%;
 }
 
-.mobilemockup img{
+div .mobilemockup{
+  margin-right: 0;
+}
+
+.mobilemockup img{ /*picture 2 part 2*/
   padding-left: 33px;
   padding-right: 33px;
   padding-bottom: 50px;
   width: 100%;
 }
 
-.desktopdashboardone img{
+.desktopdashboardone img{ /*picture 3 part 2*/
   padding-left: 13px;
   padding-right: 13px;
 }
 
-.desktoptwomockup img{
+div .desktoptwomockup{
+  margin-right: 0;
+}
+
+.desktoptwomockup img{ /*picture 4 part 2*/
   padding-bottom: 50px;
   padding-left: 66px;
   padding-right: 66px;
   width: 100%;
 }
 
-.mobiletwomockup img{
+div .mobiletwomockup{
+  margin-right: 0;
+}
+
+.mobiletwomockup img{ /*picture 5 part 2*/
   float: left;
   padding-left: 33px;
   padding-right: 5px;
@@ -970,7 +996,7 @@ div .sketchtwo{
   width: 60%;
 }
 
-.mobileonboardingtwo img{
+.mobileonboardingtwo img{ /*picture 6 part 2*/
   float: right;
   padding-left: 5px;
   padding-right: 33px;
