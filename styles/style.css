@@ -1154,7 +1154,7 @@ div .wireframes{ /*wrap for pictures part 1*/
   margin-top: 50px;
   margin-bottom: 100px;
   width: 100%;
-  background-color: purple;
+
 }
 
 .wireframes > div, .mockups > div {
@@ -1166,13 +1166,11 @@ div .mockups{ /*wrap for pictures part 2*/
   height: auto;
   margin-bottom: 100px;
   padding-bottom: 50px;
-  background-color: purple
 }
 
 div .sketchone{
   margin-left: 105px;
   margin-right: 27px;
-  background-color: red;
 }
 .sketchone img{ /*picture 1 part 1*/
   width: 100%;
@@ -1181,7 +1179,6 @@ div .sketchone{
 
 div .sketchtwo{
   margin-right: 27px;
-  background-color: pink;
 }
 
 .sketchtwo img{ /*picture 2 part 1*/
@@ -1191,7 +1188,6 @@ div .sketchtwo{
 
 div .landingwireframe{
   margin-right: 27px;
-  background-color: green;
 }
 
 .landingwireframe img{ /*picture 3 part 1*/
@@ -1201,7 +1197,6 @@ div .landingwireframe{
 
 div .desktopwireframe{
   margin-right: 105px;
-  background-color: blue;
 }
 
 .desktopwireframe img{ /*picture 4 part 1*/
@@ -1218,7 +1213,6 @@ div .desktopwireframe{
 div .landingmockup{
   margin-left: 105px;
   margin-right: 43px;
-  background-color: red;
   width: 100%;
 }
 
@@ -1229,7 +1223,6 @@ div .landingmockup{
 
 div .mobilemockup{
   margin-right: 43px;
-  background-color: green;
 }
 
 .mobilemockup img{ /*picture 2 part 2*/
@@ -1246,7 +1239,6 @@ div .mobilemockup{
 
 div .desktoptwomockup{
   margin-right: 43px;
-  background-color: pink;
 }
 
 .desktoptwomockup img{ /*picture 4 part 2*/
@@ -1256,7 +1248,6 @@ div .desktoptwomockup{
 
 div .mobiletwomockup{
   margin-right: 105px;
-  background-color: blue;
 }
 
 .mobiletwomockup img{ /*picture 5 part 2*/
@@ -1267,7 +1258,6 @@ div .mobiletwomockup{
 
 div .mobileonboardingtwo{
   text-align: center;
-  background: yellow;
 }
 
 .mobileonboardingtwo img{ /*picture 6 part 2*/
@@ -1278,6 +1268,7 @@ div .mobileonboardingtwo{
 .wireframebutton{
   padding-bottom: 50px;
 }
+
 
 
 
@@ -1323,6 +1314,7 @@ div .logosketch{
 div .logowrap{
   display: flex;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .logowrap > div {
@@ -1330,33 +1322,34 @@ div .logowrap{
 }
 
 div .firstlogo {
-  width: 33.33%;
+  margin-left: 200px;
+  margin-right: 60px;
+  margin-top: 75px;
 }
 
 .firstlogo img{
-  height: 223px;
-  margin-top: 50px;
-  margin-left: 222px;
-  width: 197px;
-}
-
-div .arrow{
-  width: 33.33%;
+  width: 100%;
+  height: auto;
 }
 
 .arrow img{
-  padding-left: 150px;
-  padding-top: 125px;
-  text-align: center;
+  padding-bottom: 0;
+  padding-top: 120px;
+  padding-left: 25px;
+  width: 80%;
+  height: auto;
+
 }
 
 div .finallogo {
-width: 33.33%;
+margin-right: 200px;
 }
 
 .finallogo img{
-  padding-right: 114px;
-  padding-top: 69px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+  padding-top: 70px;
 }
 
 .colorpalette h5{
@@ -1383,14 +1376,50 @@ div .colorswrap {
   display: flex;
   margin-bottom: 150px;
   margin-top: 100px;
-  padding-left: 105px;
-  padding-right: 105px;
 }
 
 .colorswrap > div {
   flex: 1; /*grow*/
 }
 
+div .salmoncolor{
+  margin-left: 105px;
+  margin-right: 76px;
+}
+
+.salmoncolor img{
+  width: 100%;
+  height: auto;
+
+}
+
+div .whitecolor{
+  margin-right: 78px;
+}
+
+.whitecolor img{
+  width: 100%;
+  height: auto;
+}
+
+
+div .bluecolor{
+  margin-right: 76px;
+}
+
+.bluecolor img{
+  width: 100%;
+  height: auto;
+}
+
+div .blackcolor{
+  margin-right: 105px;
+}
+
+.blackcolor img{
+  width: 100%;
+  height: auto;
+}
 
 /*-------HIGH FIDELITY PROTOTYPES SECTION------*/
 div .highPrototypes{
@@ -1425,51 +1454,62 @@ div .highProtoWrap {
   display: flex;
   margin-bottom: 100px;
   margin-top: 100px;
-  padding-left: 105px;
-  padding-right: 105px;
+  background-color: red;
 }
 
 .highProtoWrap > div {
   flex: 1; /*grow*/
 }
 
-div .finaldesktoplandingpg {
+div .finaldesktoplandingpg { /*Desktop final landing page*/
   float: left;
   height: auto;
   margin-bottom: 36px;
-  width: 40%;
+  /*width: 40%;*/
+  margin-left: 105px;
+  margin-right: 84px;
+  background-color: yellow;
 }
 
 .finaldesktoplandingpg img{
   height: auto;
-  width: 437px;
+  width: 100%;
+}
+
+div .threeimageswrap{
+  margin-right: 105px;
+  background-color: pink;
 }
 
 div .finaldesktopdashboard{
-  float: left;
-  width: 50%;
+  /*float: left;*/
+  /*width: 50%;*/
 }
 
 .finaldesktopdashboard img{
-  float: none;
+  /*float: none;*/
   height: auto;
-  width: 541px;
+  width: 100%;
 }
 
 .finalmobileonboarding img{
   height: auto;
-  padding-left: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
   padding-bottom: 36px;
   padding-top: 36px;
-  width: 417px;
+  text-align: center;
+  width: 100%;
 }
 
 .finalmobiledash img{
   height: auto;
-  padding-left: 130px;
+  padding-left: 124px;
+  padding-right: 124px;
   padding-top: 36px;
   padding-bottom: 100px;
-  width: 400px;
+  text-align: center;
+  width: 100%;
 }
 
 .finaldesktopbutton{

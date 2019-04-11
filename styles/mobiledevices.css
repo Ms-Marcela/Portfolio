@@ -1042,27 +1042,36 @@ div .logosketch{
 
 div .logowrap{
   margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+div .firstlogo {
+  margin-left: 33px;
+  margin-right: 0;
+  margin-top: 19px;
 }
 
 .firstlogo img{
   height: auto;
   margin-top: 39px;
-  margin-left: 0;
-  padding-left: 33px;
   width: 100%;
 }
 
 .arrow img{
   padding-left: 33px;
   padding-right: 33px;
-  padding-top: 72px;
+  padding-top: 99px;
   width: 100%;
+}
+
+div .finallogo{
+  margin-right: 33px;
+  margin-right: 33px;
 }
 
 .finallogo img{
   height: auto;
   margin-top: 50px;
-  padding-right: 33px;
   padding-top: 0;
   width: 100%;
 }
@@ -1092,6 +1101,8 @@ div .colorswrap {
 div .salmoncolor, div .bluecolor{
   display: flex;
   float: left;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 30px;
   width: 50%;
 
@@ -1100,6 +1111,8 @@ div .salmoncolor, div .bluecolor{
 div .whitecolor, div .blackcolor{
   display: flex;
   float: right;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 30px;
   width: 50%;
 

@@ -540,21 +540,13 @@ div .branding{
 
 div .logowrap{
   width: 100%;
-
 }
 
 div .firstlogo{
-  padding-left: 120px;
-  width: 33.33%;
+  margin-left: 120px;
+  margin-right: 0;
 }
 
-div .arrow{
-  width: 33.33%;
-}
-
-div .finallogo{
-  width: 33.33%;
-}
 
 .firstlogo img {
   display: block;
@@ -563,9 +555,13 @@ div .finallogo{
 }
 
 .arrow img{
-  padding-left: 63px;
+  padding-left: 33px;
   padding-right: 33px;
-  padding-top: 100px;
+  padding-top: 130px;
+}
+
+div .finallogo{
+  margin-right: 120px;
 }
 
 .finallogo img{
@@ -578,33 +574,41 @@ div .colorswrap {
   display: inline-block;
   margin-bottom: 50px;
   margin-top: 50px;
-
 }
 
 div .salmoncolor, div .bluecolor{
   display: flex;
   float: left;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 30px;
   width: 50%;
+
 
 }
 
 div .whitecolor, div .blackcolor{
   display: flex;
   float: right;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 30px;
   width: 50%;
 
 }
 
 .salmoncolor img, .bluecolor img{
-  padding-left: 80px;
+  padding-left: 160px;
   padding-right: 22.5px;
+  width: 100%;
+  height: auto;
 }
 
 .whitecolor img, .blackcolor img{
   padding-left: 22.5px;
-  padding-right: 80px;
+  padding-right: 160px;
+  width: 100%;
+  height: auto;
 }
 
 /*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
