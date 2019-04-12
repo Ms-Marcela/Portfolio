@@ -637,6 +637,8 @@ div .finaldesktoplandingpg {
   float: none;
   height: auto;
   margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
   padding-left: 66px;
   padding-right: 66px;
   width: 100%;
@@ -652,6 +654,10 @@ div .finaldesktopdashboard{
   margin-bottom: 50px;
   padding-left: 33px;
   padding-right: 33px;
+  width: 100%;
+}
+
+.threeimageswrap{
   width: 100%;
 }
 

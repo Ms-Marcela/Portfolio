@@ -454,32 +454,39 @@ div .SummaryOfProject{
   text-align: center;
 }
 
+
 .rolescontainer{
   background-color: #F8D2C0;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 535px;
+  height: auto;
   margin-left: 84px;
-  width: 333px;
+  margin-right: 21px;
+  padding-bottom: 92px;
+  width: 100%;
+  max-width: 333px;
 }
 
 .delivcontainer{
   background-color: #F8D2C0;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 535px;
-  margin-left: 42px;
-  width: 522px;
+  height: auto;
+  margin-left: 21px;
+  padding-bottom: 42px;
+  width: 100%;
+  max-width: 522px;
 }
 
 .toolscontainer{
   background-color: #F8D2C0;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 535px;
+  height: auto;
   margin-left: 42px;
   margin-right: 84px;
-  width: 333px;
+  width: 100%;
+  max-width: 333px;
 }
 
 .rolescontainer ul{ /*Text inside the containers */
@@ -711,6 +718,7 @@ div.UserResearch{       /*The Survey Section*/
 .surveywrap > div {
   flex: 1; /*grow*/
 }
+
 
 .SurveyResults {
   background-color: #F8D2C0;
@@ -1009,6 +1017,7 @@ div .userstories{
   line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
+  padding-bottom: 100px;
   padding-top: 50px;
   text-align: left;
 }
@@ -1454,7 +1463,6 @@ div .highProtoWrap {
   display: flex;
   margin-bottom: 100px;
   margin-top: 100px;
-  background-color: red;
 }
 
 .highProtoWrap > div {
@@ -1465,10 +1473,8 @@ div .finaldesktoplandingpg { /*Desktop final landing page*/
   float: left;
   height: auto;
   margin-bottom: 36px;
-  /*width: 40%;*/
   margin-left: 105px;
   margin-right: 84px;
-  background-color: yellow;
 }
 
 .finaldesktoplandingpg img{
@@ -1478,7 +1484,6 @@ div .finaldesktoplandingpg { /*Desktop final landing page*/
 
 div .threeimageswrap{
   margin-right: 105px;
-  background-color: pink;
 }
 
 div .finaldesktopdashboard{
@@ -1494,8 +1499,8 @@ div .finaldesktopdashboard{
 
 .finalmobileonboarding img{
   height: auto;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 36px;
   padding-top: 36px;
   text-align: center;
@@ -1504,8 +1509,8 @@ div .finaldesktopdashboard{
 
 .finalmobiledash img{
   height: auto;
-  padding-left: 124px;
-  padding-right: 124px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top: 36px;
   padding-bottom: 100px;
   text-align: center;
@@ -1584,8 +1589,9 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
 
 .firstmobilelogin img{
   height: auto;
-  padding-left: 150px;
-  width: 90%;
+  padding-left: 65px;
+  padding-right: 25px;
+  width: 100%;
 }
 
 div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
@@ -1601,8 +1607,9 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
 
 .finalmobilelogin img{
   height: auto;
-  padding-left: 45px;
-  width: 70%;
+  padding-left: 25px;
+  padding-right: 65px;
+  width: 100%;
 }
 
 /*----CONCLUSION SECTION----------*/

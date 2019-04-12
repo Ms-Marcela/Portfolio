@@ -519,31 +519,29 @@ div .researchIntro{
   padding-top: 0;
 }
 
-div .surveywrap{
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .surveywrap{
   display: inline-block;
-  padding-top: 0;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 50px;
-  margin-left: 13px;
   margin-right: 13px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
 }
 
 .SurveyResults {
   height: auto;
   margin: 0 auto;
+  margin-top: 0;
   margin-bottom: 50px;
-  width: 100%;
+  width: 94%;
 }
 
 .FeaturesFromSurvey{ /*container with these features*/
-  margin: 0 auto;
   height: auto;
-  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 94%;
 }
 
 .SurveyResults p, .FeaturesFromSurvey p {
@@ -1169,20 +1167,27 @@ div .finaldesktoplandingpg {
   margin-bottom: 50px;
   padding-left: 66px;
   padding-right: 66px;
-  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
+
 
 .finaldesktoplandingpg img{
   height: auto;
   width: 100%;
 }
 
+.threeimageswrap{
+  width: 100%;
+}
+
 div .finaldesktopdashboard{
   float: none;
   margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
   padding-left: 13px;
   padding-right: 13px;
-  width: 100%;
 }
 
 .finaldesktopdashboard img{
@@ -1191,7 +1196,8 @@ div .finaldesktopdashboard{
 }
 
 .finalmobileonboarding img{
-  padding-left: 0;
+  padding-left: 13px;
+  padding-right: 13px;
   padding-bottom: 50px;
   padding-top: 0;
   width: 100%;
