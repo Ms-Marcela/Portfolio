@@ -217,6 +217,7 @@ div .solo {
   width: 466px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
+  -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -235,6 +236,7 @@ div .solo {
   left: 50%;
   margin-top: 35%;
   -webkit-transform: translate(-50%, -50%);
+  -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -254,6 +256,7 @@ div .solo {
   width: 466px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
+  -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -406,6 +409,7 @@ div .SummaryOfProject{
   width: 498px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
+  -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -422,6 +426,7 @@ div .SummaryOfProject{
   position: relative;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
+  -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
