@@ -476,6 +476,7 @@ div.MobileDashboard{
 div.SolutionButtons{
   padding-top: 0;
   padding-bottom: 0;
+  width: 100%;
 }
 
 .buttonDP{ /*position of the button on that section*/
@@ -565,9 +566,13 @@ div .researchIntro{
 }
 
 /*Responsive Competitive Analysis section-Archia--*/
-.competitivewrap, .personaswrap{
+.competitivewrap{
   display: inline-block;
   margin-top: -25px;
+}
+
+.personaswrap{
+  display: inline-block;
 }
 
 div.CompAnalysis{
