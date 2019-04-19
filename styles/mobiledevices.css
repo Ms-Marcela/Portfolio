@@ -152,21 +152,21 @@ div .overlay-content{
 .button input {
   font-size: 1.5rem;
   margin-top: 70px;
-  width: 199px;
+  width: 215px;
   height: 44px;
 }
 
 .button input:hover{
   font-size: 1.5rem;
   margin-top: 70px;
-  width: 199px;
+  width: 215px;
   height: 44px;
 }
 
 .inactivebutton input {
   font-size: 1.5rem;
   margin-top: 70px;
-  width: 199px;
+  width: 215px;
   height: 44px;
 }
 
@@ -279,13 +279,13 @@ div .SummaryOfProject{
 
 .defaultbutton input {
   font-size: 1.5rem;
-  width: 199px;
+  width: 215px;
   height: 44px;
 }
 
 .defaultbutton input:hover{
   font-size: 1.5rem;
-  width: 199px;
+  width: 215px;
   height: 44px;
 }
 
