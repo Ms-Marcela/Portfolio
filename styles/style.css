@@ -670,8 +670,8 @@ div.SolutionButtons{
 .buttonDP{ /*position of the button on that section*/
   padding-top: 1825px;
   padding-bottom: 50px;
-  width: auto;
-  height: auto;
+  /*width: auto;
+  height: auto;*/
 }
 
 .buttonMP{
