@@ -75,10 +75,13 @@ section.featuredProjects{
 
 section.group{
   padding-bottom: 50px;
+  padding-left: 33.5px; /*delete when solo project ready*/
+  padding-right: 33.5px;/*delete when solo project ready*/
+  margin: 0 auto;/*delete when solo project ready*/
 }
 
 section.AboutPhotos2{ /*section with Irapuato image*/
-  padding-top: 72px;
+  /*padding-top: 72px;*/
   margin-bottom: 73px;
 }
 
@@ -87,8 +90,8 @@ section.AboutPhotos2{ /*section with Irapuato image*/
 }
 
 .group .mdl-card{ /*space of grid containers from footer & space around*/
-  left: 33.5px;
-  right: 33.5px;
+  /*left: 33.5px; activate when solo project ready
+  right: 33.5px;*/
   width: 100%;
 
 }
@@ -148,21 +151,21 @@ div .overlay-content{
 
 .button input { /*case study active button on homepage*/
   font-size: 1.5rem;
-  margin-top: 70px;
+  margin-top: 35%;
   width: 189px;
   height: 44px;
 }
 
 .button input:hover{ /*case study active button on homepage*/
   font-size: 1.5rem;
-  margin-top: 70px;
+  margin-top: 35%;
   width: 189px;
   height: 44px;
 }
 
 .inactivebutton input { /*case study active button on homepage*/
   font-size: 1.5rem;
-  margin-top: 70px;
+  margin-top: 35%;
   width: 189px;
   height: 44px;
 }
@@ -179,6 +182,11 @@ section.PhotosLeft{
   width: 100%;
 }
 
+section.AboutPhotos2{
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 100%;
+}
 
 .AboutPhotos .mdl-card{ /*space of grid containers & space around*/
   left: 33.5px;
@@ -189,7 +197,14 @@ section.PhotosLeft{
 .AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
   left: 13px;
   right: 13px;
-  width: 88%;
+  top: 0;
+  width: 92%;
+}
+
+.resumeButton{
+  padding-top: 50px;
+  margin: 0 auto;
+  padding-right: 0;
 }
 
 .MyPhoto img{
@@ -205,8 +220,6 @@ section.PhotosLeft{
   padding-top: 11.37px;
   padding-right: 11.37px;
   padding-bottom: 26.03px;
-  /*width: 283px;
-  height: 249px;*/
   object-fit: cover;
 }
 
@@ -232,11 +245,11 @@ section.Irapuato{
   bottom: 73px;
   display: grid;
   float: none;
+  margin: 0 auto;
   margin-bottom: 73px;
-  padding-right: 13px;
-  padding-left: 13px;
+  /*padding-right: 13px;
+  padding-left: 13px;*/
   padding-top: 72px;
-  width: 100%;
 }
 
 
@@ -252,6 +265,10 @@ section.Irapuato{
   margin-top: 30px;
   padding-left: 33.5px;
   padding-right: 33.5px;
+}
+
+div .resume{
+  margin-top: 0px;
 }
 
 /*ARCHIA CASE STUDY RESPONSIVE CODE*/
@@ -288,6 +305,10 @@ div .SummaryOfProject{
 
 .buttonProto{
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.buttonMP{
   padding-bottom: 50px;
 }
 
@@ -396,23 +417,26 @@ div .SummaryOfProject{
   padding-bottom: 0;
 }
 
-section.TheSolution{
+.thesolutionwrap{
   margin-top: -25px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 div.containerImages{
   display: inline-block;
   margin-top: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
   padding-left: 0;
   padding-right: 0;
 }
 
 div.LandingPage{
   float: none;
-  margin-top: 50px;
+  margin-top: 0;
   width: 100%;
 }
 
@@ -460,30 +484,13 @@ div.MobileBoarding{
 div.MobileDashboard{
   margin-bottom: 50px;
   float: none;
-  margin-top: 50px;
   width: 100%;
 }
 
 .MobileDashboard img{
   padding-left: 0;
   padding-right: 0;
-
-}
-
-div.SolutionButtons{
-  padding-top: 0;
-  padding-bottom: 0;
-  width: 100%;
-}
-
-.buttonDP{ /*position of the button on that section*/
-  padding-bottom: 30px;
-  padding-top: 50px;
-}
-
-.buttonMP{
-  padding-top: 0;
-  padding-bottom: 50px;
+  padding-top: 30px;
 }
 
 /*The Process section*/
@@ -526,20 +533,7 @@ div .researchIntro{
   width: 100%;
 }
 
-.SurveyResults {
-  height: auto;
-  margin: 0 auto;
-  margin-top: 0;
-  margin-bottom: 50px;
-  width: 94%;
-}
 
-.FeaturesFromSurvey{ /*container with these features*/
-  height: auto;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 94%;
-}
 
 .SurveyResults p, .FeaturesFromSurvey p {
   font-size: 1.5rem;
@@ -722,6 +716,24 @@ div .personaname{
   text-align: center;
 }
 
+div .Motivations{
+  line-height: 3.2rem;
+  padding-bottom: 0;
+  padding-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.Motivations p{
+  font-size: 1.8rem;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+  background-color: red;
+}
+
 div .SilviaInfo ul, div .LIllyInfo ul {
   font-size: 1.8rem;
   line-height: 3.2rem;
@@ -731,15 +743,13 @@ div .SilviaInfo ul, div .LIllyInfo ul {
   text-align: center;
 }
 
-
 div .GoalsSilvia, div .GoalsLilly{
   line-height: 3.2rem;
-  padding-top: 50px;
   padding-left: 33px;
   padding-right: 33px;
 }
 
-.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
+.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7, .Motivations h7{
   font-size: 1.8rem;
 }
 
@@ -784,7 +794,7 @@ div .userstories{
 
 }
 
-div .HighTasks, div .lowandmedtasks{
+div .HighTasks{
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -792,11 +802,8 @@ div .HighTasks, div .lowandmedtasks{
   width: 94%;
 }
 
-div .lowandmedtasks{
-  margin-bottom: 75px;
-}
 
-.HighTasks p, .lowandmedtasks p{
+.HighTasks p{
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding-left: 20px;
@@ -804,11 +811,15 @@ div .lowandmedtasks{
   padding-top: 50px;
 }
 
-.HighTasks ul, .lowandmedtasks ul{
+.HighTasks ul{
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.storiesbutton{
+  margin-top: 75px;
 }
 
 /*-------------Responsive USER FLOWS SECTION--------*/
@@ -850,6 +861,17 @@ div .userflows{
   padding-right: 33px;
 }
 
+div .userflowhighfi{
+  margin-bottom: 50px;
+}
+
+.userflowhighfi img{
+  display: block;
+  padding-left: 33px;
+  padding-right: 33px;
+  width: 100%;
+}
+
 .userflows ul{
   font-size: 1.8rem;
   line-height: 3.2rem;
@@ -887,129 +909,50 @@ padding-bottom: 0;
 .wireframesandmockups p{
   font-size: 1.8rem;
   line-height: 3.2rem;
+  padding-bottom: 50px;
   padding-left: 33px;
   padding-right: 33px;
 }
 
-div .wireframes{
+.wireframes p{
+  margin-top: 0;
+}
+
+div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
+div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
+div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-div .mockups{
-  display: inline-block;
-  margin-bottom: 50px;
-  padding-bottom: 0;
-}
-
-div .sketchone{
-  display: flex;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  width: 50%;
-}
-
-.sketchone img{
-  padding-left: 33px;
-  padding-right: 12px;
+div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
+div .plainMobileWireframe, div .landingmockup, div .mobilemockup, div .desktopwireframe1,
+div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone{ /*desktop EDITED FOR ASSESMENT*/
+  float: none;
   width: 100%;
-}
-
-div .sketchtwo{
-  display: flex;
-  float: right;
-  margin-right: 0;
-  width: 50%;
-}
-
-.sketchtwo img{
-  padding-left: 12px;
-  padding-right: 33px;
-  width: 100%;
-}
-
-div .landingwireframe{
-  margin-right: 0;
-}
-
-.landingwireframe img{
-  padding-left: 66px;
-  padding-right: 66px;
-  padding-top: 50px;
-}
-
-div .desktopwireframe{
-  margin-right: 0;
-}
-.desktopwireframe img{
-  padding-bottom: 0;
-  padding-left: 13px;
-  padding-right: 13px;
-  padding-top: 50px;
-  width: 100%;
-}
-
-div .landingmockup{
-  margin-left: 0;
-  margin-right: 0;
-}
-.landingmockup img{ /*picture 1 part 2*/
   padding-bottom: 50px;
   padding-left: 33px;
   padding-right: 33px;
-  width: 100%;
+  margin: 0 auto;
 }
 
-div .mobilemockup{
-  margin-right: 0;
+div .desktopdashboardone{
+  padding-top: 0;
 }
 
-.mobilemockup img{ /*picture 2 part 2*/
-  padding-left: 33px;
-  padding-right: 33px;
+.mobilemockupInfo{
+  padding-top: 0;
+}
+
+div .mobileonboardingtwo{
   padding-bottom: 50px;
-  width: 100%;
-}
-
-.desktopdashboardone img{ /*picture 3 part 2*/
-  padding-left: 13px;
-  padding-right: 13px;
-}
-
-div .desktoptwomockup{
-  margin-right: 0;
-}
-
-.desktoptwomockup img{ /*picture 4 part 2*/
-  padding-bottom: 50px;
-  padding-left: 66px;
-  padding-right: 66px;
-  width: 100%;
-}
-
-div .mobiletwomockup{
-  margin-right: 0;
-}
-
-.mobiletwomockup img{ /*picture 5 part 2*/
-  float: left;
-  padding-left: 33px;
-  padding-right: 5px;
-  padding-bottom: 50px;
-  width: 60%;
-}
-
-.mobileonboardingtwo img{ /*picture 6 part 2*/
-  float: right;
-  padding-left: 5px;
-  padding-right: 33px;
-  width: 40%;
 }
 
 .wireframebutton{
-  padding-bottom: 30px;
+  padding-bottom: 0;
+  padding-top: 50px;
 }
 
 /*----Responsive BRANDING SECTION-----*/
@@ -1077,7 +1020,7 @@ div .finallogo{
 .finallogo img{
   height: auto;
   margin-top: 50px;
-  padding-top: 0;
+  padding-top: 9px;
   width: 100%;
 }
 
@@ -1137,6 +1080,14 @@ div .whitecolor, div .blackcolor{
   padding-right: 56px;
 }
 
+.primaryTypeface img, .complimentaryTypeface img{
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+div .complimentaryTypeface{
+  margin-bottom: 0;
+}
 /*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
 
 div .highPrototypes{

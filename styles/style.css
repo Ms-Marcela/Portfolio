@@ -53,7 +53,7 @@ nav li:last-child {
 .navSection a{
   color: #979797;
   font-family: "Titillium Web", Verdana, sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   text-decoration: none;
   width: 33.33%;
@@ -85,7 +85,9 @@ header p{ /*intro paragraph attributes*/
   width: 55%;
 }
 
-
+header b{
+  font-weight: 900;
+}
 div .featuredProjects{
   width: 100%;
 }
@@ -110,6 +112,7 @@ div .featuredProjects{
 
 section.group{
   padding-bottom: 234px;
+  scroll-behavior: smooth;
 }
 
 .content-grid {
@@ -118,13 +121,15 @@ section.group{
 }
 
 div .archia{
-  margin-right: 84px;
+  /*margin-right: 84px; ACTIVATE WHEN SOLO PROJECT READY*/
+  margin: 0 auto; /*delete when solo project ready*/
 }
 
+/* ACTIVATE WHEN SOLO PROJECT READY
 div .solo {
   margin-right: 84px;
 
-}
+}*/
 
 .projects img {
   padding-left: 20px;
@@ -149,8 +154,8 @@ div .solo {
 }
 
 .mdl-card{ /*space of grid containers from footer & space around*/
-  left: 84px;
-  right: 84px;
+  /*left: 84px; left and right to ACTIVATE WHEN SOLO PROJECT READY
+  right: 84px;*/
   width: 100%;
 }
 
@@ -200,6 +205,7 @@ div .solo {
   font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
   line-height: 4.9rem;
+  /*padding-bottom: 44px;*/
   width: 486px;
 }
 
@@ -214,7 +220,7 @@ div .solo {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 35%;
+  margin-top: 40%; /*was 35%-Revised for space above button*/
   width: 466px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
@@ -235,7 +241,7 @@ div .solo {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 35%;
+  margin-top: 40%;
   -webkit-transform: translate(-50%, -50%);
   -webkit-appearance: none;
   -ms-transform: translate(-50%, -50%);
@@ -253,7 +259,7 @@ div .solo {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: 35%;
+  margin-top: 40%;
   width: 466px;
   height: 92px;
   -webkit-transform: translate(-50%, -50%);
@@ -274,7 +280,6 @@ line-height: 3.5rem;
 section.biographyRight{
   float: right;
   width: 50%;
-
 }
 
 section.PhotosLeft{
@@ -287,9 +292,8 @@ section.PhotosLeft{
 }
 
 section.Irapuato{
-  bottom: 100px;
-  margin-bottom: -335px;
-  padding-top: 240px;
+  margin-bottom: 100px;
+  padding-top: 100px;
   padding-right: 84px;
   width: 100%;
 }
@@ -324,6 +328,15 @@ section.PhotosLeft p, section.Irapuato p{
   line-height: 2.6rem;
 }
 
+div .resume{
+  margin-top: 50px;
+}
+
+.resumeButton{
+  padding-top: 50px;
+  margin: 0 auto;
+  padding-right: 42px;
+}
 
 .MyPhoto img {         /*aboutme page images*/
   padding-left: 20px;
@@ -333,16 +346,23 @@ section.PhotosLeft p, section.Irapuato p{
   width: 100%;
 }
 
-section.AboutPhotos2{
-margin-bottom: 100px;
-}
-
 .strawberryPhoto img, .Irapuato img {
   padding-left: 20px;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 68px;
   width: 100%;
+}
+
+.AboutPhotos .mdl-card{ /*space of grid containers & space around*/
+left: 84px;
+right: 84px;
+}
+
+.AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
+  left: 84px;
+  right: 84px;
+  top: 0;
 }
 
 /*--------Workspage code---------*/
@@ -375,12 +395,11 @@ div .workspageprojects{ /*WORKS page space around heading*/
   margin-right: auto;
   padding-top: 23px;
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
 
 div .SummaryOfProject{
   background-color: #3C4663;
-  margin-top: -200px;
   height: auto;
   width: 100%;
 }
@@ -391,7 +410,7 @@ div .SummaryOfProject{
   font-size: 2.4rem;
   line-height: 4.2rem;
   padding-bottom: 70px;
-  padding-top: 268px;
+  padding-top: 50px;
   padding-left: 293.5px;
   padding-right: 293.5px;
   text-align: center;
@@ -581,15 +600,19 @@ section.TheProblem {
 
 /*-----------the solution section images-----------*/
 
-section.TheSolution{
+.thesolutionwrap{
   background-color: #979797;
   margin-top: 100px;
+  /*margin-bottom: 100px;*/
   margin-left: 84px;
   margin-right: 84px;
+  overflow: hidden;
+  padding-bottom: 100px;
 }
 
 div.containerImages{
-  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   padding-left: 105px;
   padding-right: 105px;
   width: 100%;
@@ -665,22 +688,6 @@ div.MobileDashboard{
 
 }
 
-div.SolutionButtons{
-  padding-top: 100px;
-  width: 100%;
-}
-
-.buttonDP{ /*position of the button on that section*/
-  padding-top: 1825px;
-  padding-bottom: 50px;
-  /*width: auto;
-  height: auto;*/
-}
-
-.buttonMP{
-  padding-bottom: 100px;
-}
-
 /*The Process section*/
 .TheProcess h2{
   color: black;
@@ -711,9 +718,26 @@ div.UserResearch{       /*The Survey Section*/
   line-height: 4.2rem;
   padding-left: 105px;
   padding-right: 105px;
+  margin-bottom: 150px;
   padding-top: 50px;
   text-align: left;
 }
+
+canvas #myChart{
+  padding-left: 300;
+  padding-right: 300;
+  padding-top: 50;
+  padding-bottom: 100;
+}
+
+
+/*#myBarChart{
+  lay
+  width: 420px;
+  height: auto;
+  padding-left: 105px;
+  padding-right: 105px;
+}*/
 
 .surveywrap{
   display: flex;
@@ -727,52 +751,32 @@ div.UserResearch{       /*The Survey Section*/
   flex: 1; /*grow*/
 }
 
-
-.SurveyResults {
-  background-color: #F8D2C0;
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: auto;
-  margin-right: 20px;
-  margin-top: 90px;
-  width: 521px;
-
+.surveywrap h3{
+  color: #FF846E;
+  font-weight: bold;
 }
 
- .FeaturesFromSurvey{
-  background-color: #F8D2C0;
-  border-radius: 5px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: auto;
-  margin-top: 90px;
-  width: 521px;
-}
 
-.SurveyResults p, .FeaturesFromSurvey p {
-  color: #454242;
+.cloudUsers p, .demographicsSex p, .demographicsAge p{
+  color: white;
+  font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 2rem;
-  line-height: 3.5rem;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  padding-left: 26px;
-  padding-right: 26px;
-  text-align: left;
+  line-height: 4.2rem;
+  text-align: center;
 }
 
-.SurveyResults ul, .FeaturesFromSurvey ul{
-  color: #454242;
-  font-family: "Open Sans", Tahoma, sans-serif;
-  font-size: 2rem;
-  line-height: 3.5rem;
-  list-style-position: inside;
-  list-style-type: disc;
-  padding-bottom: 50px;
-  padding-left: 26px;
-  padding-right: 26px;
-  text-align: left;
+.cloudUsers p{
+  padding-right: 20px;
 }
 
+.demographicsSex p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.demographicsAge p{
+  padding-left: 20px;
+}
 
 .surveybutton{
   padding-bottom: 100px;
@@ -953,6 +957,28 @@ div .personaname{
   padding-top: 16px;
 }
 
+
+div .Motivations{
+  line-height: 4.2rem;
+  /*margin-bottom: 50px;*/
+  /*padding-bottom: 50px;*/
+  padding-top: 50px;
+  padding-left: 102px;
+  padding-right: 99px;
+}
+
+.Motivations p{
+  font-size: 2.4rem;
+  height: auto;
+  text-align: justify;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  width: 100%;
+}
+
+
 div .SilviaInfo ul, div .LIllyInfo ul {
   font-size: 2.4rem;
   line-height: 4.2rem;
@@ -960,21 +986,22 @@ div .SilviaInfo ul, div .LIllyInfo ul {
   text-align: center;
 }
 
+
 div .GoalsSilvia{
   line-height: 4.2rem;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-left: 102px;
   padding-right: 99px;
 }
 
 div .GoalsLilly{
   line-height: 4.2rem;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-left: 99px;
   padding-right: 102px;
 }
 
-.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7{
+.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7, .Motivations h7{
   font-size: 2.4rem;
   font-weight: bold;
 }
@@ -1030,7 +1057,7 @@ div .userstories{
   text-align: left;
 }
 
-.HighTasks p, .lowandmedtasks p{
+.HighTasks p{
   color: #454242;
   font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -1052,16 +1079,7 @@ div .HighTasks{
   padding-bottom: 68px;
 }
 
-div .lowandmedtasks {
-  background-color: #ECEBEB;
-  border-radius: 5px;
-  margin-left: 105px;
-  margin-right: 105px;
-  margin-bottom: 150px;
-  padding-bottom: 68px;
-}
-
-.HighTasks ul, .lowandmedtasks ul{
+.HighTasks ul{
   color: #454242;
   font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -1070,6 +1088,10 @@ div .lowandmedtasks {
   list-style-position: inside;
   padding-left: 59px;
   text-align: left;
+}
+
+.storiesbutton{
+  margin-top: 150px;
 }
 
 /*-------------USER FLOWS SECTION--------*/
@@ -1113,13 +1135,25 @@ div .userflows{
 
 .userflowslist{
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .userflowsimage img{
   float: right;
+  height: auto;
   width: 100%;
   padding-right: 72px;
+}
+
+div .userflowhighfi{
+  margin-bottom: 150px;
+}
+
+.userflowhighfi img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .userflows ul{
@@ -1165,116 +1199,64 @@ padding-bottom: 50px;
   padding-right: 115px;
 }
 
-div .wireframes{ /*wrap for pictures part 1*/
+.wireframes p{
+  margin-top: 50px;
+}
+
+div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
+div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
+div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: flex;
   height: auto;
   margin-top: 50px;
   margin-bottom: 100px;
   width: 100%;
-
 }
 
-.wireframes > div, .mockups > div {
+ .mockups > div, .desktopsketchwrap > div, .mobilesketchwrap > div, .wireframeswrap > div,
+ .desktopdashboardwrap > div, .mobilelandingwrap > div, .mockupsWrap > div
+ .mobilemockupwrap > div { /*EDITED FOR ASSESMENT*/
   flex: 1; /*grow*/
 }
 
-div .mockups{ /*wrap for pictures part 2*/
-  display: flex;
-  height: auto;
-  margin-bottom: 100px;
-  padding-bottom: 50px;
-}
 
-div .sketchone{
+div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
+div .plainMobileWireframe, div .landingmockup, div .mobilemockup{ /*desktop EDITED FOR ASSESMENT*/
+  float: left;
+  width: 50%;
   margin-left: 105px;
-  margin-right: 27px;
-}
-.sketchone img{ /*picture 1 part 1*/
-  width: 100%;
-  height: auto;
+  margin-right: 15px;
 }
 
-div .sketchtwo{
-  margin-right: 27px;
-}
-
-.sketchtwo img{ /*picture 2 part 1*/
-  width: 100%;
-  height: auto;
-}
-
-div .landingwireframe{
-  margin-right: 27px;
-}
-
-.landingwireframe img{ /*picture 3 part 1*/
-  width: 100%;
-  height: auto;
-}
-
-div .desktopwireframe{
+div .desktopwireframe1, div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup{ /* desktop ADDED FOR ASSESMENT*/
+  float: right;
+  width: 50%;
+  margin-left: 15px;
   margin-right: 105px;
 }
 
-.desktopwireframe img{ /*picture 4 part 1*/
-  padding-bottom: 26px;
+.sketchone img, .desktopwireframe1 img, .sketchtwo img, .sketchtwomobile img,
+.desktopwireframe2 img, .landingwireframe img, .desktopdashboardswireframes img,
+.desktopwireframe img, .plainMobileWireframe img, .mobilewireframe img, .landingmockup img,
+.desktoptwomockup img, .desktopdashboardone img, .mobilemockup img, .mobiletwomockup img{ /*picture 1 part 1 desktop ver. EDITED FOR ASSESSMENT*/
   width: 100%;
   height: auto;
 }
 
-.mobilewireframe img{ /*picture 5 part 1*/
-  width: 100%;
-  height: auto;
-}
-
-div .landingmockup{
+div .desktopdashboardone{
   margin-left: 105px;
-  margin-right: 43px;
-  width: 100%;
-}
-
-.landingmockup img{ /*picture 1 part 2*/
-  width: 100%;
-  height: auto;
-}
-
-div .mobilemockup{
-  margin-right: 43px;
-}
-
-.mobilemockup img{ /*picture 2 part 2*/
-  padding-bottom: 27px;
-  width: 100%;
-  height: auto;
-}
-
-.desktopdashboardone img{ /*picture 3 part 2*/
-  padding-top: 27px;
-  width: 100%;
-  height: auto;
-}
-
-div .desktoptwomockup{
-  margin-right: 43px;
-}
-
-.desktoptwomockup img{ /*picture 4 part 2*/
-  width: 100%;
-  height: auto;
-}
-
-div .mobiletwomockup{
   margin-right: 105px;
+  padding-top: 50px;
 }
 
-.mobiletwomockup img{ /*picture 5 part 2*/
-  padding-bottom: 25px;
-  width: 100%;
-  height: auto;
+.mobilemockupInfo{
+  padding-top: 50px;
 }
 
 div .mobileonboardingtwo{
   text-align: center;
+  padding-top: 15px;
 }
 
 .mobileonboardingtwo img{ /*picture 6 part 2*/
@@ -1285,9 +1267,6 @@ div .mobileonboardingtwo{
 .wireframebutton{
   padding-bottom: 50px;
 }
-
-
-
 
 /*----BRANDING SECTION-----*/
 div .branding{
@@ -1366,7 +1345,7 @@ margin-right: 200px;
   width: 100%;
   height: auto;
   padding-bottom: 0;
-  padding-top: 70px;
+  padding-top: 76px;
 }
 
 .colorpalette h5{
@@ -1436,6 +1415,23 @@ div .blackcolor{
 .blackcolor img{
   width: 100%;
   height: auto;
+}
+
+div .Typography{
+  padding-bottom: 50px;
+}
+
+.primaryTypeface img, .complimentaryTypeface img{
+  height: auto;
+  padding-left: 105px;
+  padding-right: 105px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  width: 100%;
+}
+
+div .complimentaryTypeface{
+  margin-bottom: 100px;
 }
 
 /*-------HIGH FIDELITY PROTOTYPES SECTION------*/
@@ -1649,6 +1645,7 @@ div .conclusion{
 .conclusionbutton{
   padding-top: 100px;
   padding-bottom: 100px;
+  scroll-behavior: smooth;
 }
 
 

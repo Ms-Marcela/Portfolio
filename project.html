@@ -10,6 +10,11 @@
       <!--Material Design Lite-->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--Chart JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+
     <!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -26,7 +31,7 @@
         <section class="navSection">
           <ul id="menu">
             <li ><a href="index.html#home-page">Home</a></li>
-            <li ><a id="workspage" href="works.html#workspage">Works</a></li>
+            <li ><a id="workspage" href="index.html#FeaturedArchia">Works</a></li> <!--href="works.html#workspage"-->
             <li ><a id="about-me-page" href="aboutme.html#about-me-page">About</a></li>
           </ul>
         </section>
@@ -41,8 +46,11 @@
                 the cloud storage market. Archia believes it can become one of the big
                 players on the storage market by focusing on making its users satisfied
                 while providing all the tools they need to accomplish their goals.</p>
-              <form class="defaultbutton buttonProto" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens">
-                <input type="submit" value="View Prototype" />
+              <form class="defaultbutton buttonProto" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens" target="_blank">
+                <input type="submit" value="View Desktop Prototype" />
+              </form>
+              <form class="defaultbutton buttonMP" action="https://invis.io/KZPJ1CXT8QY" target="_blank">
+                <input type="submit" value="View Mobile Prototype" />
               </form>
             </div>
           </div>
@@ -56,7 +64,7 @@
               <li>UX Designer</li>
               <li>Visual Designer</li>
               <li>Researcher</li>
-              <li>Tester</li>
+              <li>Prototyper</li>
               <li>Brand and Identity</li>
             </ul>
             <div>
@@ -102,7 +110,7 @@
       </section>
 
       <section class="TheSolution">
-        <!--<div class="thesolutioncolor">-->
+        <div class="thesolutionwrap">
           <h2>The Solution</h2>
           <p>I created a cloud storage service that had the most important features according
             to my research. This is the final look of the landing pages and the dashboards.</p>
@@ -130,15 +138,13 @@
             <div class="MobileDashboard">
              <img src="images/mobileDashboard.png" alt="Archia's mobile dashboard">
            </div>
-           <div class="SolutionButtons">
-             <form class="defaultbutton buttonDP" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens">
+           <!--<div class="SolutionButtons">
+             <form class="defaultbutton buttonDP" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens" target="_blank">
                <input type="submit" value="View Desktop Prototype" />
              </form>
-             <form class="defaultbutton buttonMP" action="https://invis.io/KZPJ1CXT8QY">
-               <input type="submit" value="View Mobile Prototype" />
-             </form>
-           </div>
+           </div>-->
          </div>
+       </div>
       </section>
 
       <!--The process section-->
@@ -152,30 +158,145 @@
               needed to be developed and what were the main features that needed to be included
               when designing the cloud storage service for the client.</p>
           </div>
+          <div class="containerChartJS">
+            <canvas id="myChart" width="400" height="400" style="width: 100px, height: 100px"></canvas>
+            <canvas id="myPieChart" width="400" height="400" style="width: 100px, height: 100px">
+          </div>
+
+          <script>
+          var ctx = document.getElementById('myChart').getContext('2d');
+
+          var ctx = document.getElementById("myChart");
+          ctx.height= 200;
+
+
+
+          var pieChart = document.getElementById('myPieChart').getContext('2d');
+
+          var pieChart = document.getElementById("myPieChart");
+          pieChart.height= 120;
+
+          Chart.defaults.global.defaultFontFamyly = 'Open Sans';
+          Chart.defaults.global.defaultFontSize = 18;
+          Chart.defaults.global.defaultFontColor = '#fff';
+
+
+        var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Uploading', 'Organizing', 'Creating', 'Sharing'],
+            datasets: [{
+                label: 'Number of People',
+                data: [5, 4, 3, 3],
+                backgroundColor: [
+                    'rgba(255,132,110)',
+                    'rgba(213,190,194)',
+                    'rgba(0,145,118)',
+                    'rgba(248,210,192)',
+                ],
+                borderColor: [
+                    'rgba(255, 132, 110)',
+                    'rgba(213,190,194)',
+                    'rgba(0,145,118)',
+                    'rgba(248,210,192)',
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+          title: {
+                display: true,
+                text: 'Most Necessary Features',
+                fontSize: 25,
+                fontFamily: 'Open Sans'
+            },
+        //  layout: {
+          //  padding: {
+          //      left: 300,
+          //      right: 300,
+          //      top: 50,
+          //      bottom: 100
+          //  }
+      //  },
+          legend: {
+            display: false,
+        },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        stepSize: 1
+                    }
+                }]
+            }
+        }
+
+    });
+
+      //PIE CHART SECTION
+     var myPieChart = new Chart(pieChart, {
+       type: 'pie',
+        data: {
+            labels: ['School', 'Personal', 'Work'],
+            datasets: [{
+                label: 'Percentage of People',
+                data: [53, 29, 18],
+                backgroundColor: [
+                    'rgba(255,132,110)',
+                    'rgba(213,190,194)',
+                    'rgba(0,145,118)',
+                ],
+                borderColor: [
+                    'rgba(255, 132, 110)',
+                    'rgba(213,190,194)',
+                    'rgba(0,145,118)',
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+           title: {
+                display: true,
+                text: 'Environments Where People Use Cloud Storage',
+                fontSize: 25,
+                fontFamily: 'Open Sans',
+            },
+          layout: {
+            padding: {
+                left: 300,
+                right: 300,
+                top: 0,
+                bottom: 0
+            }
+        },
+          legend: {
+            display: true,
+            position: 'right',
+
+            labels: {
+                fontSize: 25,
+                fontFamily: 'Open Sans',
+
+            }
+        }
+        }
+     });
+          </script>
           <div class="surveywrap">
-            <div class="SurveyResults">
-              <p>These are some of the most important results of the survey:</p>
-              <ul class="results">
-                <li>74% of them used a cloud storage service</li>
-                <li>53% of them used it for school purposes</li>
-                <li>29% of them used it for personal use</li>
-                <li>18% of them used it for work</li>
-                <li>91% of survey takers were female</li>
-                <li>48% of them were between 25-30 years old</li>
-                <li>22% of them were between 15-18 years old</li>
-              </ul>
+            <div class="cloudUsers">
+              <h3>74%</h3>
+              <p>Of People surveyed have used a cloud storage service</p>
             </div>
-            <div class="FeaturesFromSurvey">
-              <p>Features the users found absolutely necessary in order of importance were:</p>
-              <ul>
-                <li>Uploading content</li>
-                <li>Organizing content</li>
-                <li>Creating content</li>
-                <li>Sharing content</li>
-              </ul>
+            <div class="demographicsSex">
+              <h3>91%</h3>
+              <p>Of survey takers were female</p>
+            </div>
+            <div class="demographicsAge">
+              <h3>48%</h3>
+              <p>Were between 25-30 years old</p>
             </div>
           </div>
-          <form class="defaultbutton surveybutton" action="https://goo.gl/forms/IOuDLlbuPEnU5fIn1">
+          <form class="defaultbutton surveybutton" action="https://goo.gl/forms/IOuDLlbuPEnU5fIn1" target="_blank">
             <input type="submit" value="Explore the Survey"/>
           </form>
         </div>
@@ -212,7 +333,7 @@
             <div class="lastcompparagraph">
               <p>Analyzing these types of services next to each other helped me understand what would work and what wouldn’t in the creation of a cloud storage service. It showed me the things that I would need to focus in order to make the service more appealing to the users. </p>
             </div>
-          <form class="defaultbutton competitivebutton" action="https://docs.google.com/spreadsheets/d/1vky-WvR3GuGkkSfEuTT-cbcWs2VsVGVO58WZwtdz7K8/edit?usp=sharing">
+          <form class="defaultbutton competitivebutton" action="https://docs.google.com/spreadsheets/d/1vky-WvR3GuGkkSfEuTT-cbcWs2VsVGVO58WZwtdz7K8/edit?usp=sharing" target="_blank">
            <input type="submit" value="View Competitive Analysis"/>
          </form>
         </div>
@@ -239,7 +360,16 @@
                   <li>Location: Dallas</li>
                 </ul>
               </div>
+
               <div class="GoalsandFrustrations">
+                <div class="Motivations">
+                  <h7>Motivations</h7>
+                  <p>Silvia is an early adopter. She loves anything that promises to make her life easier.
+                    She loves to keep her life organized and gets satisfaction from seeing things in
+                    their place. Wheneve r there’s a new product that promises to make tasks easier
+                    for her she’s the first one to check it out.
+                  </p>
+                </div>
                 <div class="GoalsSilvia">
                   <h7>Goals</h7>
                   <ul>
@@ -271,6 +401,14 @@
                   <li>Location: New York</li>
                 </ul>
               </div>
+              <div class="Motivations">
+                <h7>Motivations</h7>
+                <p>Lilly loves the interaction that social media has allowed people to have.
+                  She loves seeing people from different backgrounds connect with the click
+                  of a button. She hopes to someday create a social media that will also help
+                  people get closer to each other.
+                </p>
+              </div>
               <div class="GoalsandFrustrations">
                 <div class="GoalsLilly">
                   <h7>Goals</h7>
@@ -291,7 +429,7 @@
               </div>
             </div>
           </div>
-          <form class="defaultbutton personasbutton" action="https://www.figma.com/file/FrFFuczhBLbXqt2dJ7PjGW3h/Users-Personas-Project-1">
+          <form class="defaultbutton personasbutton" action="https://www.figma.com/file/FrFFuczhBLbXqt2dJ7PjGW3h/Users-Personas-Project-1" target="_blank">
             <input type="submit" value="View User Personas"/>
           </form>
         </div>
@@ -316,18 +454,7 @@
               <li>I want to sign out of the account</li>
             </ul>
           </div>
-          <div class="lowandmedtasks">
-            <p>All users Medium importance tasks:</p>
-            <ul class="MediumTasks">
-              <li> I want to see most recent items opened</li>
-            </ul>
-            <p>All users Low importance tasks:</p>
-            <ul class="LowTasks">
-              <li> I want to see how much storage I have left</li>
-              <li>I want to see a favorites option</li>
-            </ul>
-          </div>
-          <form class="defaultbutton storiesbutton" action="https://docs.google.com/spreadsheets/d/1wuXFU5G-ZRc_B-5zfveEtOzVpQLLgQlGfbP7hTLOxOM/edit?usp=sharing">
+          <form class="defaultbutton storiesbutton" action="https://docs.google.com/spreadsheets/d/1wuXFU5G-ZRc_B-5zfveEtOzVpQLLgQlGfbP7hTLOxOM/edit?usp=sharing" target="_blank">
             <input type="submit" value="View User Stories"/>
           </form>
         </div>
@@ -350,64 +477,166 @@
               </ul>
             </div>
             <div class="userflowsimage">
-              <img src="images/userflows.png" alt="User flow image">
+              <img src="images/UserFlowPencil.png" alt="User flow image">
             </div>
           </div>
-          <form class="defaultbutton flowsbutton" action="https://drive.google.com/file/d/1VwKBBH_Ei20WbYcw5x2zPSmRajenmG35/view?usp=sharing">
+          <div class="userflowhighfi">
+            <img src="images/userflowhighfi.png" alt="User flow high fidelity image">
+          </div>
+          <form class="defaultbutton flowsbutton" action="https://drive.google.com/file/d/1VwKBBH_Ei20WbYcw5x2zPSmRajenmG35/view?usp=sharing" target="_blank">
             <input type="submit" value="View User Flows"/>
           </form>
         </div>
 
         <!--Wireframes and Mockups section-->
         <div class="wireframesandmockups">
-          <h3>Wireframes and Mockups</h3>
+          <h3>Wireframes</h3>
           <p>Below are a few  of the many iterations that took to get to the final design
             that contain the minimum features to present the product to the client.</p>
           <div class="wireframes">
-            <div class="sketchone"> <!--Picture 1 part 1-->
-              <img src="images/sketchone.png" alt="Sketch image 1">
-            </div>
-            <div class="sketchtwo"> <!--Picture 2 part 1-->
-              <img src="images/sketchtwo.png" alt="Sketch image 2">
-            </div>
-            <div class="landingwireframe"> <!--Picture 3 part 1-->
-              <img src="images/landingwireframe.png" alt="Figma landing wireframe">
-            </div>
-            <div class="desktopwireframe"><!--Picture 4 part 1-->
-              <img src="images/desktopwireframe.png" alt="Figma desktop dashboard wireframe">
-              <div class="mobilewireframe"><!--Picture 5 part 1-->
-                <img src="images/mobilewireframe.png" alt="Figma mobile onboarding wireframe">
+            <p>The first two images below are the first iterations of the sketch and the wireframes.
+              The first image shows the first sketch I created and the second image shows the
+              refined wireframe. In the wireframe for the desktop version you can see a few of the
+              changes higlighted that I added after revising the sketch. More information was added as shown by
+              changes in the red boxes. I added more detailed information like the plans availabe
+             the cloud service would offer. I also added more visual changes to make the landing page more appealing.
+            </p>
+          </div>
+            <div class="desktopsketchwrap">
+              <div class="sketchone"> <!--Picture 1-left sketch-->
+                <img src="images/sketchone.png" alt="Sketch image 1">
               </div>
+              <div class="desktopwireframe1"> <!--Picture 2-right wireframe-->
+                <img src="images/desktopwireframe1.png" alt="wireframe image 1">
+              </div>
+            </div>
+
+            <div class="mobilesketchinfo">
+              <p>The next two pictures show the first Figma wireframe and the parts highlighted in
+              the red rectangles show the parts that were modified from the first wireframe. The
+              headings for the uploading and creating sections were also matched with the margins of the plans to match
+              the alignment of the previous section. After I received input, I also added some description below the
+              headings under the pictures.
+              </p>
+            </div>
+            <div class="wireframeswrap">
+              <div class="desktopwireframe2"> <!--Picture 3-left wireframes-->
+                <img src="images/desktopwireframe2.png" alt="desktop landing wireframe">
+              </div>
+              <div class="landingwireframe"> <!--Picture 4-right figma wireframes-->
+                <img src="images/landingwireframe.png" alt="Figma landing wireframe">
+              </div>
+           </div>
+
+           <div class="dashboardsInfo">
+             <p>Finally below is just the hand drawn wireframe, shown in the first picture, and how it evolved when it was
+                created on Figma. After I started creating the dashboard wireframe on Figma I realized that adding the logo's
+                name seemed too much so I decided to remove it. I also added a trash icon to the menu
+                since I had missed it before and I wanted it to be on an easy to find placehh for the user.</p>
+           </div>
+           <div class="desktopdashboardwrap">
+             <div class="desktopdashboardswireframes"><!--Picture 5-left-->
+               <img src="images/desktopdashboardswireframes.png" alt="hand drawn desktop dashboard wireframe">
+             </div>
+            <div class="desktopwireframe"><!--Picture 6-right-->
+              <img src="images/desktopwireframe.png" alt="Figma desktop dashboard wireframe">
             </div>
           </div>
 
+
+            <div class="mobilesketchinfo">
+              <p>The two images below show the sketch and wireframe for the mobile version of the service.
+                The first image is the mobile sketch for the landing page and on the second image is the wireframe.
+                The second wireframe shows the changes I made after adding more details. First, I added the screen that would
+                be the first screen shown when opening the app and I made the "login/sign up" screen the second screen.
+                Other changes I made were that I made the "plans available" section more visually appealing plus I also added
+                more information according to the changes made on the desktop version. In the "get access to" screen I
+                decided to change how the images were shown by adding an arrow on the right side of the image to change
+                to the next option instead of having the user sroll down to see the other options. These changes were also added
+                to the "create" section to keep the same visual throughout the page.</p>
+            </div>
+            <div class="mobilesketchwrap">
+              <div class="sketchtwo"> <!--Picture 7-left-->
+                <img src="images/sketchtwo.png" alt="Sketch image 2">
+              </div>
+              <div class="sketchtwomobile"> <!--Picture 8-right-->
+                <img src="images/sketchtwomobile.png" alt="Sketch image 2">
+              </div>
+            </div>
+
+            <div class="mobileonboardingInfo">
+              <p>Finally, below shows the second iteration of the mobile wireframe and how it transformed after the third iteration was
+                created on Figma.</p>
+            </div>
+          <div class="mobilelandingwrap">
+            <div class="plainMobileWireframe"><!--Picture 9-left-->
+              <img src="images/plainMobileWireframe.png" alt="hand drawn onboarding wireframe">
+            </div>
+            <div class="mobilewireframe"><!--Picture 10-right-->
+              <img src="images/mobilewireframe.png" alt="Figma mobile onboarding wireframe">
+            </div>
+            </div>
+            <form class="defaultbutton wireframebutton" action="https://www.figma.com/file/f4F5dTmG1Y7qCtPwjyo1Tw5V/Wireframes-Cloud-Storage" target="_blank">
+              <input type="submit" value="View Wireframes"/>
+            </form>
+
+          <div class="mockupsintro">
+            <h3>Mockups</h3>
+          </div>
           <div class="mockups">
-            <div class="landingmockup"><!--Picture 1 part 2-->
-              <img src="images/landingmockup.png" alt="First high fi landing page">
+            <div class="mockups-Intro">
+              <p>After going from the sketches to the wireframes, I then moved onto creating the
+                first iteration of the high fidelity mockups. Below I will explain in more details
+                some of the changes that were applied after receiving input.</p>
+              <p>The first picture is the first attempt of the high fidelity mockup. The second image
+                is the revised mockup after it was submitted to be graded. The rectangles in red show
+                the main changes that were applied. I will go into more detail in the user testing
+                section of this case study.</p>
             </div>
-            <div class="mobilemockup"><!--Picture 2 part 2-->
-              <img src="images/mobilemockup.png" alt="First high fi mobile onboarding">
-              <div class="desktopdashboardone"><!--Picture 3 part 2-->
-                <img src="images/desktoponemockup.png" alt="first high fi desktop onboarding">
+            <div class="mockupsWrap">
+              <div class="landingmockup"><!--Picture 11-left-->
+                <img src="images/landingmockup.png" alt="First high fi landing page">
+              </div>
+              <div class="desktoptwomockup"> <!--Picture 12-right-->
+                <img src="images/desktoptwomockup.png" alt="First high fi desktop dashboard">
               </div>
             </div>
-            <div class="desktoptwomockup"> <!--Picture 4 part 2-->
-              <img src="images/desktoptwomockup.png" alt="First high fi desktop dashboard">
+
+            <div class="secondDashboardInfo">
+              <p>The iteration below is the second edited version of the high fidelity mockup for the
+              desktop dashboard. More detailed explanation of how and what changes I made to it will
+              be explained on the user testing section.</p>
             </div>
-            <div class="mobiletwomockup"> <!--Picture 5 part 2-->
-              <img src="images/mobiletwomockup.png" alt="Second high fi mobile landing page">
-              <div class="mobileonboardingtwo"><!--Picture 6 part 2-->
+            <div class="desktopdashboardone"><!--Picture 3 part 2-->
+              <img src="images/desktoponemockup.png" alt="first high fi desktop onboarding">
+            </div>
+
+            <div class="mobilemockupInfo">
+              <p>Below are the screens for the onboarding process for the mobile version
+              of the cloud storage service. The first picture is the first try at the high
+              fidelity mockups. The second picture was the second try, the changes applied
+              to the second mockup were that the plans availabe tables were revised as well
+              as I added the screen for the opinions of what the people are saying about the
+              service.</p>
+            </div>
+            <div class="mobilemockupwrap">
+              <div class="mobilemockup"><!--Picture 2 part 2-->
+                <img src="images/mobilemockup.png" alt="First high fi mobile onboarding">
+              </div>
+              <div class="mobiletwomockup"> <!--Picture 5 part 2-->
+                <img src="images/mobiletwomockup.png" alt="Second high fi mobile landing page">
+                <div class="mobileonboardingtwo"><!--Picture 6 part 2-->
                 <img src="images/mobileonboardingtwo.png" alt="Second high fi mobile landing page">
-              </div>
+                </div>
               </div>
             </div>
-          <form class="defaultbutton wireframebutton" action="https://www.figma.com/file/f4F5dTmG1Y7qCtPwjyo1Tw5V/Wireframes-Cloud-Storage">
-            <input type="submit" value="View Wireframes"/>
-          </form>
-          <form class="defaultbutton mockupbutton" action="https://www.figma.com/file/2mV8yWdqBCe4dUOfZJg7wf/High-Fidelity-Mock-Ups-Desktop-1">
+
+
+          <form class="defaultbutton mockupbutton" action="https://www.figma.com/file/2mV8yWdqBCe4dUOfZJg7wf/High-Fidelity-Mock-Ups-Desktop-1" target="_blank">
             <input type="submit" value="View First Mockups"/>
           </form>
         </div>
+      </div>
 
         <!--Branding section-->
         <div class="branding">
@@ -455,8 +684,27 @@
                 <img src="images/blackcolor.png" alt="Black color image">
               </div>
             </div>
+            <div class="Typography">
+              <h5>Typography</h5>
+              <p>For the typography for the cloud storage I wanted to choose a font
+                that conveyed simplicity and was easy to read. However for the prymary
+                typeface I wanted to find a font that complimented the cloud in the logo, in this case
+                that font was Rasa. For the complimentary font I chose to use PT Sans because it
+                is easy to read and had that simplicity I wanted to implement but it also worked
+                well with the prymary typeface.</p>
+                <div class="primaryTypeface">
+                  <p>Below is an image of the style guide that contains the primary face chosen, Rasa,
+                    and an explanation why I choose to use it in this design.</p>
+                  <img src="images/primaryTypeface.png" alt="Prymary typeface image">
+                </div>
+                <div class="complimentaryTypeface">
+                  <p>PT Sans is a humanist, sans-serif font and was chosen as the complimentary font
+                  for its easy readability.</p>
+                  <img src="images/complimentaryTypeface.png" alt="Complimentary typeface image">
+                </div>
+            </div>
         </div>
-          <form class="defaultbutton" action="https://www.figma.com/file/PnGJRSdgka5VXG4w7WMNNeG4/Style-Guide-Cloud-Storage">
+          <form class="defaultbutton brandButton" action="https://www.figma.com/file/PnGJRSdgka5VXG4w7WMNNeG4/Style-Guide-Cloud-Storage" target="_blank">
             <input type="submit" value="View Style Guide"/>
           </form>
         </div>
@@ -483,10 +731,10 @@
               </div>
             </div>
           </div>
-          <form class="defaultbutton finaldesktopbutton" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens">
+          <form class="defaultbutton finaldesktopbutton" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens" target="_blank">
             <input type="submit" value="View Desktop Prototype"/>
           </form>
-          <form class="defaultbutton finalmobilebutton" action="https://invis.io/KZPJ1CXT8QY">
+          <form class="defaultbutton finalmobilebutton" action="https://invis.io/KZPJ1CXT8QY" target="_blank">
             <input type="submit" value="View Mobile Prototype"/>
           </form>
         </div>

@@ -39,7 +39,7 @@ nav li:last-child {
 }
 
 .navSection a{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .featuredProjects h1{  /* Featured Projects-heading*/
@@ -52,13 +52,14 @@ nav li:last-child {
     padding-bottom: 234px;
     padding-left: 84px;
     padding-right: 84px;
+    margin: 0 auto; /*remove when solo project ready*/
   }
 
 
   .group .mdl-card{ /*space of grid containers from footer & space around*/
-    left: 44px;
-    right: 84px;
-    width: 100%;
+    /*left: 44px; activate when solo project ready
+    right: 84px;*/
+    width: 80%;
   }
 
   .overlay-content {
@@ -102,6 +103,7 @@ nav li:last-child {
 
   .button input {
     font-size: 3rem;
+    margin-top: 35%;
     width: 300px;
     height: 64px;
   }
@@ -109,12 +111,14 @@ nav li:last-child {
 
   .button input:hover {
     font-size: 3rem;
+    margin-top: 35%;
     width: 300px;
     height: 64px;
   }
 
   .inactivebutton input {
     font-size: 3rem;
+    margin-top: 35%;
     width: 300px;
     height: 64px;
   }
@@ -140,7 +144,12 @@ nav li:last-child {
 .AboutPhotos2 .mdl-card{ /*space of grid containers & space around*/
   left: 84px;
   right: 84px;
+  top: 0;
   width: 88%;
+}
+
+section.AboutPhotos2{
+padding-top: 100px;
 }
 
 section.Irapuato{
@@ -150,6 +159,11 @@ padding-top: 50px;
 .bioText p{
   padding-left: 84px;
   padding-right: 84px;
+}
+
+.resumeButton{
+  padding-top: 50px;
+  margin: 0 auto;
 }
 
 /*ARCHIA CASE STUDY RESPONSIVE CODE*/
@@ -184,7 +198,7 @@ padding-top: 50px;
   padding-right: 80px;
 }
 
-section.TheSolution{
+.thesolutionwrap{
   margin-top: -25px;
   margin-left: 0;
   margin-right: 0;
@@ -194,13 +208,14 @@ section.TheSolution{
 div.containerImages{
   display: inline-block;
   margin-top: 0;
+  padding-bottom: 50px;
   padding-left: 0;
   padding-right: 0;
 }
 
 div.LandingPage{
   float: none;
-  margin-top: 50px;
+  margin-top: 0;
   width: 100%;
 }
 
@@ -225,28 +240,18 @@ div.MobileBoarding{
 
 div.MobileDashboard{
   float: none;
-  margin-top: 50px;
   width: 100%;
 }
 
 .MobileDashboard img{
   padding-left: 30%;
   padding-right: 30%;
+
 }
 
 div.SolutionButtons{
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.buttonDP{ /*position of the button on that section*/
-  padding-bottom: 30px;
-  padding-top: 100px;
-}
-
-.buttonMP{
-  padding-top: 0;
-  padding-bottom: 50px;
 }
 
 /*The Process section*/
@@ -374,6 +379,28 @@ div .personaswrap{
   margin-top: 0;
 }
 
+div .Motivations{
+  line-height: 3.2rem;
+  padding-bottom: 0;
+  padding-top: 50px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.Motivations p{
+  height: auto;
+  font-size: 2.4rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+}
+
+
+div .GoalsSilvia, div .GoalsLilly, div .FrustrationsSilvia, div .FrustrationsLilly{
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
 .SilviaPersona img, .LillyPersona img{
   text-align: center;
   margin-left: auto;
@@ -425,97 +452,46 @@ div .wireframesandmockups{
 }
 
 .wireframesandmockups p{
+  padding-bottom: 50px;
   padding-left: 80px;
   padding-right: 80px;
 }
 
-div .wireframes{
+div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
+div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
+div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-div .mockups{
-  display: inline-block;
-  margin-bottom: 50px;
+div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
+div .plainMobileWireframe, div .landingmockup, div .mobilemockup, div .desktopwireframe1,
+div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone{ /*desktop EDITED FOR ASSESMENT*/
+  float: none;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin: 0 auto;
+}
+
+div .desktopdashboardone{
+  padding-top: 0;
+}
+
+.mobilemockupInfo{
+  padding-top: 0;
+}
+
+div .mobileonboardingtwo{
+  padding-bottom: 50px;
+}
+
+.wireframebutton{
   padding-bottom: 0;
-}
-
-div .sketchone{
-  display: flex;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  width: 50%;
-  height: auto;
-}
-
-div .sketchtwo{
-  display: flex;
-  float: right;
-  margin-right: 0;
-  width: 50%;
-  height: auto;
-}
-
-.sketchone img{
-  padding-left: 33px;
-  padding-right: 12px;
-  text-align: center;
-}
-
-.sketchtwo img{
-  padding-left: 12px;
-  padding-right: 33px;
-  text-align: center;
-}
-
-div .landingwireframe{
-  margin-right: 0;
-}
-
-.landingwireframe img{
   padding-top: 50px;
-  padding-left: 25%;
-  padding-right: 25%;
-  width: 100%;
-}
-
-div .desktopwireframe{
-  margin-right: 0;
-}
-
-.desktopwireframe img{
-  padding-bottom: 50px;
-  padding-left: 33px;
-  padding-right: 33px;
-  padding-top: 50px;
-  width: 100%;
-}
-
-div .landingmockup, div .mobilewireframe, div .mobilemockup, div .mobiletwomockup, div .desktoptwomockup{
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.landingmockup img, .mobilewireframe img, .mobilemockup img, .mobiletwomockup img{
-  padding-bottom: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  width: 100%;
-}
-
-.desktopdashboardone img{
-  padding-left: 33px;
-  padding-right: 33px;
-}
-
-.desktoptwomockup img, .mobileonboardingtwo img{
-  padding-bottom: 50px;
-  padding-left: 80px;
-  padding-right: 80px;
-  width: 100%;
 }
 
 /*----Responsive BRANDING SECTION-----*/
@@ -527,7 +503,7 @@ div .branding{
   padding-bottom: 50px;
 }
 
-.brandingintro p{
+.brandingintro p, .Typography p, .Typography h5{
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -609,6 +585,11 @@ div .whitecolor, div .blackcolor{
   padding-right: 160px;
   width: 100%;
   height: auto;
+}
+
+.primaryTypeface img, .complimentaryTypeface img{
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
