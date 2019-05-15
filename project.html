@@ -13,7 +13,7 @@
 
     <!--Chart JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!--Font Awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -158,9 +158,20 @@
               needed to be developed and what were the main features that needed to be included
               when designing the cloud storage service for the client.</p>
           </div>
-          <div class="containerChartJS">
-            <canvas id="myChart" width="400" height="400" style="width: 100px, height: 100px"></canvas>
-            <canvas id="myPieChart" width="400" height="400" style="width: 100px, height: 100px">
+          <div class="col-md-6 offset-md-3 my-4">
+            <div class="card cardMyChart">
+              <div class="card-body"><h3>Most Necessary Feautures</h3>
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="col-md-6 offset-md-3 my-5">
+            <div class="card cardMyPieChart">
+              <div class="card-body"><h3>Where People Use Cloud Storage</h3>
+               <canvas id="myPieChart">
+              </div>
+            </div>
           </div>
 
           <script>
@@ -176,9 +187,9 @@
           var pieChart = document.getElementById("myPieChart");
           pieChart.height= 120;
 
-          Chart.defaults.global.defaultFontFamyly = 'Open Sans';
-          Chart.defaults.global.defaultFontSize = 18;
-          Chart.defaults.global.defaultFontColor = '#fff';
+
+          //Chart.defaults.global.defaultFontSize = 18;
+
 
 
         var myChart = new Chart(ctx, {
@@ -204,20 +215,14 @@
             }]
         },
         options: {
-          title: {
-                display: true,
-                text: 'Most Necessary Features',
-                fontSize: 25,
-                fontFamily: 'Open Sans'
-            },
-        //  layout: {
-          //  padding: {
-          //      left: 300,
-          //      right: 300,
-          //      top: 50,
-          //      bottom: 100
-          //  }
-      //  },
+          layout: {
+           padding: {
+              left: 0,
+              right: 0,
+              top: 0,
+              bottom: 50
+           }
+       },
           legend: {
             display: false,
         },
@@ -230,7 +235,6 @@
                 }]
             }
         }
-
     });
 
       //PIE CHART SECTION
@@ -255,28 +259,20 @@
             }]
         },
         options: {
-           title: {
-                display: true,
-                text: 'Environments Where People Use Cloud Storage',
-                fontSize: 25,
-                fontFamily: 'Open Sans',
-            },
           layout: {
-            padding: {
-                left: 300,
-                right: 300,
-                top: 0,
-                bottom: 0
-            }
+           padding:{
+               left: 0,
+               right: 20,
+               top: 0,
+               bottom: 50
+            },
         },
           legend: {
             display: true,
             position: 'right',
-
             labels: {
-                fontSize: 25,
+              //  fontSize: 20,
                 fontFamily: 'Open Sans',
-
             }
         }
         }
