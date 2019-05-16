@@ -137,7 +137,6 @@ div .overlay-content{
   font-size: 0;
   line-height: 0;
   width: 0;
-
 }
 
 .overlay-content p.aboutproject {
@@ -280,6 +279,7 @@ div .resume{
 div .SummaryOfProject{
   margin-top: -60px;
   width: 100%;
+  padding-bottom: 0;
 }
 
 .SummaryOfProject p{
@@ -329,20 +329,17 @@ div .SummaryOfProject{
 
 .rolescontainer{
   height: 340px;
-  /*margin-left: 33px;
-  margin-right: 33px;*/
   width: 309px;
   margin: 0 auto;
-  /*text-align: center;*/
+  margin-bottom: 50px;
 }
 
 .delivcontainer{
   height: 458px;
-  /*margin-left: 33px;
-  margin-right: 33px;*/
   margin: 0 auto;
   text-align: center;
   width: 308px;
+  margin-bottom: 50px;
 }
 
 .toolscontainer{

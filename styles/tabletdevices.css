@@ -167,6 +167,10 @@ padding-top: 50px;
 }
 
 /*ARCHIA CASE STUDY RESPONSIVE CODE*/
+div .SummaryOfProject{
+  padding-bottom: 50px;
+}
+
 .SummaryOfProject p{
   padding-left: 80px;
   padding-right: 80px;
@@ -182,14 +186,17 @@ padding-top: 50px;
 
 .rolescontainer{
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .delivcontainer{
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .toolscontainer{
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 /*responsive The Problem section*/
@@ -269,22 +276,30 @@ div.UserResearch{       /*The Survey Section*/
 }
 
 .researchIntro p, .UserPersonas p{
+  height: auto;
   padding-left: 80px;
   padding-right: 80px;
   padding-top: 50px;
   margin-bottom: 100px;
 }
 
+
 .surveywrap{
   display: inline-block;
   padding-top: 0;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+
 }
 
-.SurveyResults {
-  margin-bottom: 50px;
+.cloudUsers p, .demographicsSex p, .demographicsAge p{
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 65px;
 }
+
 
 .surveybutton{
   display: inline-block;

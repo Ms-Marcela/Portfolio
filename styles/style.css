@@ -1,9 +1,10 @@
 :root {
-  font-size: 62.5%;
-  body {
-       /*Body font size 10px*/
-    font-size: 1rem;
-  }
+  font-size: 62.5%;  
+}
+
+body {
+     /*Body font size 10px*/
+  font-size: 1rem;
 }
 
 * {
@@ -321,6 +322,10 @@ section.PhotosLeft p, section.Irapuato p{
   text-align: left;
 }
 
+.boldedText{
+  font-weight: bold
+}
+
 .AboutPhotos2 p{
   color: #454242;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -402,6 +407,7 @@ div .SummaryOfProject{
   background-color: #3C4663;
   height: auto;
   width: 100%;
+  padding-bottom: 100px;
 }
 
 .SummaryOfProject p{
@@ -409,7 +415,7 @@ div .SummaryOfProject{
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 2.4rem;
   line-height: 4.2rem;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   padding-top: 50px;
   padding-left: 293.5px;
   padding-right: 293.5px;
@@ -603,7 +609,6 @@ section.TheProblem {
 .thesolutionwrap{
   background-color: #979797;
   margin-top: 100px;
-  /*margin-bottom: 100px;*/
   margin-left: 84px;
   margin-right: 84px;
   overflow: hidden;
@@ -1485,11 +1490,6 @@ div .threeimageswrap{
   margin-right: 105px;
 }
 
-div .finaldesktopdashboard{
-  /*float: left;*/
-  /*width: 50%;*/
-}
-
 .finaldesktopdashboard img{
   /*float: none;*/
   height: auto;
@@ -1518,7 +1518,7 @@ div .finaldesktopdashboard{
 
 .finaldesktopbutton{
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 /*--------User Testing Results Section-------*/
