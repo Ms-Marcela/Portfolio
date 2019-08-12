@@ -122,15 +122,12 @@ section.group{
 }
 
 div .archia{
-  /*margin-right: 84px; ACTIVATE WHEN SOLO PROJECT READY*/
-  margin: 0 auto; /*delete when solo project ready*/
+  margin-right: 84px;
 }
 
-/* ACTIVATE WHEN SOLO PROJECT READY
 div .solo {
   margin-right: 84px;
-
-}*/
+}
 
 .projects img {
   padding-left: 20px;
@@ -155,8 +152,8 @@ div .solo {
 }
 
 .mdl-card{ /*space of grid containers from footer & space around*/
-  /*left: 84px; left and right to ACTIVATE WHEN SOLO PROJECT READY
-  right: 84px;*/
+  left: 84px;
+  right: 84px;
   width: 100%;
 }
 
@@ -386,13 +383,21 @@ div .workspageprojects{ /*WORKS page space around heading*/
 }
 
 
-/*----------------ARCHIA'S CASE STUDY-------------------------*/
-.ArchiaIntro h1{
-  color: #3C4663;
-  font-family: "Rasa", Times, serif;
+/*----------------CASE STUDIES-------------------------*/
+.ArchiaIntro h1, .RoyalIntro h1{
   font-size: 8rem;
   text-align: center;
   padding-top: 100px;
+}
+
+.ArchiaIntro h1{
+  color: #3C4663;
+  font-family: "Rasa", Times, serif;
+}
+
+.RoyalIntro h1{
+  color: #002366;
+  font-family: "Josefin Sans", Times, sans-serif;
 }
 
 .ArchiaIntro img{
@@ -403,6 +408,8 @@ div .workspageprojects{ /*WORKS page space around heading*/
   text-align: center;
   width: 100%;
 }
+
+
 
 div .SummaryOfProject{
   background-color: #3C4663;
