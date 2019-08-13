@@ -400,7 +400,7 @@ div .workspageprojects{ /*WORKS page space around heading*/
   font-family: "Josefin Sans", Times, sans-serif;
 }
 
-.ArchiaIntro img{
+.ArchiaIntro img, .RoyalIntro img{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -409,6 +409,10 @@ div .workspageprojects{ /*WORKS page space around heading*/
   width: 100%;
 }
 
+.RoyalIntro img{
+  width: 95%;
+  padding-bottom: 50px;
+}
 
 
 div .SummaryOfProject{
@@ -418,7 +422,14 @@ div .SummaryOfProject{
   padding-bottom: 100px;
 }
 
-.SummaryOfProject p{
+div .SummaryOfProjectRoyal{
+  background-color: #002366;
+  height: auto;
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+.SummaryOfProject p, .SummaryOfProjectRoyal p{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 2.4rem;
@@ -429,6 +440,7 @@ div .SummaryOfProject{
   padding-right: 293.5px;
   text-align: center;
 }
+
 
 .defaultbutton input { /*default styling for active buttons*/
 	background-color: #000;
@@ -529,6 +541,11 @@ div .SummaryOfProject{
   width: 100%;
   max-width: 333px;
 }
+
+.RolesRoyal, .delivRoyal, .toolsRoyal{
+  background-color: #CCDDFF;
+}
+
 
 .rolescontainer ul{ /*Text inside the containers */
   color: #454242;
