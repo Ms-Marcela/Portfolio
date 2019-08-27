@@ -598,6 +598,10 @@ section.TheProblem {
   width: 100%;
 }
 
+section.problemRoyal{
+  background-color: #002366;
+}
+
 /*h2 headings on case study page*/
 .TheProblem h2, .TheSolution h2, .TheProcess h2{
   color: white;
@@ -659,13 +663,13 @@ div.LandingPage{
   width: 100%;
 }
 
-div.DesktopDashboard{
+div.DesktopDashboard, div.menuPageRoyal{  /*was div.DesktopDashboard changed to Royal's*/
   width: 50%;
   float: right;
   padding-left: 42px;
 }
 
-.DesktopDashboard img{
+.DesktopDashboard img, .menuPageRoyal img{
   width: 100%;
   height: auto;
 }
@@ -732,6 +736,10 @@ div.UserResearch{       /*The Survey Section*/
   padding-top: 50px;
 }
 
+div.userResearchRoyal{
+  background-color: #002366;
+}
+
 .UserResearch h3, .UserPersonas h3, .userstories h3{ /* h3 headings style with white color*/
   color: white;
   font-size: 6rem;
@@ -780,6 +788,9 @@ div.UserResearch{       /*The Survey Section*/
   font-weight: bold;
 }
 
+.surveyWrapRoyal h3{
+  color: #F279A2;
+}
 
 .cloudUsers p, .demographicsSex p, .demographicsAge p{
   color: white;

@@ -98,48 +98,28 @@
       </section>
 
       <!--The problem section-->
-      <section class="TheProblem">
+      <section class="TheProblem problemRoyal">
         <h2>The Problem</h2>
-        <p>The client wants an app for a cloud storage service but they’re not sure what type
-          of app they want. He gave as examples Google Drive, Dropbox, and Pinterest, etc.
-         They only know that they want the app to be able to save content from the web, organize
-         content, create content, upload content, and allow for collaboration.</p>
+        <p>The client wants a website that perfectly showcases every dish available
+          on their menu to entice potential new customers. They also
+          want to showcase their promise to the community of investing locally.</p>
       </section>
 
       <section class="TheSolution">
-        <div class="thesolutionwrap">
+        <div class="thesolutionwrap solutionWrapRoyal">
           <h2>The Solution</h2>
-          <p>I created a cloud storage service that had the most important features according
-            to my research. This is the final look of the landing pages and the dashboards.</p>
+          <p>Royal Cuisine’s website showcases all the important features that
+            were supported by my research, such as a detailed menu with
+            images, ingredients, and prices as well as other features the
+            people surveyed found important such as the hours of the
+            restaurant and the contact information.</p>
           <div class="containerImages">
             <div class="LandingPage">
-              <img src="images/DesktopLandingPage.png" alt="Archia's landing page">
+              <img src="images/Dashboard-Final-Royal.png" alt="Royal Cuisine's landing page">
             </div>
-            <div class="DesktopDashboard">
-              <img  src="images/DesktopDashboard.png" alt="Archia's desktop dashboard">
+            <div class="menuPageRoyal">
+              <img  src="images/Menu-Final-Royal.png" alt="Royal Cuisine Menu page">
             </div>
-            <div class="MobileBoarding">
-              <div class="mobileOne">
-                <img src="images/HomepageOne.png" alt="Archia's mobile onboarding one">
-              </div>
-              <div class="mobileTwo">
-                <img src="images/HomepageTwo.png" alt="Archia's mobile onboarding two">
-              </div>
-              <div class="mobileThree">
-                <img src="images/HomepageThree.png" alt="Archia's mobile onboarding three">
-              </div>
-              <div class="mobileFour">
-                <img src="images/HomepageFour.png" alt="Archia's mobile onboarding four">
-              </div>
-            </div>
-            <div class="MobileDashboard">
-             <img src="images/mobileDashboard.png" alt="Archia's mobile dashboard">
-           </div>
-           <!--<div class="SolutionButtons">
-             <form class="defaultbutton buttonDP" action="https://projects.invisionapp.com/share/JBPHDCF6FU2#/screens" target="_blank">
-               <input type="submit" value="View Desktop Prototype" />
-             </form>
-           </div>-->
          </div>
        </div>
       </section>
@@ -148,25 +128,16 @@
       <section class="TheProcess">
         <h2>The Process</h2>
         <!--User research inside the process section-->
-        <div class="UserResearch">
+        <div class="UserResearch userResearchRoyal">
           <div class="researchIntro">
             <h3>User Research</h3>
-            <p >After analyzing the results of my survey, I understood what type of user personas
-              needed to be developed and what were the main features that needed to be included
-              when designing the cloud storage service for the client.</p>
+            <p >The survey created for this design was to get to know what were the most
+              important features customers think are must-haves on a restaurant’s website.</p>
           </div>
           <div class="firstBarChart col-md-8 offset-md-2 my-4">
             <div class="card cardMyChart">
-              <div class="card-body"><h3>Most Necessary Feautures</h3>
+              <div class="card-body"><h3>Reasons People Visit a Restaurant's Website</h3>
                 <canvas id="myChart"></canvas>
-              </div>
-            </div>
-          </div>
-          <br />
-          <div class="col-md-8 offset-md-2 my-4">
-            <div class="card cardMyPieChart">
-              <div class="card-body"><h3>Where People Use Cloud Storage</h3>
-               <canvas id="myPieChart">
               </div>
             </div>
           </div>
@@ -177,36 +148,25 @@
           var ctx = document.getElementById("myChart");
           ctx.height= 200;
 
-
-
-          var pieChart = document.getElementById('myPieChart').getContext('2d');
-
-          var pieChart = document.getElementById("myPieChart");
-          pieChart.height= 120;
-
-
-          //Chart.defaults.global.defaultFontSize = 18;
-
-
-
+          //PIE CHART ROYAL
         var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['Uploading', 'Organizing', 'Creating', 'Sharing'],
+            labels: ['Look at the Menu', 'Location Information', 'To order Online', 'Look at the Hours'],
             datasets: [{
                 label: 'Number of People',
-                data: [5, 4, 3, 3],
+                data: [16, 11, 10, 10],
                 backgroundColor: [
-                    'rgba(255,132,110)',
-                    'rgba(213,190,194)',
-                    'rgba(0,145,118)',
-                    'rgba(248,210,192)',
+                    'rgba(204,221,255)', //blue color bar graph #CCDDFF
+                    'rgba(204,221,187)',//green color bar graph #0B6288
+                    'rgba(242,121,162)',//pink color bar graph #F279A2
+                    'rgba(244,160,0)',//yellow color bar graph #F4A000
                 ],
                 borderColor: [
-                    'rgba(255, 132, 110)',
-                    'rgba(213,190,194)',
-                    'rgba(0,145,118)',
-                    'rgba(248,210,192)',
+                    'rgba(204, 221, 255)', //blue color bar graph #CCDDFF
+                    'rgba(204,221,187)', //green color bar graph #0B6288
+                    'rgba(242,121,162)',//pink color bar graph #F279A2
+                    'rgba(244,160,0)',//yellow color bar graph #F4A000
                 ],
                 borderWidth: 1
             }]
@@ -227,69 +187,28 @@
                 yAxes: [{
                     ticks: {
                         beginAtZero: true,
-                        stepSize: 1
+                        stepSize: 20
                     }
                 }]
             }
         }
     });
-
-      //PIE CHART SECTION
-     var myPieChart = new Chart(pieChart, {
-       type: 'pie',
-        data: {
-            labels: ['School', 'Personal', 'Work'],
-            datasets: [{
-                label: 'Percentage of People',
-                data: [53, 29, 18],
-                backgroundColor: [
-                    'rgba(255,132,110)',
-                    'rgba(213,190,194)',
-                    'rgba(0,145,118)',
-                ],
-                borderColor: [
-                    'rgba(255, 132, 110)',
-                    'rgba(213,190,194)',
-                    'rgba(0,145,118)',
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-          layout: {
-           padding:{
-               left: 0,
-               right: 20,
-               top: 0,
-               bottom: 50
-            },
-        },
-          legend: {
-            display: true,
-            position: 'right',
-            labels: {
-              //  fontSize: 20,
-                fontFamily: 'Open Sans',
-            }
-        }
-        }
-     });
           </script>
-          <div class="surveywrap">
-            <div class="cloudUsers">
-              <h3>74%</h3>
-              <p>Of People surveyed have used a cloud storage service</p>
+          <div class="surveywrap surveyWrapRoyal">
+            <div class="cloudUsers contactInfo">
+              <h3>83%</h3>
+              <p>Of People agreed contact information should be a main feature</p>
             </div>
-            <div class="demographicsSex">
-              <h3>91%</h3>
-              <p>Of survey takers were female</p>
+            <div class="demographicsSex menuWithPictures">
+              <h3>78%</h3>
+              <p>Agreed that a menu with pictures should be included</p>
             </div>
-            <div class="demographicsAge">
-              <h3>48%</h3>
-              <p>Were between 25-30 years old</p>
+            <div class="demographicsAge menuePrices">
+              <h3>100%</h3>
+              <p>Agreed that prices need to be included</p>
             </div>
           </div>
-          <form class="defaultbutton surveybutton" action="https://goo.gl/forms/IOuDLlbuPEnU5fIn1" target="_blank">
+          <form class="defaultbutton surveybutton" action="https://docs.google.com/forms/d/1feFpz7y8PJkCshLg53sMmFeRReTOH4lJOsv2qPu1yOw/edit?usp=sharing" target="_blank">
             <input type="submit" value="Explore the Survey"/>
           </form>
         </div>
