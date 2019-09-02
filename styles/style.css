@@ -912,9 +912,24 @@ div .GoogleDrive{
   padding-left: 66px;
 }
 
+div .Cheddars, div .uncleJulio, div .spiralDiner{
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+
 .GoogleDrive img{
   height: 141px;
   width: 162px;
+}
+
+.Cheddars img, .uncleJulio img{
+  height: 141px;
+  width: 294px;
+}
+
+.spiralDiner img{
+  height: 95px;
+  width: 294px;
 }
 
 div .Pinterest{
@@ -929,6 +944,10 @@ div .Pinterest{
 .competitivebutton{
   margin-bottom: 100px;
   padding-top: 100px;
+}
+
+.lastParagraph{
+  padding-bottom: 100px;
 }
 
 /*-------USER PERSONAS SECTION-------*/
@@ -960,7 +979,7 @@ div .UserPersonas{
   text-align: center;
 }
 
-div .SilviaPersona{
+div .SilviaPersona, div .maryEvansPersona{ //left side persona
   float: left;
   border-style: solid;
   border-color: white;
@@ -970,18 +989,24 @@ div .SilviaPersona{
   width: 50%;
 }
 
-div .LillyPersona{
+div .LillyPersona, div .willJonesPersona{   //right side persona
   float: right;
   height: auto;
   margin-top: 100px;
   width: 50%;
 }
 
-.SilviaPersona img, .LillyPersona img{
+.SilviaPersona img, .LillyPersona img, .maryEvansPersona img, .willJonesPersona img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.maryEvansPersona img, .willJonesPersona img{
+  width: 264px;
+  height: 311px;
+}
+
 
 div .personaname{
   margin-top: 50px;
