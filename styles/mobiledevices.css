@@ -75,8 +75,8 @@ section.featuredProjects{
 
 section.group{
   padding-bottom: 50px;
-  padding-left: 33.5px; /*delete when solo project ready*/
-  padding-right: 33.5px;/*delete when solo project ready*/
+/*  padding-left: 33.5px; /*delete when solo project ready*/
+/*  padding-right: 33.5px;delete when solo project ready*/
   margin: 0 auto;/*delete when solo project ready*/
 }
 
@@ -85,15 +85,14 @@ section.AboutPhotos2{ /*section with Irapuato image*/
   margin-bottom: 73px;
 }
 
-.ArchiaImage img{
+.ArchiaImage img, .soloprojectimg img{
   width: 100%;
 }
 
 .group .mdl-card{ /*space of grid containers from footer & space around*/
-  /*left: 33.5px; activate when solo project ready
+  left: 33.5px; /*activate when solo project ready*/
   right: 33.5px;*/
   width: 100%;
-
 }
 
 .overlay{
@@ -117,7 +116,7 @@ div .overlay-content{
 
 }
 
-.overlay-content p{ /*paragrap describing Archia*/
+.overlay-content p{ /*paragrap describing Archia & Royal*/
   font-size: 1.8rem;
   line-height: 2.9rem;
   margin-top: -30px;
@@ -150,24 +149,25 @@ div .overlay-content{
 
 .button input { /*case study active button on homepage*/
   font-size: 1.5rem;
-  margin-top: 35%;
+  /*margin-top: 35%;*/
+  margin-top: 27%;
   width: 189px;
   height: 44px;
 }
 
 .button input:hover{ /*case study active button on homepage*/
   font-size: 1.5rem;
-  margin-top: 35%;
+  margin-top: 27%;
   width: 189px;
   height: 44px;
 }
 
-.inactivebutton input { /*case study active button on homepage*/
-  font-size: 1.5rem;
+/*.inactivebutton input { /*case study active button on homepage*/
+/*  font-size: 1.5rem;
   margin-top: 35%;
   width: 189px;
   height: 44px;
-}
+}*/
 
 /*Aboutme.html code*/
 section.biographyRight{
@@ -270,8 +270,8 @@ div .resume{
   margin-top: 0px;
 }
 
-/*ARCHIA CASE STUDY RESPONSIVE CODE*/
-.ArchiaIntro h1{
+/*ARCHIA CASE STUDY RESPONSIVE CODE & ROYAL*/
+.ArchiaIntro h1, .RoyalIntro h1{
   font-size: 4rem;
   padding-top: 20px;
 }
@@ -282,13 +282,23 @@ div .SummaryOfProject{
   padding-bottom: 0;
 }
 
-.SummaryOfProject p{
+div .SummaryOfProjectRoyal{
+  margin-top: -40px;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.SummaryOfProject p, .SummaryOfProjectRoyal p{
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding-bottom: 0;
   padding-top: 88px;
   padding-left: 33px;
   padding-right: 33px;
+}
+
+.SummaryOfProjectRoyal p{
+  padding-top: 48px;
 }
 
 .defaultbutton input {
@@ -322,6 +332,7 @@ div .SummaryOfProject{
 }
 
 .wrap h4{
+  color: black;
   font-size: 2.2rem;
   line-height: 4.4px;
   padding-top: 30px;
@@ -438,16 +449,21 @@ div.LandingPage{
 }
 
 .LandingPage img{
-  padding-right: 63px;
-  padding-left: 63px;
+  padding-right: 33px;
+  padding-left: 33px;
   width: 100%;
 }
 
-div.DesktopDashboard{
+div.DesktopDashboard, div .menuPageRoyal{
   width: 100%;
   float: none;
   margin-top: 50px;
   padding-left: 0;
+}
+
+.menuPageRoyal img{
+  padding-right: 33px;
+  padding-left: 33px;
 }
 
 div.MobileBoarding{
@@ -543,12 +559,14 @@ div .researchIntro{
   padding-bottom: 0;
 }
 
-.cloudUsers p, .demographicsSex p, .demographicsAge p{
+.cloudUsers p, .demographicsSex p, .demographicsAge p, .surveyInfo p,
+.menuWithPictures p, .menuePrices p{
   font-size: 1.8rem;
   line-height: 3.2rem;
 }
 
-.cloudUsers p, .demographicsSex p, .demographicsAge p{
+.cloudUsers p, .demographicsSex p, .demographicsAge p, .surveyInfo p,
+.menuWithPictures p, .menuePrices p{
   padding-right: 33px;
   padding-left: 33px;
   padding-bottom: 30px;
@@ -622,6 +640,10 @@ div .competitiveimages{
   width: 100%;
 }
 
+div .competitiveimagesRoyal{
+  display: block;
+}
+
 div .Dropbox{
   width: 33.33%;
   height: auto;
@@ -630,10 +652,24 @@ div .Dropbox{
   padding-right: 19px;
 }
 
+div .uncleJulio, div .Cheddars, div .spiralDiner{
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+div .uncleJulio{
+  margin-top: -75px;
+}
+
 .Dropbox img{
   height: 69px;
   width: 69px;
 }
+
 
 div .GoogleDrive{
   width: 33.33%;
@@ -684,10 +720,10 @@ div .UserPersonas{
 }
 
 .personaswrap{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-div .SilviaPersona{
+div .SilviaPersona, div .maryEvansPersona{
   float: none;
   border-style: none;
   border-color: none;
@@ -696,13 +732,13 @@ div .SilviaPersona{
   width: 100%;
 }
 
-div .LillyPersona{
+div .LillyPersona, div .willJonesPersona{
   float: none;
   margin-top: 50px;
   width: 100%;
 }
 
-.SilviaPersona img, .LillyPersona img{
+.SilviaPersona img, .LillyPersona img, .maryEvansPersona img, .willJonesPersona img{
   padding-left: 66px;
   padding-right: 66px;
   padding-top: 0;
@@ -736,7 +772,7 @@ div .Motivations{
   width: 100%;
 }
 
-div .SilviaInfo ul, div .LIllyInfo ul {
+div .SilviaInfo ul, div .LIllyInfo ul, div .maryEvansInfo ul, div .willJonesInfo ul{
   font-size: 1.8rem;
   line-height: 3.2rem;
   margin-top: 30px;
@@ -745,29 +781,30 @@ div .SilviaInfo ul, div .LIllyInfo ul {
   text-align: center;
 }
 
-div .GoalsSilvia, div .GoalsLilly{
+div .GoalsSilvia, div .GoalsLilly, div .GoalsMaryEvans, div .goalsWillJones{
   line-height: 3.2rem;
   padding-left: 33px;
   padding-right: 33px;
 }
 
-.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7, .Motivations h7{
+.GoalsSilvia h7, .GoalsLilly h7, .GoalsMaryEvans h7, .goalsWillJones h7, .Frustrations h7, .Motivations h7{
   font-size: 1.8rem;
 }
 
-.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
+.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul,
+.GoalsMaryEvans ul, .goalsWillJones ul, .frustrationsMaryEvans ul, .frustrationsWillJones ul{
   font-size: 1.8rem;
   line-height: 3.2rem;
 }
 
-div .FrustrationsSilvia, div .FrustrationsLilly{
+div .FrustrationsSilvia, div .FrustrationsLilly, div .frustrationsMaryEvans, div .frustrationsWillJones{
   margin-top: 50px;
   padding-left: 33px;
   padding-right: 33px;
   line-height: 3.2rem;
 }
 
-div .FrustrationsLilly{
+div .FrustrationsLilly, div .frustrationsWillJones{
   padding-bottom: 50px;
 }
 
@@ -911,7 +948,7 @@ padding-bottom: 0;
 .wireframesandmockups p{
   font-size: 1.8rem;
   line-height: 3.2rem;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   padding-left: 33px;
   padding-right: 33px;
 }
@@ -922,7 +959,7 @@ padding-bottom: 0;
 
 div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
 div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
-div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
+div .mobilemockupwrap, div .highProtoWrapRoyal, div .wireframewrapRoyal{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
@@ -931,7 +968,12 @@ div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
 div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
 div .plainMobileWireframe, div .landingmockup, div .mobilemockup, div .desktopwireframe1,
 div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
-div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone{ /*desktop EDITED FOR ASSESMENT*/
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone,
+div .dashboardRoyalVerOne, div .dashboardRoyalFinalVer, div .menuVersionOne,
+div .AboutVerOne, div .AboutVerTwo, div .orderToGoVerOne, div .orderToGoVerTwo,
+div .dashboardRoyalOne, div .dashboardRoyalFinal, div .dashboardSketchRoyal,
+div .dashboardWireframeRoyal, div .dashboardWireframeRoyal2, div .dashboardFigmaWireframeRoyal,
+div .menuFigmaWireframeRoyal, div .menuPageWireframeRoyal{ /*desktop EDITED FOR ASSESMENT*/
   float: none;
   width: 100%;
   padding-bottom: 50px;
@@ -940,11 +982,16 @@ div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopd
   margin: 0 auto;
 }
 
-div .desktopdashboardone{
+div .orderToGoVerTwo{
+  padding-right: 12px;
+}
+
+div .desktopdashboardone, div .dashboardRoyalVerOne, div .dashboardRoyalFinalVer,
+div .menuVersionOne, div .orderToGoVerOne, div .orderToGoVerTwo, div .dashboardRoyalOne{
   padding-top: 0;
 }
 
-.mobilemockupInfo{
+.mobilemockupInfo, .contactPageButtonRoyal{
   padding-top: 0;
 }
 
@@ -995,6 +1042,10 @@ div .logowrap{
   margin-top: 50px;
 }
 
+div .logowrap{
+  margin-top: 10px;
+}
+
 div .firstlogo {
   margin-left: 33px;
   margin-right: 0;
@@ -1007,11 +1058,15 @@ div .firstlogo {
   width: 100%;
 }
 
-.arrow img{
+.arrow img, .arrowRoyal img{
   padding-left: 33px;
   padding-right: 33px;
   padding-top: 99px;
   width: 100%;
+}
+
+.arrowRoyal img{
+  padding-top: 70px;
 }
 
 div .finallogo{
@@ -1026,13 +1081,18 @@ div .finallogo{
   width: 100%;
 }
 
-.colorpalette h5{
+.colorPaletteRoyal img{
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.colorpalette h5, .typographyFontRoyal h5{
   font-size: 2.5rem;
   padding-left: 33px;
   margin-bottom: 30px;
 }
 
-.colorpalette p{
+.colorpalette p, .typographyFontRoyal p{
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding-left: 33px;
@@ -1085,6 +1145,7 @@ div .whitecolor, div .blackcolor{
 .primaryTypeface img, .complimentaryTypeface img{
   padding-left: 33px;
   padding-right: 33px;
+  padding-bottom: 30px;
 }
 
 div .complimentaryTypeface{
@@ -1221,14 +1282,16 @@ div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap
   width: 100%;
 }
 
-div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding,
+div .firstmobilelogin, div .menuVerTwo, div .orderToGoVerTwoTwo, div .menuVer3{
   float: none;
   margin-bottom: 50px;
   width: 100%;
 }
 
 /*images on the left*/
-.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img{
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img, .orderToGoVerTwoTwo img,
+.menuVerTwo img, .menuVer3 img{
   padding-right: 13px;
   padding-left: 13px;
   width: 100%;
@@ -1246,14 +1309,17 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
   width: 100%;
 }
 
-div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage,
+div .finalmobilelanding, div .finalmobilelogin, div .menuVerThree, div .orderToGoVerThree,
+div .menuFinalVer{
   float: none;
   width: 100%;
 }
 
 
 /*images on the right*/
-.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img{
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img, .menuVerThree img,
+.orderToGoVerThree img, .menuFinalVer img{
   padding-left: 13px;
   padding-right: 13px;
   width: 100%;

@@ -171,10 +171,11 @@ div .SummaryOfProject{
   padding-bottom: 50px;
 }
 
-.SummaryOfProject p{
+.SummaryOfProject p, .SummaryOfProjectRoyal p{
   padding-left: 80px;
   padding-right: 80px;
 }
+
 
 /*responsive roles, deliverables, toools secion*/
 .wrap{
@@ -226,10 +227,20 @@ div.LandingPage{
   width: 100%;
 }
 
-.LandingPage img{
+div .menuPageRoyal{
+  float: none;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.LandingPage img, .menuPageRoyal img{
   padding-right: 63px;
   padding-left: 63px;
   width: 100%;
+}
+
+.menuPageRoyal img{
+  padding-left: 22px;
 }
 
 div.DesktopDashboard{
@@ -294,7 +305,8 @@ div.UserResearch{       /*The Survey Section*/
 
 }
 
-.cloudUsers p, .demographicsSex p, .demographicsAge p{
+.cloudUsers p, .demographicsSex p, .demographicsAge p, .surveyInfo p,
+.menuWithPictures p, .menuePrices p{
   padding-right: 80px;
   padding-left: 80px;
   padding-bottom: 65px;
@@ -308,7 +320,7 @@ div.UserResearch{       /*The Survey Section*/
 }
 
 /*Responsive Competitive Analysis section-Archia--*/
-.competitivewrap, .personaswrap{
+.competitivewrap{
   display: inline-block;
   margin-top: 50px;
 }
@@ -361,25 +373,32 @@ div .competitiveimages{
   width: 100%;
 }
 
-div .Dropbox{
+div .Dropbox, div .uncleJulio{
   margin-bottom: 0;
   width: 33.33%;
   text-align: center;
 }
 
-div .GoogleDrive{
+div .GoogleDrive, div .Cheddars{
   width: 33.33%;
   margin-bottom: 0;
   text-align: center;
 }
 
-div .Pinterest{
+div .Pinterest, div .spiralDiner{
   margin-bottom: 0;
   text-align: center;
   width: 33.33%;
   margin-right: 84px;
 }
 
+.uncleJulio img, .Cheddars img, .spiralDiner{
+  width: 80%;
+}
+
+.spiralDiner{
+  width: 40%;
+}
 .competitivebutton{
   margin-bottom: 50px;
 }
@@ -411,18 +430,19 @@ div .Motivations{
 }
 
 
-div .GoalsSilvia, div .GoalsLilly, div .FrustrationsSilvia, div .FrustrationsLilly{
+div .GoalsSilvia, div .GoalsLilly, div .FrustrationsSilvia, div .FrustrationsLilly,
+div .GoalsMaryEvans, div .goalsWillJones, div .frustrationsMaryEvans, div .frustrationsWillJones{
   padding-left: 33px;
   padding-right: 33px;
 }
 
-.SilviaPersona img, .LillyPersona img{
+.SilviaPersona img, .LillyPersona img, .maryEvansPersona img, .willJonesPersona img{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-div .SilviaInfo ul, div .LIllyInfo ul {
+div .SilviaInfo ul, div .LIllyInfo ul, div .maryEvansInfo ul, div .willJonesInfo ul {
   padding-left:0;
   padding-right: 0;
   text-align: center;
@@ -462,19 +482,19 @@ div .wireframesandmockups{
   margin-left: 0;
   margin-right: 0;
   margin-top: -24px;
-  padding-bottom: 50px;
+  padding-bottom: 0;
   width: 100%;
 }
 
 .wireframesandmockups p{
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
   padding-left: 80px;
   padding-right: 80px;
 }
 
 div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
 div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
-div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
+div .mobilemockupwrap, div .wireframewrapRoyal{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
@@ -483,13 +503,22 @@ div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
 div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
 div .plainMobileWireframe, div .landingmockup, div .mobilemockup, div .desktopwireframe1,
 div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
-div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone{ /*desktop EDITED FOR ASSESMENT*/
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .desktopdashboardone,
+div .dashboardRoyalVerOne, div .dashboardRoyalFinalVer, div .menuVersionOne, div .menuAppetizersVerTwo,
+div .AboutVerOne, div .AboutVerTwo, div .orderToGoVerOne, div .orderToGoVerTwo, div .dashboardSketchRoyal,
+div .dashboardWireframeRoyal, div .dashboardWireframeRoyal2, div .dashboardFigmaWireframeRoyal,
+div .menuFigmaWireframeRoyal, div .menuPageWireframeRoyal{ /*desktop EDITED FOR ASSESMENT*/
   float: none;
   width: 100%;
   padding-bottom: 50px;
   padding-left: 80px;
   padding-right: 80px;
   margin: 0 auto;
+}
+
+div .orderToGoVerTwo{
+  padding-right: 60px;
+  margin-bottom: 50px;
 }
 
 div .desktopdashboardone{
@@ -506,7 +535,12 @@ div .mobileonboardingtwo{
 
 .wireframebutton{
   padding-bottom: 0;
+  padding-top: 100px;
+}
+
+.mockupbutton{
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 /*----Responsive BRANDING SECTION-----*/
@@ -518,7 +552,7 @@ div .branding{
   padding-bottom: 50px;
 }
 
-.brandingintro p, .Typography p, .Typography h5{
+.brandingintro p, .Typography p, .Typography h5, .colorpalette p, .colorpalette h5{
   padding-left: 80px;
   padding-right: 80px;
 }
@@ -551,6 +585,12 @@ div .firstlogo{
   padding-top: 130px;
 }
 
+.arrowRoyal img{
+  padding-left: 45px;
+  padding-right: 13px;
+  padding-top: 110px;
+}
+
 div .finallogo{
   margin-right: 120px;
 }
@@ -574,8 +614,6 @@ div .salmoncolor, div .bluecolor{
   margin-right: 0;
   margin-bottom: 30px;
   width: 50%;
-
-
 }
 
 div .whitecolor, div .blackcolor{
@@ -602,10 +640,17 @@ div .whitecolor, div .blackcolor{
   height: auto;
 }
 
+.colorPaletteRoyal img{
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 .primaryTypeface img, .complimentaryTypeface img{
   padding-left: 80px;
   padding-right: 80px;
 }
+
 
 /*-------RESPONSIVE HIGH FIDELITY PROTOTYPES SECTION------*/
 
@@ -621,7 +666,7 @@ div .highPrototypes{
   padding-right: 80px;
 }
 
-div .highProtoWrap {
+div .highProtoWrap, div .highProtoWrapRoyal {
   display: inline-block;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -629,7 +674,7 @@ div .highProtoWrap {
   padding-right: 0;
 }
 
-div .finaldesktoplandingpg {
+div .finaldesktoplandingpg, div .dashboardRoyalOne, div .dashboardRoyalFinal {
   float: none;
   height: auto;
   margin-bottom: 50px;
@@ -640,7 +685,12 @@ div .finaldesktoplandingpg {
   width: 100%;
 }
 
-.finaldesktoplandingpg img{
+div .dashboardRoyalOne, div .dashboardRoyalFinal{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.finaldesktoplandingpg img, .dashboardRoyalOne img, .dashboardRoyalFinal img{
   text-align: center;
   width: 100%;
 }
@@ -704,7 +754,9 @@ div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap
   width: 100%;
 }
 
-div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding,
+div .firstmobilelogin, div .menuVerTwo, div .menuVerThree, div .orderToGoVerTwoTwo,
+div .menuVer3{
   float: none;
   margin-bottom: 50px;
   width: 100%;
@@ -714,6 +766,12 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
 .wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img{
   padding-right: 33px;
   padding-left: 33px;
+  width: 100%;
+}
+
+.menuVerTwo img, .orderToGoVerTwoTwo img, .menuVer3 img{
+  padding-right: 80px;
+  padding-left: 80px;
   width: 100%;
 }
 
@@ -739,7 +797,8 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
   width: 100%;
 }
 
-div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage,
+div .finalmobilelanding, div .finalmobilelogin, div .orderToGoVerThree, div .menuFinalVer{
   float: none;
   width: 100%;
 }
@@ -751,13 +810,11 @@ div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .se
   width: 100%;
 }
 
-.secondhighlandingpage img{
-  padding-left: 80px;
+.menuVerThree img, .secondhighlandingpage img, .orderToGoVerThree img, .menuFinalVer img{
   padding-right: 80px;
+  padding-left: 80px;
   width: 100%;
 }
-
-
 
 .finalmobilelogin img{
   display: block;

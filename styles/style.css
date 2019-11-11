@@ -503,6 +503,7 @@ div .SummaryOfProjectRoyal{
   color: #454242;
   font-size: 5rem;
   font-family: "Titillium Web", Verdana, sans-serif;
+  font-weight: bold;
   padding-top: 50px;
   text-align: center;
 }
@@ -792,7 +793,8 @@ div.userResearchRoyal{
   color: #F279A2;
 }
 
-.cloudUsers p, .demographicsSex p, .demographicsAge p{
+.cloudUsers p, .demographicsSex p, .demographicsAge p, .surveyInfo p,
+.menuWithPictures p, .menuePrices p{
   color: white;
   font-size: 2.4rem;
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -801,16 +803,16 @@ div.userResearchRoyal{
   margin: 0 auto;
 }
 
-.cloudUsers p{
+.cloudUsers p, .surveyInfo{
   padding-right: 20px;
 }
 
-.demographicsSex p{
+.demographicsSex p, .menuWithPictures p{
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.demographicsAge p{
+.demographicsAge p, .menuePrices p{
   padding-left: 20px;
 }
 
@@ -979,22 +981,29 @@ div .UserPersonas{
   text-align: center;
 }
 
+
 div .SilviaPersona, div .maryEvansPersona{ //left side persona
   float: left;
   border-style: solid;
   border-color: white;
   border-width: 0 1px 0 0;
   height: auto;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
+  margin-top: 50px;
   width: 50%;
 }
 
 div .LillyPersona, div .willJonesPersona{   //right side persona
   float: right;
   height: auto;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
+  margin-top: 50px;
   width: 50%;
 }
+
+/*div .maryEvansPersona, div .willJonesPersona{
+  margin-top: 50px;
+}*/
 
 .SilviaPersona img, .LillyPersona img, .maryEvansPersona img, .willJonesPersona img{
   display: block;
@@ -1037,49 +1046,56 @@ div .Motivations{
   padding-right: 0;
   padding-top: 0;
   width: 100%;
+  margin-bottom: 50px; /*SPACE BETWEEN MOTIVATIONS & GOALS*/
 }
 
 
-div .SilviaInfo ul, div .LIllyInfo ul {
+div .SilviaInfo ul, div .LIllyInfo ul, div .maryEvansInfo ul, div .willJonesInfo ul {
   font-size: 2.4rem;
   line-height: 4.2rem;
-  margin-top: 40px;
+  /*margin-top: 40px;       ROYAL REVISION*/
   text-align: center;
 }
 
 
-div .GoalsSilvia{
+div .GoalsSilvia, div .GoalsMaryEvans{
   line-height: 4.2rem;
-  margin-top: 50px;
+  /*margin-top: 50px;      ROYAL REVISION*/
   padding-left: 102px;
   padding-right: 99px;
 }
 
-div .GoalsLilly{
+div .GoalsMaryEvans{
+  margin-top: 0px;
+}
+
+div .GoalsLilly, div .goalsWillJones {
   line-height: 4.2rem;
   margin-top: 50px;
   padding-left: 99px;
   padding-right: 102px;
 }
 
-.GoalsSilvia h7, .GoalsLilly h7, .Frustrations h7, .Motivations h7{
+.GoalsSilvia h7, .GoalsLilly h7, .FrustrationsSilvia h7, .FrustrationsLilly h7, .Motivations h7
+.GoalsMaryEvans h7, .goalsWillJones h7, .frustrationsMaryEvans h7, .frustrationsWillJones h7{
   font-size: 2.4rem;
   font-weight: bold;
 }
 
-.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul{
+.GoalsSilvia ul, .GoalsLilly ul, .FrustrationsSilvia ul, .FrustrationsLilly ul,
+.GoalsMaryEvans ul, .goalsWillJones ul, .frustrationsMaryEvans ul, .frustrationsWillJones ul{
   font-size: 2.4rem;
   line-height: 4.2rem;
 }
 
-div .FrustrationsSilvia{
+div .FrustrationsSilvia, div .frustrationsMaryEvans{
   margin-top: 50px;
   padding-left: 102px;
   padding-right: 99px;
   line-height: 4.2rem;
 }
 
-div .FrustrationsLilly{
+div .FrustrationsLilly, div .frustrationsWillJones{
   line-height: 4.2rem;
   margin-top: 92px;
   padding-right: 102px;
@@ -1099,6 +1115,10 @@ div .userstories{
   margin-right: 84px;
   margin-top: 100px;
   padding-bottom: 100px;
+}
+
+div .userStoriesRoyal{
+  background-color: #002366;
 }
 
 .userstories h3{
@@ -1140,6 +1160,10 @@ div .HighTasks{
   padding-bottom: 68px;
 }
 
+div .highTasksRoyal{
+  background-color: #CCDDFF;
+}
+
 .HighTasks ul{
   color: #454242;
   font-size: 2.4rem;
@@ -1162,7 +1186,10 @@ div .userflows{
   margin-right: 84px;
   margin-top: 100px;
   padding-bottom: 100px;
+}
 
+div .userFlowsRoyalCont{
+  background-color: #CCDDBB;
 }
 
 .userflows h3{
@@ -1238,7 +1265,11 @@ div .wireframesandmockups{
   margin-left: 84px;
   margin-right: 84px;
   margin-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+div .wireframesandmockupsRoyal{
+  background-color:  #E4DFDF;
 }
 
 .wireframesandmockups h3{
@@ -1251,6 +1282,10 @@ padding-top: 50px;
 padding-bottom: 50px;
 }
 
+.wireframesandmockupsRoyal h3{
+  color: black;
+}
+
 .wireframesandmockups p{
   color: white;
   font-size: 2.4rem;
@@ -1260,13 +1295,17 @@ padding-bottom: 50px;
   padding-right: 115px;
 }
 
+.wireframesandmockupsRoyal p{
+  color: #454242;
+}
+
 .wireframes p{
   margin-top: 50px;
 }
 
 div .desktopsketchwrap, div .mobilesketchwrap, div .wireframeswrap,
 div .desktopdashboardwrap, div .mobilelandingwrap, div .mockupsWrap,
-div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
+div .mobilemockupwrap, div .mockupsWrapRoyal, div .wireframewrapRoyal{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   display: flex;
   height: auto;
   margin-top: 50px;
@@ -1274,15 +1313,24 @@ div .mobilemockupwrap{ /*wrap for pictures part 1  EDITED FOR ASSESMENT*/
   width: 100%;
 }
 
+div .mockupsWrapRoyal{
+  margin-bottom: 50px;
+}
+
+div .mockupsWrapEnd{
+  margin-bottom: 150px;
+}
+
  .mockups > div, .desktopsketchwrap > div, .mobilesketchwrap > div, .wireframeswrap > div,
  .desktopdashboardwrap > div, .mobilelandingwrap > div, .mockupsWrap > div
- .mobilemockupwrap > div { /*EDITED FOR ASSESMENT*/
+ .mobilemockupwrap > div, .mockupsWrapRoyal > div, .wireframewrapRoyal > div { /*EDITED FOR ASSESMENT*/
   flex: 1; /*grow*/
 }
 
 
 div .sketchone, div .sketchtwo, div .desktopwireframe2, div .desktopdashboardswireframes,
-div .plainMobileWireframe, div .landingmockup, div .mobilemockup{ /*desktop EDITED FOR ASSESMENT*/
+div .plainMobileWireframe, div .landingmockup, div .mobilemockup, div .dashboardRoyalVerOne,
+div .AboutVerOne, div .dashboardSketchRoyal, div .dashboardWireframeRoyal2, div .menuPageWireframeRoyal{ /*desktop EDITED FOR ASSESMENT*/
   float: left;
   width: 50%;
   margin-left: 105px;
@@ -1290,7 +1338,8 @@ div .plainMobileWireframe, div .landingmockup, div .mobilemockup{ /*desktop EDIT
 }
 
 div .desktopwireframe1, div .sketchtwomobile, div .landingwireframe, div .desktopwireframe,
-div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup{ /* desktop ADDED FOR ASSESMENT*/
+div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup, div .dashboardRoyalFinalVer,
+div .AboutVerTwo, div .dashboardWireframeRoyal, div .dashboardFigmaWireframeRoyal, div .menuFigmaWireframeRoyal{ /* desktop ADDED FOR ASSESMENT*/
   float: right;
   width: 50%;
   margin-left: 15px;
@@ -1300,7 +1349,11 @@ div .mobilewireframe, div .desktoptwomockup, div .mobiletwomockup{ /* desktop AD
 .sketchone img, .desktopwireframe1 img, .sketchtwo img, .sketchtwomobile img,
 .desktopwireframe2 img, .landingwireframe img, .desktopdashboardswireframes img,
 .desktopwireframe img, .plainMobileWireframe img, .mobilewireframe img, .landingmockup img,
-.desktoptwomockup img, .desktopdashboardone img, .mobilemockup img, .mobiletwomockup img{ /*picture 1 part 1 desktop ver. EDITED FOR ASSESSMENT*/
+.desktoptwomockup img, .desktopdashboardone img, .mobilemockup img, .mobiletwomockup img,
+.dashboardRoyalVerOne img, .dashboardRoyalFinalVer img, .menuVersionOne img, .AboutVerOne img,
+.AboutVerTwo img, .orderToGoVerOne img,  .dashboardSketchRoyal img,
+.dashboardWireframeRoyal img, .dashboardWireframeRoyal2 img, .dashboardFigmaWireframeRoyal img,
+.menuPageWireframeRoyal img, .menuFigmaWireframeRoyal img{ /*picture 1 part 1 desktop ver. EDITED FOR ASSESSMENT*/
   width: 100%;
   height: auto;
 }
@@ -1311,7 +1364,19 @@ div .desktopdashboardone{
   padding-top: 50px;
 }
 
-.mobilemockupInfo{
+div .menuVersionOne, div .orderToGoVerOne{
+  margin-left: 105px;
+  margin-right: 15px;
+  padding-top: 50px;
+}
+
+div .menuAppetizersVerTwo, div .orderToGoVerTwo{
+  margin-left: 15px;
+  margin-right: 105px;
+  padding-top: 50px;
+}
+
+.mobilemockupInfo, .AboutPageAmbianceRoyal{
   padding-top: 50px;
 }
 
@@ -1339,6 +1404,10 @@ div .branding{
   padding-bottom: 100px;
 }
 
+div .brandingRoyal{
+  background-color: #CCDDBB;
+}
+
 .brandingintro h3{
   color: white;
   font-family: "Titillium Web", Verdana, sans-serif;
@@ -1347,6 +1416,10 @@ div .branding{
   padding-bottom: 50px;
   padding-top: 50px;
   text-align: center;
+}
+
+.brandingRoyal h3{
+  color: black;
 }
 
 .brandingintro p{
@@ -1358,9 +1431,14 @@ div .branding{
   padding-right: 105px;
 }
 
+div .brandingIntroRoyal p{
+  color: #454242;
+}
+
 div .logosketch{
   margin-top: 100px;
 }
+
 
 .logosketch img{
   padding-left: 111px;
@@ -1377,6 +1455,7 @@ div .logowrap{
 .logowrap > div {
   flex: 1; /*grow*/
 }
+
 
 div .firstlogo {
   margin-left: 200px;
@@ -1395,7 +1474,10 @@ div .firstlogo {
   padding-left: 25px;
   width: 80%;
   height: auto;
+}
 
+.arrowRoyal img{
+  width: 60%;
 }
 
 div .finallogo {
@@ -1409,16 +1491,19 @@ margin-right: 200px;
   padding-top: 76px;
 }
 
-.colorpalette h5{
+.colorpalette h5, .Typography h5{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 4.5rem;
   font-weight: bold;
   padding-left: 105px;
-
 }
 
-.colorpalette p{
+.colorFontRoyal h5, .typographyFontRoyal h5{
+  color: black;
+}
+
+.colorpalette p, .Typography p{
   color: white;
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 2.4rem;
@@ -1427,6 +1512,10 @@ margin-right: 200px;
   padding-right: 105px;
   padding-top: 50px;
   text-align: left;
+}
+
+.colorFontRoyal p, .typographyFontRoyal p{
+  color: #454242;
 }
 
 div .colorswrap {
@@ -1482,7 +1571,7 @@ div .Typography{
   padding-bottom: 50px;
 }
 
-.primaryTypeface img, .complimentaryTypeface img{
+.primaryTypeface img, .complimentaryTypeface img, .colorPaletteRoyal img{
   height: auto;
   padding-left: 105px;
   padding-right: 105px;
@@ -1524,17 +1613,17 @@ div .highPrototypes{
   padding-right: 105px;
 }
 
-div .highProtoWrap {
+div .highProtoWrap, div .highProtoWrapRoyal {
   display: flex;
   margin-bottom: 100px;
   margin-top: 100px;
 }
 
-.highProtoWrap > div {
+.highProtoWrap > div, .highProtoWrapRoyal > div {
   flex: 1; /*grow*/
 }
 
-div .finaldesktoplandingpg { /*Desktop final landing page*/
+div .finaldesktoplandingpg, div .LandingPageRoyalFinal { /*Desktop final landing page*/
   float: left;
   height: auto;
   margin-bottom: 36px;
@@ -1542,12 +1631,26 @@ div .finaldesktoplandingpg { /*Desktop final landing page*/
   margin-right: 84px;
 }
 
-.finaldesktoplandingpg img{
+div .LandingPageRoyalFinal{
+  width: 50%;
+  margin-right: 15px;
+}
+
+div .menuRoyalFinal { /*Added for 2nd image of Royal dashboard*/
+  float: right;
+  height: auto;
+  margin-bottom: 36px;
+  margin-left: 15px;
+  margin-right: 105px;
+  width: 50%;
+}
+
+.finaldesktoplandingpg img, .LandingPageRoyalFinal img, .menuRoyalFinal img{
   height: auto;
   width: 100%;
 }
 
-div .threeimageswrap{
+div .threeimageswrap, div .dashboardRoyalFinal{
   margin-right: 105px;
 }
 
@@ -1594,6 +1697,11 @@ div .testingresults{
   padding-right: 105px;
 }
 
+div .testingResultsRoyal{
+  background-color: #CCDDFF;
+  color: #454242;
+}
+
 .testingintro h3{
   font-size: 6rem;
   font-family: "Titillium Web", Verdana, sans-serif;
@@ -1603,11 +1711,16 @@ div .testingresults{
   text-align: center;
 }
 
+div .testingResultsRoyal h3, div .testingResultsRoyal h5{
+  color: black;
+}
+
 .testingintro p, .changesApplied p{
   font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 2.4rem;
   line-height: 4.2rem;
 }
+
 
 .testingintro ul{
   font-family: "Open Sans", Tahoma, sans-serif;
@@ -1636,12 +1749,17 @@ div .firstwrap, div .secondwrap, div .thirdwrap, div .fourthwrap, div .fifthwrap
   flex: 1; /*grow*/
 }
 
-div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .firsthighlandingpage, div .secondhighmobilelanding, div .firstmobilelogin{
+div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree,
+div .firsthighlandingpage, div .secondhighmobilelanding,
+div .firstmobilelogin, div .orderToGoVerTwo, div .menuVerTwo, div .orderToGoVerTwoTwo,
+div .menuVer3{
   float: left;
   width: 50%;
 }
 
-.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img, .firsthighlandingpage img, .secondhighmobilelanding img{
+.wireframeBefore img, .desktopdashmockupOne img, .desktopmockupThree img,
+.firsthighlandingpage img, .secondhighmobilelanding img, .orderToGoVerTwo img,
+.menuVerTwo img, .orderToGoVerTwoTwo img, .menuVer3 img{
   height: auto;
   padding-right: 23px;
   width: 100%;
@@ -1654,12 +1772,15 @@ div .wireframeBefore, div .desktopdashmockupOne, div .desktopmockupThree, div .f
   width: 100%;
 }
 
-div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding, div .finalmobilelogin{
+div .firstDashboard, div .desktopdashmockupTwo, div .desktopmockupFinal, div .secondhighlandingpage, div .finalmobilelanding,
+div .finalmobilelogin, div .menuVerThree, div .orderToGoVerThree,
+div .menuFinalVer{
   float: right;
   width: 50%;
 }
 
-.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img, .secondhighlandingpage img, .finalmobilelanding img{
+.firstDashboard img, .desktopdashmockupTwo img, .desktopmockupFinal img, .secondhighlandingpage img,
+.finalmobilelanding img, .menuVerThree img, .orderToGoVerThree img, .menuFinalVer img{
   height: auto;
   padding-left: 23px;
   width: 100%;
